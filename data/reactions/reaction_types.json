@@ -1,0 +1,62 @@
+[
+  {
+    "id": "neutralization",
+    "name": "Neutralization",
+    "description": "Reaction between an acid and a base forming water and a salt, usually exothermic with pH change toward 7."
+  },
+  {
+    "id": "precipitation",
+    "name": "Precipitation",
+    "description": "Reaction between soluble ions in aqueous solution forming an insoluble solid precipitate."
+  },
+  {
+    "id": "combination",
+    "name": "Combination / Synthesis",
+    "description": "Reaction where two or more simple chemical substances combine to form a single more complex product."
+  },
+  {
+    "id": "decomposition",
+    "name": "Decomposition",
+    "description": "Reaction where a single chemical compound breaks down into two or more simpler products."
+  },
+  {
+    "id": "single_displacement",
+    "name": "Single Displacement",
+    "description": "Reaction where a more reactive element displaces a less reactive element from its compound."
+  },
+  {
+    "id": "double_displacement",
+    "name": "Double Displacement",
+    "description": "Reaction where ions exchange between two reactant compounds in solution."
+  },
+  {
+    "id": "combustion",
+    "name": "Combustion",
+    "description": "Exothermic redox reaction between a fuel and an oxidant (usually oxygen gas) producing heat and light."
+  },
+  {
+    "id": "redox",
+    "name": "Oxidation-Reduction (Redox)",
+    "description": "Reaction involving a transfer of electrons between chemical species, changing oxidation states."
+  },
+  {
+    "id": "gas_evolution",
+    "name": "Gas Evolution",
+    "description": "Reaction that produces a gaseous substance as one of its products, resulting in effervescence/bubbling."
+  },
+  {
+    "id": "indicator",
+    "name": "Indicator Color Change",
+    "description": "Reversible structural/protonation change in an indicator molecule in response to ambient pH changes."
+  },
+  {
+    "id": "thermal",
+    "name": "Thermal / Endothermic Disruption",
+    "description": "Reaction driven by thermal energy input or causing significant temperature reduction."
+  },
+  {
+    "id": "electrochemical",
+    "name": "Electrochemical / Electrolysis",
+    "description": "Reaction driven by or producing an electric current, causing oxidation at the anode and reduction at the cathode."
+  }
+]

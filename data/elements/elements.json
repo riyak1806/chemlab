@@ -1,0 +1,5463 @@
+[
+  {
+    "id": "hydrogen",
+    "atomicNumber": 1,
+    "name": "Hydrogen",
+    "symbol": "H",
+    "atomicMass": 1.008,
+    "category": "reactive_nonmetals",
+    "group": 1,
+    "period": 1,
+    "block": "s",
+    "phase": "gas",
+    "electronConfiguration": "1s1",
+    "electronShells": [
+      1
+    ],
+    "electronegativity": 2.2,
+    "oxidationStates": [
+      -1,
+      1
+    ],
+    "meltingPoint": 13.99,
+    "boilingPoint": 20.271,
+    "density": 8.988e-05,
+    "appearance": "colorless gas",
+    "discoveryYear": 1766,
+    "commonUses": [
+      "water",
+      "clean fuel",
+      "ammonia synthesis",
+      "margarine hydrogenation"
+    ],
+    "safetyClass": "flammable_gas",
+    "verification": {
+      "status": "verified",
+      "sources": [
+        "IUPAC Periodic Table of Elements",
+        "NIST Physical Measurement Laboratory",
+        "PubChem"
+      ],
+      "notes": "Standard IUPAC values."
+    }
+  },
+  {
+    "id": "helium",
+    "atomicNumber": 2,
+    "name": "Helium",
+    "symbol": "He",
+    "atomicMass": 4.0026,
+    "category": "noble_gases",
+    "group": 18,
+    "period": 1,
+    "block": "s",
+    "phase": "gas",
+    "electronConfiguration": "1s2",
+    "electronShells": [
+      2
+    ],
+    "electronegativity": null,
+    "oxidationStates": [
+      0
+    ],
+    "meltingPoint": 0.95,
+    "boilingPoint": 4.222,
+    "density": 0.0001785,
+    "appearance": "colorless gas",
+    "discoveryYear": 1868,
+    "commonUses": [
+      "cryogenics",
+      "balloon inflation",
+      "MRI cooling",
+      "deep-sea diving gas"
+    ],
+    "safetyClass": "compressed_gas",
+    "verification": {
+      "status": "verified",
+      "sources": [
+        "IUPAC Periodic Table of Elements",
+        "NIST Physical Measurement Laboratory",
+        "PubChem"
+      ],
+      "notes": "Standard IUPAC values."
+    }
+  },
+  {
+    "id": "lithium",
+    "atomicNumber": 3,
+    "name": "Lithium",
+    "symbol": "Li",
+    "atomicMass": 6.94,
+    "category": "alkali_metals",
+    "group": 1,
+    "period": 2,
+    "block": "s",
+    "phase": "solid",
+    "electronConfiguration": "[He] 2s1",
+    "electronShells": [
+      2,
+      1
+    ],
+    "electronegativity": 0.98,
+    "oxidationStates": [
+      1
+    ],
+    "meltingPoint": 453.65,
+    "boilingPoint": 1603,
+    "density": 0.534,
+    "appearance": "silvery-white metal",
+    "discoveryYear": 1817,
+    "commonUses": [
+      "rechargeable batteries",
+      "ceramics",
+      "lubricants",
+      "mood stabilizer"
+    ],
+    "safetyClass": "reactive_solid",
+    "verification": {
+      "status": "verified",
+      "sources": [
+        "IUPAC Periodic Table of Elements",
+        "NIST Physical Measurement Laboratory",
+        "PubChem"
+      ],
+      "notes": "Standard IUPAC values."
+    }
+  },
+  {
+    "id": "beryllium",
+    "atomicNumber": 4,
+    "name": "Beryllium",
+    "symbol": "Be",
+    "atomicMass": 9.0122,
+    "category": "alkaline_earth_metals",
+    "group": 2,
+    "period": 2,
+    "block": "s",
+    "phase": "solid",
+    "electronConfiguration": "[He] 2s2",
+    "electronShells": [
+      2,
+      2
+    ],
+    "electronegativity": 1.57,
+    "oxidationStates": [
+      1,
+      2
+    ],
+    "meltingPoint": 1560,
+    "boilingPoint": 2742,
+    "density": 1.85,
+    "appearance": "white-gray metallic",
+    "discoveryYear": 1798,
+    "commonUses": [
+      "aerospace components",
+      "X-ray tube windows",
+      "copper alloys"
+    ],
+    "safetyClass": "toxic_solid",
+    "verification": {
+      "status": "verified",
+      "sources": [
+        "IUPAC Periodic Table of Elements",
+        "NIST Physical Measurement Laboratory",
+        "PubChem"
+      ],
+      "notes": "Standard IUPAC values."
+    }
+  },
+  {
+    "id": "boron",
+    "atomicNumber": 5,
+    "name": "Boron",
+    "symbol": "B",
+    "atomicMass": 10.81,
+    "category": "metalloids",
+    "group": 13,
+    "period": 2,
+    "block": "p",
+    "phase": "solid",
+    "electronConfiguration": "[He] 2s2 2p1",
+    "electronShells": [
+      2,
+      3
+    ],
+    "electronegativity": 2.04,
+    "oxidationStates": [
+      1,
+      2,
+      3
+    ],
+    "meltingPoint": 2349,
+    "boilingPoint": 4200,
+    "density": 2.34,
+    "appearance": "black-brown metalloid",
+    "discoveryYear": 1808,
+    "commonUses": [
+      "borosilicate glass",
+      "fiberglass",
+      "semiconductors",
+      "borax"
+    ],
+    "safetyClass": "low_hazard",
+    "verification": {
+      "status": "verified",
+      "sources": [
+        "IUPAC Periodic Table of Elements",
+        "NIST Physical Measurement Laboratory",
+        "PubChem"
+      ],
+      "notes": "Standard IUPAC values."
+    }
+  },
+  {
+    "id": "carbon",
+    "atomicNumber": 6,
+    "name": "Carbon",
+    "symbol": "C",
+    "atomicMass": 12.011,
+    "category": "reactive_nonmetals",
+    "group": 14,
+    "period": 2,
+    "block": "p",
+    "phase": "solid",
+    "electronConfiguration": "[He] 2s2 2p2",
+    "electronShells": [
+      2,
+      4
+    ],
+    "electronegativity": 2.55,
+    "oxidationStates": [
+      -4,
+      -3,
+      -2,
+      -1,
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "meltingPoint": 3823,
+    "boilingPoint": 4098,
+    "density": 2.267,
+    "appearance": "black (graphite) / transparent (diamond)",
+    "discoveryYear": -3000,
+    "commonUses": [
+      "organic chemistry",
+      "steel alloy",
+      "water filters",
+      "radiocarbon dating"
+    ],
+    "safetyClass": "low_hazard",
+    "verification": {
+      "status": "verified",
+      "sources": [
+        "IUPAC Periodic Table of Elements",
+        "NIST Physical Measurement Laboratory",
+        "PubChem"
+      ],
+      "notes": "Standard IUPAC values."
+    }
+  },
+  {
+    "id": "nitrogen",
+    "atomicNumber": 7,
+    "name": "Nitrogen",
+    "symbol": "N",
+    "atomicMass": 14.007,
+    "category": "reactive_nonmetals",
+    "group": 15,
+    "period": 2,
+    "block": "p",
+    "phase": "gas",
+    "electronConfiguration": "[He] 2s2 2p3",
+    "electronShells": [
+      2,
+      5
+    ],
+    "electronegativity": 3.04,
+    "oxidationStates": [
+      -3,
+      -2,
+      -1,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "meltingPoint": 63.15,
+    "boilingPoint": 77.355,
+    "density": 0.0012506,
+    "appearance": "colorless gas",
+    "discoveryYear": 1772,
+    "commonUses": [
+      "fertilizer production",
+      "cryogenics",
+      "food packaging preservation"
+    ],
+    "safetyClass": "compressed_gas",
+    "verification": {
+      "status": "verified",
+      "sources": [
+        "IUPAC Periodic Table of Elements",
+        "NIST Physical Measurement Laboratory",
+        "PubChem"
+      ],
+      "notes": "Standard IUPAC values."
+    }
+  },
+  {
+    "id": "oxygen",
+    "atomicNumber": 8,
+    "name": "Oxygen",
+    "symbol": "O",
+    "atomicMass": 15.999,
+    "category": "reactive_nonmetals",
+    "group": 16,
+    "period": 2,
+    "block": "p",
+    "phase": "gas",
+    "electronConfiguration": "[He] 2s2 2p4",
+    "electronShells": [
+      2,
+      6
+    ],
+    "electronegativity": 3.44,
+    "oxidationStates": [
+      -2,
+      -1,
+      1,
+      2
+    ],
+    "meltingPoint": 54.36,
+    "boilingPoint": 90.188,
+    "density": 0.001429,
+    "appearance": "colorless gas",
+    "discoveryYear": 1774,
+    "commonUses": [
+      "respiration",
+      "combustion",
+      "steelmaking",
+      "water treatment"
+    ],
+    "safetyClass": "oxidizer",
+    "verification": {
+      "status": "verified",
+      "sources": [
+        "IUPAC Periodic Table of Elements",
+        "NIST Physical Measurement Laboratory",
+        "PubChem"
+      ],
+      "notes": "Standard IUPAC values."
+    }
+  },
+  {
+    "id": "fluorine",
+    "atomicNumber": 9,
+    "name": "Fluorine",
+    "symbol": "F",
+    "atomicMass": 18.998,
+    "category": "reactive_nonmetals",
+    "group": 17,
+    "period": 2,
+    "block": "p",
+    "phase": "gas",
+    "electronConfiguration": "[He] 2s2 2p5",
+    "electronShells": [
+      2,
+      7
+    ],
+    "electronegativity": 3.98,
+    "oxidationStates": [
+      -1
+    ],
+    "meltingPoint": 53.48,
+    "boilingPoint": 85.03,
+    "density": 0.001696,
+    "appearance": "pale yellow gas",
+    "discoveryYear": 1886,
+    "commonUses": [
+      "dental care (fluoride)",
+      "Teflon production",
+      "refrigerants"
+    ],
+    "safetyClass": "corrosive_toxic_gas",
+    "verification": {
+      "status": "verified",
+      "sources": [
+        "IUPAC Periodic Table of Elements",
+        "NIST Physical Measurement Laboratory",
+        "PubChem"
+      ],
+      "notes": "Standard IUPAC values."
+    }
+  },
+  {
+    "id": "neon",
+    "atomicNumber": 10,
+    "name": "Neon",
+    "symbol": "Ne",
+    "atomicMass": 20.18,
+    "category": "noble_gases",
+    "group": 18,
+    "period": 2,
+    "block": "p",
+    "phase": "gas",
+    "electronConfiguration": "[Ne] 2s2 2p6",
+    "electronShells": [
+      2,
+      8
+    ],
+    "electronegativity": null,
+    "oxidationStates": [
+      0
+    ],
+    "meltingPoint": 24.56,
+    "boilingPoint": 27.104,
+    "density": 0.0009002,
+    "appearance": "colorless gas",
+    "discoveryYear": 1898,
+    "commonUses": [
+      "neon signage",
+      "high-voltage indicators",
+      "laser gas"
+    ],
+    "safetyClass": "compressed_gas",
+    "verification": {
+      "status": "verified",
+      "sources": [
+        "IUPAC Periodic Table of Elements",
+        "NIST Physical Measurement Laboratory",
+        "PubChem"
+      ],
+      "notes": "Standard IUPAC values."
+    }
+  },
+  {
+    "id": "sodium",
+    "atomicNumber": 11,
+    "name": "Sodium",
+    "symbol": "Na",
+    "atomicMass": 22.99,
+    "category": "alkali_metals",
+    "group": 1,
+    "period": 3,
+    "block": "s",
+    "phase": "solid",
+    "electronConfiguration": "[Ne] 3s1",
+    "electronShells": [
+      2,
+      8,
+      1
+    ],
+    "electronegativity": 0.93,
+    "oxidationStates": [
+      -1,
+      1
+    ],
+    "meltingPoint": 370.944,
+    "boilingPoint": 1156.09,
+    "density": 0.968,
+    "appearance": "silvery-white metal",
+    "discoveryYear": 1807,
+    "commonUses": [
+      "table salt",
+      "street lighting",
+      "chemical reagent",
+      "heat exchanger"
+    ],
+    "safetyClass": "water_reactive",
+    "verification": {
+      "status": "verified",
+      "sources": [
+        "IUPAC Periodic Table of Elements",
+        "NIST Physical Measurement Laboratory",
+        "PubChem"
+      ],
+      "notes": "Standard IUPAC values."
+    }
+  },
+  {
+    "id": "magnesium",
+    "atomicNumber": 12,
+    "name": "Magnesium",
+    "symbol": "Mg",
+    "atomicMass": 24.305,
+    "category": "alkaline_earth_metals",
+    "group": 2,
+    "period": 3,
+    "block": "s",
+    "phase": "solid",
+    "electronConfiguration": "[Ne] 3s2",
+    "electronShells": [
+      2,
+      8,
+      2
+    ],
+    "electronegativity": 1.31,
+    "oxidationStates": [
+      1,
+      2
+    ],
+    "meltingPoint": 923,
+    "boilingPoint": 1363,
+    "density": 1.738,
+    "appearance": "shiny gray solid",
+    "discoveryYear": 1755,
+    "commonUses": [
+      "lightweight alloys",
+      "flares and fireworks",
+      "antacids"
+    ],
+    "safetyClass": "flammable_solid",
+    "verification": {
+      "status": "verified",
+      "sources": [
+        "IUPAC Periodic Table of Elements",
+        "NIST Physical Measurement Laboratory",
+        "PubChem"
+      ],
+      "notes": "Standard IUPAC values."
+    }
+  },
+  {
+    "id": "aluminum",
+    "atomicNumber": 13,
+    "name": "Aluminum",
+    "symbol": "Al",
+    "atomicMass": 26.982,
+    "category": "post_transition_metals",
+    "group": 13,
+    "period": 3,
+    "block": "p",
+    "phase": "solid",
+    "electronConfiguration": "[Ne] 3s2 3p1",
+    "electronShells": [
+      2,
+      8,
+      3
+    ],
+    "electronegativity": 1.61,
+    "oxidationStates": [
+      1,
+      2,
+      3
+    ],
+    "meltingPoint": 933.47,
+    "boilingPoint": 2743,
+    "density": 2.7,
+    "appearance": "silvery-gray metallic",
+    "discoveryYear": 1825,
+    "commonUses": [
+      "beverage cans",
+      "foil",
+      "aircraft structures",
+      "electrical power lines"
+    ],
+    "safetyClass": "low_hazard",
+    "verification": {
+      "status": "verified",
+      "sources": [
+        "IUPAC Periodic Table of Elements",
+        "NIST Physical Measurement Laboratory",
+        "PubChem"
+      ],
+      "notes": "Standard IUPAC values."
+    }
+  },
+  {
+    "id": "silicon",
+    "atomicNumber": 14,
+    "name": "Silicon",
+    "symbol": "Si",
+    "atomicMass": 28.085,
+    "category": "metalloids",
+    "group": 14,
+    "period": 3,
+    "block": "p",
+    "phase": "solid",
+    "electronConfiguration": "[Ne] 3s2 3p2",
+    "electronShells": [
+      2,
+      8,
+      4
+    ],
+    "electronegativity": 1.9,
+    "oxidationStates": [
+      -4,
+      -3,
+      -2,
+      -1,
+      1,
+      2,
+      3,
+      4
+    ],
+    "meltingPoint": 1687,
+    "boilingPoint": 3538,
+    "density": 2.329,
+    "appearance": "crystalline dark gray",
+    "discoveryYear": 1824,
+    "commonUses": [
+      "microchips",
+      "solar cells",
+      "glass",
+      "silicones"
+    ],
+    "safetyClass": "low_hazard",
+    "verification": {
+      "status": "verified",
+      "sources": [
+        "IUPAC Periodic Table of Elements",
+        "NIST Physical Measurement Laboratory",
+        "PubChem"
+      ],
+      "notes": "Standard IUPAC values."
+    }
+  },
+  {
+    "id": "phosphorus",
+    "atomicNumber": 15,
+    "name": "Phosphorus",
+    "symbol": "P",
+    "atomicMass": 30.974,
+    "category": "reactive_nonmetals",
+    "group": 15,
+    "period": 3,
+    "block": "p",
+    "phase": "solid",
+    "electronConfiguration": "[Ne] 3s2 3p3",
+    "electronShells": [
+      2,
+      8,
+      5
+    ],
+    "electronegativity": 2.19,
+    "oxidationStates": [
+      -3,
+      -2,
+      -1,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "meltingPoint": 317.3,
+    "boilingPoint": 553.7,
+    "density": 1.823,
+    "appearance": "waxy white / red solid",
+    "discoveryYear": 1669,
+    "commonUses": [
+      "synthetic fertilizers",
+      "matchheads",
+      "detergents"
+    ],
+    "safetyClass": "flammable_solid",
+    "verification": {
+      "status": "verified",
+      "sources": [
+        "IUPAC Periodic Table of Elements",
+        "NIST Physical Measurement Laboratory",
+        "PubChem"
+      ],
+      "notes": "Standard IUPAC values."
+    }
+  },
+  {
+    "id": "sulfur",
+    "atomicNumber": 16,
+    "name": "Sulfur",
+    "symbol": "S",
+    "atomicMass": 32.06,
+    "category": "reactive_nonmetals",
+    "group": 16,
+    "period": 3,
+    "block": "p",
+    "phase": "solid",
+    "electronConfiguration": "[Ne] 3s2 3p4",
+    "electronShells": [
+      2,
+      8,
+      6
+    ],
+    "electronegativity": 2.58,
+    "oxidationStates": [
+      -2,
+      -1,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "meltingPoint": 388.36,
+    "boilingPoint": 717.8,
+    "density": 2.07,
+    "appearance": "lemon yellow solid",
+    "discoveryYear": -2000,
+    "commonUses": [
+      "sulfuric acid production",
+      "gunpowder",
+      "rubber vulcanization"
+    ],
+    "safetyClass": "irritant",
+    "verification": {
+      "status": "verified",
+      "sources": [
+        "IUPAC Periodic Table of Elements",
+        "NIST Physical Measurement Laboratory",
+        "PubChem"
+      ],
+      "notes": "Standard IUPAC values."
+    }
+  },
+  {
+    "id": "chlorine",
+    "atomicNumber": 17,
+    "name": "Chlorine",
+    "symbol": "Cl",
+    "atomicMass": 35.45,
+    "category": "reactive_nonmetals",
+    "group": 17,
+    "period": 3,
+    "block": "p",
+    "phase": "gas",
+    "electronConfiguration": "[Ne] 3s2 3p5",
+    "electronShells": [
+      2,
+      8,
+      7
+    ],
+    "electronegativity": 3.16,
+    "oxidationStates": [
+      -1,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "meltingPoint": 171.6,
+    "boilingPoint": 239.11,
+    "density": 0.003214,
+    "appearance": "yellow-green gas",
+    "discoveryYear": 1774,
+    "commonUses": [
+      "water purification",
+      "household bleach",
+      "PVC plastic"
+    ],
+    "safetyClass": "corrosive_toxic_gas",
+    "verification": {
+      "status": "verified",
+      "sources": [
+        "IUPAC Periodic Table of Elements",
+        "NIST Physical Measurement Laboratory",
+        "PubChem"
+      ],
+      "notes": "Standard IUPAC values."
+    }
+  },
+  {
+    "id": "argon",
+    "atomicNumber": 18,
+    "name": "Argon",
+    "symbol": "Ar",
+    "atomicMass": 39.948,
+    "category": "noble_gases",
+    "group": 18,
+    "period": 3,
+    "block": "p",
+    "phase": "gas",
+    "electronConfiguration": "[Ne] 3s2 3p6",
+    "electronShells": [
+      2,
+      8,
+      8
+    ],
+    "electronegativity": null,
+    "oxidationStates": [
+      0
+    ],
+    "meltingPoint": 83.81,
+    "boilingPoint": 87.302,
+    "density": 0.001784,
+    "appearance": "colorless gas",
+    "discoveryYear": 1894,
+    "commonUses": [
+      "inert welding shield",
+      "incandescent lights",
+      "double-pane windows"
+    ],
+    "safetyClass": "compressed_gas",
+    "verification": {
+      "status": "verified",
+      "sources": [
+        "IUPAC Periodic Table of Elements",
+        "NIST Physical Measurement Laboratory",
+        "PubChem"
+      ],
+      "notes": "Standard IUPAC values."
+    }
+  },
+  {
+    "id": "potassium",
+    "atomicNumber": 19,
+    "name": "Potassium",
+    "symbol": "K",
+    "atomicMass": 39.098,
+    "category": "alkali_metals",
+    "group": 1,
+    "period": 4,
+    "block": "s",
+    "phase": "solid",
+    "electronConfiguration": "[Ar] 4s1",
+    "electronShells": [
+      2,
+      8,
+      8,
+      1
+    ],
+    "electronegativity": 0.82,
+    "oxidationStates": [
+      -1,
+      1
+    ],
+    "meltingPoint": 336.7,
+    "boilingPoint": 1032,
+    "density": 0.89,
+    "appearance": "silvery-white metal",
+    "discoveryYear": 1807,
+    "commonUses": [
+      "agricultural fertilizers",
+      "potassium hydroxide",
+      "soaps"
+    ],
+    "safetyClass": "water_reactive",
+    "verification": {
+      "status": "verified",
+      "sources": [
+        "IUPAC Periodic Table of Elements",
+        "NIST Physical Measurement Laboratory",
+        "PubChem"
+      ],
+      "notes": "Standard IUPAC values."
+    }
+  },
+  {
+    "id": "calcium",
+    "atomicNumber": 20,
+    "name": "Calcium",
+    "symbol": "Ca",
+    "atomicMass": 40.078,
+    "category": "alkaline_earth_metals",
+    "group": 2,
+    "period": 4,
+    "block": "s",
+    "phase": "solid",
+    "electronConfiguration": "[Ar] 4s2",
+    "electronShells": [
+      2,
+      8,
+      8,
+      2
+    ],
+    "electronegativity": 1.0,
+    "oxidationStates": [
+      1,
+      2
+    ],
+    "meltingPoint": 1115,
+    "boilingPoint": 1757,
+    "density": 1.55,
+    "appearance": "dull gray metallic",
+    "discoveryYear": 1808,
+    "commonUses": [
+      "cement and mortar",
+      "plaster of Paris",
+      "steel refining"
+    ],
+    "safetyClass": "reactive_solid",
+    "verification": {
+      "status": "verified",
+      "sources": [
+        "IUPAC Periodic Table of Elements",
+        "NIST Physical Measurement Laboratory",
+        "PubChem"
+      ],
+      "notes": "Standard IUPAC values."
+    }
+  },
+  {
+    "id": "scandium",
+    "atomicNumber": 21,
+    "name": "Scandium",
+    "symbol": "Sc",
+    "atomicMass": 44.956,
+    "category": "transition_metals",
+    "group": 3,
+    "period": 4,
+    "block": "d",
+    "phase": "solid",
+    "electronConfiguration": "[Ar] 3d1 4s2",
+    "electronShells": [
+      2,
+      8,
+      9,
+      2
+    ],
+    "electronegativity": 1.36,
+    "oxidationStates": [
+      1,
+      2,
+      3
+    ],
+    "meltingPoint": 1814,
+    "boilingPoint": 3109,
+    "density": 2.985,
+    "appearance": "silvery-white metallic",
+    "discoveryYear": 1879,
+    "commonUses": [
+      "aerospace aluminum alloys",
+      "stadium light bulbs"
+    ],
+    "safetyClass": "low_hazard",
+    "verification": {
+      "status": "verified",
+      "sources": [
+        "IUPAC Periodic Table of Elements",
+        "NIST Physical Measurement Laboratory",
+        "PubChem"
+      ],
+      "notes": "Standard IUPAC values."
+    }
+  },
+  {
+    "id": "titanium",
+    "atomicNumber": 22,
+    "name": "Titanium",
+    "symbol": "Ti",
+    "atomicMass": 47.867,
+    "category": "transition_metals",
+    "group": 4,
+    "period": 4,
+    "block": "d",
+    "phase": "solid",
+    "electronConfiguration": "[Ar] 3d2 4s2",
+    "electronShells": [
+      2,
+      8,
+      10,
+      2
+    ],
+    "electronegativity": 1.54,
+    "oxidationStates": [
+      -2,
+      -1,
+      1,
+      2,
+      3,
+      4
+    ],
+    "meltingPoint": 1941,
+    "boilingPoint": 3560,
+    "density": 4.506,
+    "appearance": "silvery metallic",
+    "discoveryYear": 1791,
+    "commonUses": [
+      "aerospace alloys",
+      "medical implants",
+      "white pigment (TiO2)"
+    ],
+    "safetyClass": "low_hazard",
+    "verification": {
+      "status": "verified",
+      "sources": [
+        "IUPAC Periodic Table of Elements",
+        "NIST Physical Measurement Laboratory",
+        "PubChem"
+      ],
+      "notes": "Standard IUPAC values."
+    }
+  },
+  {
+    "id": "vanadium",
+    "atomicNumber": 23,
+    "name": "Vanadium",
+    "symbol": "V",
+    "atomicMass": 50.942,
+    "category": "transition_metals",
+    "group": 5,
+    "period": 4,
+    "block": "d",
+    "phase": "solid",
+    "electronConfiguration": "[Ar] 3d3 4s2",
+    "electronShells": [
+      2,
+      8,
+      11,
+      2
+    ],
+    "electronegativity": 1.63,
+    "oxidationStates": [
+      -1,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "meltingPoint": 2183,
+    "boilingPoint": 3680,
+    "density": 6.11,
+    "appearance": "blue-silver metallic",
+    "discoveryYear": 1801,
+    "commonUses": [
+      "high-strength steel alloys",
+      "sulfuric acid catalysts"
+    ],
+    "safetyClass": "toxic_dust",
+    "verification": {
+      "status": "verified",
+      "sources": [
+        "IUPAC Periodic Table of Elements",
+        "NIST Physical Measurement Laboratory",
+        "PubChem"
+      ],
+      "notes": "Standard IUPAC values."
+    }
+  },
+  {
+    "id": "chromium",
+    "atomicNumber": 24,
+    "name": "Chromium",
+    "symbol": "Cr",
+    "atomicMass": 51.996,
+    "category": "transition_metals",
+    "group": 6,
+    "period": 4,
+    "block": "d",
+    "phase": "solid",
+    "electronConfiguration": "[Ar] 3d5 4s1",
+    "electronShells": [
+      2,
+      8,
+      13,
+      1
+    ],
+    "electronegativity": 1.66,
+    "oxidationStates": [
+      -2,
+      -1,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "meltingPoint": 2180,
+    "boilingPoint": 2944,
+    "density": 7.19,
+    "appearance": "silvery metallic",
+    "discoveryYear": 1797,
+    "commonUses": [
+      "chrome plating",
+      "stainless steel",
+      "dyes and pigments"
+    ],
+    "safetyClass": "irritant",
+    "verification": {
+      "status": "verified",
+      "sources": [
+        "IUPAC Periodic Table of Elements",
+        "NIST Physical Measurement Laboratory",
+        "PubChem"
+      ],
+      "notes": "Standard IUPAC values."
+    }
+  },
+  {
+    "id": "manganese",
+    "atomicNumber": 25,
+    "name": "Manganese",
+    "symbol": "Mn",
+    "atomicMass": 54.938,
+    "category": "transition_metals",
+    "group": 7,
+    "period": 4,
+    "block": "d",
+    "phase": "solid",
+    "electronConfiguration": "[Ar] 3d5 4s2",
+    "electronShells": [
+      2,
+      8,
+      13,
+      2
+    ],
+    "electronegativity": 1.55,
+    "oxidationStates": [
+      -3,
+      -2,
+      -1,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "meltingPoint": 1519,
+    "boilingPoint": 2334,
+    "density": 7.21,
+    "appearance": "silvery metallic",
+    "discoveryYear": 1774,
+    "commonUses": [
+      "steel manufacturing",
+      "alkaline batteries",
+      "permanganate oxidizers"
+    ],
+    "safetyClass": "irritant",
+    "verification": {
+      "status": "verified",
+      "sources": [
+        "IUPAC Periodic Table of Elements",
+        "NIST Physical Measurement Laboratory",
+        "PubChem"
+      ],
+      "notes": "Standard IUPAC values."
+    }
+  },
+  {
+    "id": "iron",
+    "atomicNumber": 26,
+    "name": "Iron",
+    "symbol": "Fe",
+    "atomicMass": 55.845,
+    "category": "transition_metals",
+    "group": 8,
+    "period": 4,
+    "block": "d",
+    "phase": "solid",
+    "electronConfiguration": "[Ar] 3d6 4s2",
+    "electronShells": [
+      2,
+      8,
+      14,
+      2
+    ],
+    "electronegativity": 1.83,
+    "oxidationStates": [
+      -2,
+      -1,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "meltingPoint": 1811,
+    "boilingPoint": 3134,
+    "density": 7.874,
+    "appearance": "lustrous metallic gray",
+    "discoveryYear": -4000,
+    "commonUses": [
+      "steel alloy",
+      "construction structures",
+      "hemoglobin"
+    ],
+    "safetyClass": "low_hazard",
+    "verification": {
+      "status": "verified",
+      "sources": [
+        "IUPAC Periodic Table of Elements",
+        "NIST Physical Measurement Laboratory",
+        "PubChem"
+      ],
+      "notes": "Standard IUPAC values."
+    }
+  },
+  {
+    "id": "cobalt",
+    "atomicNumber": 27,
+    "name": "Cobalt",
+    "symbol": "Co",
+    "atomicMass": 58.933,
+    "category": "transition_metals",
+    "group": 9,
+    "period": 4,
+    "block": "d",
+    "phase": "solid",
+    "electronConfiguration": "[Ar] 3d7 4s2",
+    "electronShells": [
+      2,
+      8,
+      15,
+      2
+    ],
+    "electronegativity": 1.88,
+    "oxidationStates": [
+      -1,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "meltingPoint": 1768,
+    "boilingPoint": 3200,
+    "density": 8.9,
+    "appearance": "lustrous blue-gray",
+    "discoveryYear": 1735,
+    "commonUses": [
+      "lithium-ion batteries",
+      "magnets",
+      "blue glass pigments"
+    ],
+    "safetyClass": "irritant",
+    "verification": {
+      "status": "verified",
+      "sources": [
+        "IUPAC Periodic Table of Elements",
+        "NIST Physical Measurement Laboratory",
+        "PubChem"
+      ],
+      "notes": "Standard IUPAC values."
+    }
+  },
+  {
+    "id": "nickel",
+    "atomicNumber": 28,
+    "name": "Nickel",
+    "symbol": "Ni",
+    "atomicMass": 58.693,
+    "category": "transition_metals",
+    "group": 10,
+    "period": 4,
+    "block": "d",
+    "phase": "solid",
+    "electronConfiguration": "[Ar] 3d8 4s2",
+    "electronShells": [
+      2,
+      8,
+      16,
+      2
+    ],
+    "electronegativity": 1.91,
+    "oxidationStates": [
+      -1,
+      1,
+      2,
+      3,
+      4
+    ],
+    "meltingPoint": 1728,
+    "boilingPoint": 3186,
+    "density": 8.908,
+    "appearance": "lustrous metallic",
+    "discoveryYear": 1751,
+    "commonUses": [
+      "coins",
+      "rechargeable batteries",
+      "stainless steel"
+    ],
+    "safetyClass": "sensitizer",
+    "verification": {
+      "status": "verified",
+      "sources": [
+        "IUPAC Periodic Table of Elements",
+        "NIST Physical Measurement Laboratory",
+        "PubChem"
+      ],
+      "notes": "Standard IUPAC values."
+    }
+  },
+  {
+    "id": "copper",
+    "atomicNumber": 29,
+    "name": "Copper",
+    "symbol": "Cu",
+    "atomicMass": 63.546,
+    "category": "transition_metals",
+    "group": 11,
+    "period": 4,
+    "block": "d",
+    "phase": "solid",
+    "electronConfiguration": "[Ar] 3d10 4s1",
+    "electronShells": [
+      2,
+      8,
+      18,
+      1
+    ],
+    "electronegativity": 1.9,
+    "oxidationStates": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "meltingPoint": 1357.77,
+    "boilingPoint": 2835,
+    "density": 8.96,
+    "appearance": "reddish-orange metallic",
+    "discoveryYear": -8000,
+    "commonUses": [
+      "electrical wiring",
+      "plumbing pipes",
+      "bronze/brass alloys"
+    ],
+    "safetyClass": "low_hazard",
+    "verification": {
+      "status": "verified",
+      "sources": [
+        "IUPAC Periodic Table of Elements",
+        "NIST Physical Measurement Laboratory",
+        "PubChem"
+      ],
+      "notes": "Standard IUPAC values."
+    }
+  },
+  {
+    "id": "zinc",
+    "atomicNumber": 30,
+    "name": "Zinc",
+    "symbol": "Zn",
+    "atomicMass": 65.38,
+    "category": "transition_metals",
+    "group": 12,
+    "period": 4,
+    "block": "d",
+    "phase": "solid",
+    "electronConfiguration": "[Ar] 3d10 4s2",
+    "electronShells": [
+      2,
+      8,
+      18,
+      2
+    ],
+    "electronegativity": 1.65,
+    "oxidationStates": [
+      1,
+      2
+    ],
+    "meltingPoint": 692.68,
+    "boilingPoint": 1180,
+    "density": 7.14,
+    "appearance": "silvery-blue metallic",
+    "discoveryYear": 1746,
+    "commonUses": [
+      "galvanizing steel",
+      "brass manufacturing",
+      "die casting"
+    ],
+    "safetyClass": "low_hazard",
+    "verification": {
+      "status": "verified",
+      "sources": [
+        "IUPAC Periodic Table of Elements",
+        "NIST Physical Measurement Laboratory",
+        "PubChem"
+      ],
+      "notes": "Standard IUPAC values."
+    }
+  },
+  {
+    "id": "gallium",
+    "atomicNumber": 31,
+    "name": "Gallium",
+    "symbol": "Ga",
+    "atomicMass": 69.723,
+    "category": "post_transition_metals",
+    "group": 13,
+    "period": 4,
+    "block": "p",
+    "phase": "solid",
+    "electronConfiguration": "[Ar] 3d10 4s2 4p1",
+    "electronShells": [
+      2,
+      8,
+      18,
+      3
+    ],
+    "electronegativity": 1.81,
+    "oxidationStates": [
+      1,
+      2,
+      3
+    ],
+    "meltingPoint": 302.91,
+    "boilingPoint": 2477,
+    "density": 5.91,
+    "appearance": "silvery-blue metal",
+    "discoveryYear": 1875,
+    "commonUses": [
+      "semiconductors (GaAs)",
+      "LEDs",
+      "high-temperature thermometers"
+    ],
+    "safetyClass": "low_hazard",
+    "verification": {
+      "status": "verified",
+      "sources": [
+        "IUPAC Periodic Table of Elements",
+        "NIST Physical Measurement Laboratory",
+        "PubChem"
+      ],
+      "notes": "Standard IUPAC values."
+    }
+  },
+  {
+    "id": "germanium",
+    "atomicNumber": 32,
+    "name": "Germanium",
+    "symbol": "Ge",
+    "atomicMass": 72.63,
+    "category": "metalloids",
+    "group": 14,
+    "period": 4,
+    "block": "p",
+    "phase": "solid",
+    "electronConfiguration": "[Ar] 3d10 4s2 4p2",
+    "electronShells": [
+      2,
+      8,
+      18,
+      4
+    ],
+    "electronegativity": 2.01,
+    "oxidationStates": [
+      -4,
+      1,
+      2,
+      3,
+      4
+    ],
+    "meltingPoint": 1211.4,
+    "boilingPoint": 3106,
+    "density": 5.323,
+    "appearance": "grayish-white metalloid",
+    "discoveryYear": 1886,
+    "commonUses": [
+      "fiber optics",
+      "infrared optics",
+      "semiconductors"
+    ],
+    "safetyClass": "low_hazard",
+    "verification": {
+      "status": "verified",
+      "sources": [
+        "IUPAC Periodic Table of Elements",
+        "NIST Physical Measurement Laboratory",
+        "PubChem"
+      ],
+      "notes": "Standard IUPAC values."
+    }
+  },
+  {
+    "id": "arsenic",
+    "atomicNumber": 33,
+    "name": "Arsenic",
+    "symbol": "As",
+    "atomicMass": 74.922,
+    "category": "metalloids",
+    "group": 15,
+    "period": 4,
+    "block": "p",
+    "phase": "solid",
+    "electronConfiguration": "[Ar] 3d10 4s2 4p3",
+    "electronShells": [
+      2,
+      8,
+      18,
+      5
+    ],
+    "electronegativity": 2.18,
+    "oxidationStates": [
+      -3,
+      2,
+      3,
+      5
+    ],
+    "meltingPoint": 1090,
+    "boilingPoint": 887,
+    "density": 5.727,
+    "appearance": "metallic gray solid",
+    "discoveryYear": 1250,
+    "commonUses": [
+      "semiconductors",
+      "wood preservatives",
+      "lead alloys"
+    ],
+    "safetyClass": "toxic_solid",
+    "verification": {
+      "status": "verified",
+      "sources": [
+        "IUPAC Periodic Table of Elements",
+        "NIST Physical Measurement Laboratory",
+        "PubChem"
+      ],
+      "notes": "Standard IUPAC values."
+    }
+  },
+  {
+    "id": "selenium",
+    "atomicNumber": 34,
+    "name": "Selenium",
+    "symbol": "Se",
+    "atomicMass": 78.971,
+    "category": "reactive_nonmetals",
+    "group": 16,
+    "period": 4,
+    "block": "p",
+    "phase": "solid",
+    "electronConfiguration": "[Ar] 3d10 4s2 4p4",
+    "electronShells": [
+      2,
+      8,
+      18,
+      6
+    ],
+    "electronegativity": 2.55,
+    "oxidationStates": [
+      -2,
+      2,
+      4,
+      6
+    ],
+    "meltingPoint": 494,
+    "boilingPoint": 958,
+    "density": 4.81,
+    "appearance": "black/red solid",
+    "discoveryYear": 1817,
+    "commonUses": [
+      "photovoltaics",
+      "photocopiers",
+      "glass tinting"
+    ],
+    "safetyClass": "toxic_solid",
+    "verification": {
+      "status": "verified",
+      "sources": [
+        "IUPAC Periodic Table of Elements",
+        "NIST Physical Measurement Laboratory",
+        "PubChem"
+      ],
+      "notes": "Standard IUPAC values."
+    }
+  },
+  {
+    "id": "bromine",
+    "atomicNumber": 35,
+    "name": "Bromine",
+    "symbol": "Br",
+    "atomicMass": 79.904,
+    "category": "reactive_nonmetals",
+    "group": 17,
+    "period": 4,
+    "block": "p",
+    "phase": "liquid",
+    "electronConfiguration": "[Ar] 3d10 4s2 4p5",
+    "electronShells": [
+      2,
+      8,
+      18,
+      7
+    ],
+    "electronegativity": 2.96,
+    "oxidationStates": [
+      -1,
+      1,
+      3,
+      4,
+      5
+    ],
+    "meltingPoint": 265.8,
+    "boilingPoint": 332.0,
+    "density": 3.102,
+    "appearance": "red-brown liquid",
+    "discoveryYear": 1826,
+    "commonUses": [
+      "flame retardants",
+      "pharmaceuticals",
+      "drilling fluids"
+    ],
+    "safetyClass": "corrosive_liquid",
+    "verification": {
+      "status": "verified",
+      "sources": [
+        "IUPAC Periodic Table of Elements",
+        "NIST Physical Measurement Laboratory",
+        "PubChem"
+      ],
+      "notes": "Standard IUPAC values."
+    }
+  },
+  {
+    "id": "krypton",
+    "atomicNumber": 36,
+    "name": "Krypton",
+    "symbol": "Kr",
+    "atomicMass": 83.798,
+    "category": "noble_gases",
+    "group": 18,
+    "period": 4,
+    "block": "p",
+    "phase": "gas",
+    "electronConfiguration": "[Ar] 3d10 4s2 4p6",
+    "electronShells": [
+      2,
+      8,
+      18,
+      8
+    ],
+    "electronegativity": 3.0,
+    "oxidationStates": [
+      0,
+      2
+    ],
+    "meltingPoint": 115.78,
+    "boilingPoint": 119.93,
+    "density": 0.003749,
+    "appearance": "colorless gas",
+    "discoveryYear": 1898,
+    "commonUses": [
+      "commercial lighting",
+      "high-speed photography flash"
+    ],
+    "safetyClass": "compressed_gas",
+    "verification": {
+      "status": "verified",
+      "sources": [
+        "IUPAC Periodic Table of Elements",
+        "NIST Physical Measurement Laboratory",
+        "PubChem"
+      ],
+      "notes": "Standard IUPAC values."
+    }
+  },
+  {
+    "id": "rubidium",
+    "atomicNumber": 37,
+    "name": "Rubidium",
+    "symbol": "Rb",
+    "atomicMass": 85.468,
+    "category": "alkali_metals",
+    "group": 1,
+    "period": 5,
+    "block": "s",
+    "phase": "solid",
+    "electronConfiguration": "[Kr] 5s1",
+    "electronShells": [
+      2,
+      8,
+      18,
+      8,
+      1
+    ],
+    "electronegativity": 0.82,
+    "oxidationStates": [
+      1
+    ],
+    "meltingPoint": 312.45,
+    "boilingPoint": 961,
+    "density": 1.532,
+    "appearance": "grey white metallic",
+    "discoveryYear": 1861,
+    "commonUses": [
+      "atomic clocks",
+      "photocells",
+      "specialty glasses"
+    ],
+    "safetyClass": "water_reactive",
+    "verification": {
+      "status": "verified",
+      "sources": [
+        "IUPAC Periodic Table of Elements",
+        "NIST Physical Measurement Laboratory",
+        "PubChem"
+      ],
+      "notes": "Standard IUPAC values."
+    }
+  },
+  {
+    "id": "strontium",
+    "atomicNumber": 38,
+    "name": "Strontium",
+    "symbol": "Sr",
+    "atomicMass": 87.62,
+    "category": "alkaline_earth_metals",
+    "group": 2,
+    "period": 5,
+    "block": "s",
+    "phase": "solid",
+    "electronConfiguration": "[Kr] 5s2",
+    "electronShells": [
+      2,
+      8,
+      18,
+      8,
+      2
+    ],
+    "electronegativity": 0.95,
+    "oxidationStates": [
+      1,
+      2
+    ],
+    "meltingPoint": 1050,
+    "boilingPoint": 1650,
+    "density": 2.64,
+    "appearance": "silvery-white metallic",
+    "discoveryYear": 1790,
+    "commonUses": [
+      "red pyrotechnic flares",
+      "ferrite magnets"
+    ],
+    "safetyClass": "reactive_solid",
+    "verification": {
+      "status": "verified",
+      "sources": [
+        "IUPAC Periodic Table of Elements",
+        "NIST Physical Measurement Laboratory",
+        "PubChem"
+      ],
+      "notes": "Standard IUPAC values."
+    }
+  },
+  {
+    "id": "yttrium",
+    "atomicNumber": 39,
+    "name": "Yttrium",
+    "symbol": "Y",
+    "atomicMass": 88.906,
+    "category": "transition_metals",
+    "group": 3,
+    "period": 5,
+    "block": "d",
+    "phase": "solid",
+    "electronConfiguration": "[Kr] 4d1 5s2",
+    "electronShells": [
+      2,
+      8,
+      18,
+      9,
+      2
+    ],
+    "electronegativity": 1.22,
+    "oxidationStates": [
+      1,
+      2,
+      3
+    ],
+    "meltingPoint": 1799,
+    "boilingPoint": 3609,
+    "density": 4.472,
+    "appearance": "silvery metallic",
+    "discoveryYear": 1794,
+    "commonUses": [
+      "YAG lasers",
+      "red phosphors in displays",
+      "superconductors"
+    ],
+    "safetyClass": "low_hazard",
+    "verification": {
+      "status": "verified",
+      "sources": [
+        "IUPAC Periodic Table of Elements",
+        "NIST Physical Measurement Laboratory",
+        "PubChem"
+      ],
+      "notes": "Standard IUPAC values."
+    }
+  },
+  {
+    "id": "zirconium",
+    "atomicNumber": 40,
+    "name": "Zirconium",
+    "symbol": "Zr",
+    "atomicMass": 91.224,
+    "category": "transition_metals",
+    "group": 4,
+    "period": 5,
+    "block": "d",
+    "phase": "solid",
+    "electronConfiguration": "[Kr] 4d2 5s2",
+    "electronShells": [
+      2,
+      8,
+      18,
+      10,
+      2
+    ],
+    "electronegativity": 1.33,
+    "oxidationStates": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "meltingPoint": 2128,
+    "boilingPoint": 4682,
+    "density": 6.52,
+    "appearance": "silvery-white metallic",
+    "discoveryYear": 1789,
+    "commonUses": [
+      "nuclear reactor cladding",
+      "zirconia ceramics",
+      "corrosion resistance"
+    ],
+    "safetyClass": "low_hazard",
+    "verification": {
+      "status": "verified",
+      "sources": [
+        "IUPAC Periodic Table of Elements",
+        "NIST Physical Measurement Laboratory",
+        "PubChem"
+      ],
+      "notes": "Standard IUPAC values."
+    }
+  },
+  {
+    "id": "niobium",
+    "atomicNumber": 41,
+    "name": "Niobium",
+    "symbol": "Nb",
+    "atomicMass": 92.906,
+    "category": "transition_metals",
+    "group": 5,
+    "period": 5,
+    "block": "d",
+    "phase": "solid",
+    "electronConfiguration": "[Kr] 4d4 5s1",
+    "electronShells": [
+      2,
+      8,
+      18,
+      12,
+      1
+    ],
+    "electronegativity": 1.6,
+    "oxidationStates": [
+      -1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "meltingPoint": 2750,
+    "boilingPoint": 5017,
+    "density": 8.57,
+    "appearance": "gray metallic",
+    "discoveryYear": 1801,
+    "commonUses": [
+      "superconducting magnets",
+      "steel strengthening"
+    ],
+    "safetyClass": "low_hazard",
+    "verification": {
+      "status": "verified",
+      "sources": [
+        "IUPAC Periodic Table of Elements",
+        "NIST Physical Measurement Laboratory",
+        "PubChem"
+      ],
+      "notes": "Standard IUPAC values."
+    }
+  },
+  {
+    "id": "molybdenum",
+    "atomicNumber": 42,
+    "name": "Molybdenum",
+    "symbol": "Mo",
+    "atomicMass": 95.95,
+    "category": "transition_metals",
+    "group": 6,
+    "period": 5,
+    "block": "d",
+    "phase": "solid",
+    "electronConfiguration": "[Kr] 4d5 5s1",
+    "electronShells": [
+      2,
+      8,
+      18,
+      13,
+      1
+    ],
+    "electronegativity": 2.16,
+    "oxidationStates": [
+      -2,
+      -1,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "meltingPoint": 2896,
+    "boilingPoint": 4912,
+    "density": 10.28,
+    "appearance": "gray metallic",
+    "discoveryYear": 1778,
+    "commonUses": [
+      "high-strength steel alloys",
+      "industrial catalysts",
+      "lubricants"
+    ],
+    "safetyClass": "low_hazard",
+    "verification": {
+      "status": "verified",
+      "sources": [
+        "IUPAC Periodic Table of Elements",
+        "NIST Physical Measurement Laboratory",
+        "PubChem"
+      ],
+      "notes": "Standard IUPAC values."
+    }
+  },
+  {
+    "id": "technetium",
+    "atomicNumber": 43,
+    "name": "Technetium",
+    "symbol": "Tc",
+    "atomicMass": 98.0,
+    "category": "transition_metals",
+    "group": 7,
+    "period": 5,
+    "block": "d",
+    "phase": "solid",
+    "electronConfiguration": "[Kr] 4d5 5s2",
+    "electronShells": [
+      2,
+      8,
+      18,
+      13,
+      2
+    ],
+    "electronegativity": 1.9,
+    "oxidationStates": [
+      -1,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "meltingPoint": 2430,
+    "boilingPoint": 4538,
+    "density": 11.0,
+    "appearance": "silvery-gray metallic",
+    "discoveryYear": 1937,
+    "commonUses": [
+      "medical diagnostic radiotracer (Tc-99m)"
+    ],
+    "safetyClass": "radioactive",
+    "verification": {
+      "status": "verified",
+      "sources": [
+        "IUPAC Periodic Table of Elements",
+        "NIST Physical Measurement Laboratory",
+        "PubChem"
+      ],
+      "notes": "Synthetic radioactive metal."
+    }
+  },
+  {
+    "id": "ruthenium",
+    "atomicNumber": 44,
+    "name": "Ruthenium",
+    "symbol": "Ru",
+    "atomicMass": 101.07,
+    "category": "transition_metals",
+    "group": 8,
+    "period": 5,
+    "block": "d",
+    "phase": "solid",
+    "electronConfiguration": "[Kr] 4d7 5s1",
+    "electronShells": [
+      2,
+      8,
+      18,
+      15,
+      1
+    ],
+    "electronegativity": 2.2,
+    "oxidationStates": [
+      -2,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "meltingPoint": 2607,
+    "boilingPoint": 4423,
+    "density": 12.45,
+    "appearance": "silvery-white metallic",
+    "discoveryYear": 1844,
+    "commonUses": [
+      "wear-resistant electrical contacts",
+      "catalysts"
+    ],
+    "safetyClass": "low_hazard",
+    "verification": {
+      "status": "verified",
+      "sources": [
+        "IUPAC Periodic Table of Elements",
+        "NIST Physical Measurement Laboratory",
+        "PubChem"
+      ],
+      "notes": "Standard IUPAC values."
+    }
+  },
+  {
+    "id": "rhodium",
+    "atomicNumber": 45,
+    "name": "Rhodium",
+    "symbol": "Rh",
+    "atomicMass": 102.91,
+    "category": "transition_metals",
+    "group": 9,
+    "period": 5,
+    "block": "d",
+    "phase": "solid",
+    "electronConfiguration": "[Kr] 4d8 5s1",
+    "electronShells": [
+      2,
+      8,
+      18,
+      16,
+      1
+    ],
+    "electronegativity": 2.28,
+    "oxidationStates": [
+      -1,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "meltingPoint": 2237,
+    "boilingPoint": 3968,
+    "density": 12.41,
+    "appearance": "silvery-white metallic",
+    "discoveryYear": 1804,
+    "commonUses": [
+      "catalytic converters",
+      "jewelry plating"
+    ],
+    "safetyClass": "low_hazard",
+    "verification": {
+      "status": "verified",
+      "sources": [
+        "IUPAC Periodic Table of Elements",
+        "NIST Physical Measurement Laboratory",
+        "PubChem"
+      ],
+      "notes": "Standard IUPAC values."
+    }
+  },
+  {
+    "id": "palladium",
+    "atomicNumber": 46,
+    "name": "Palladium",
+    "symbol": "Pd",
+    "atomicMass": 106.42,
+    "category": "transition_metals",
+    "group": 10,
+    "period": 5,
+    "block": "d",
+    "phase": "solid",
+    "electronConfiguration": "[Kr] 4d10",
+    "electronShells": [
+      2,
+      8,
+      18,
+      18
+    ],
+    "electronegativity": 2.2,
+    "oxidationStates": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "meltingPoint": 1828.05,
+    "boilingPoint": 3236,
+    "density": 12.023,
+    "appearance": "silvery-white metallic",
+    "discoveryYear": 1803,
+    "commonUses": [
+      "catalytic converters",
+      "hydrogen purification",
+      "electronics"
+    ],
+    "safetyClass": "low_hazard",
+    "verification": {
+      "status": "verified",
+      "sources": [
+        "IUPAC Periodic Table of Elements",
+        "NIST Physical Measurement Laboratory",
+        "PubChem"
+      ],
+      "notes": "Standard IUPAC values."
+    }
+  },
+  {
+    "id": "silver",
+    "atomicNumber": 47,
+    "name": "Silver",
+    "symbol": "Ag",
+    "atomicMass": 107.87,
+    "category": "transition_metals",
+    "group": 11,
+    "period": 5,
+    "block": "d",
+    "phase": "solid",
+    "electronConfiguration": "[Kr] 4d10 5s1",
+    "electronShells": [
+      2,
+      8,
+      18,
+      18,
+      1
+    ],
+    "electronegativity": 1.93,
+    "oxidationStates": [
+      1,
+      2,
+      3
+    ],
+    "meltingPoint": 1234.93,
+    "boilingPoint": 2435,
+    "density": 10.49,
+    "appearance": "lustrous white metallic",
+    "discoveryYear": -3000,
+    "commonUses": [
+      "jewelry",
+      "electrical contacts",
+      "mirrors",
+      "photography"
+    ],
+    "safetyClass": "low_hazard",
+    "verification": {
+      "status": "verified",
+      "sources": [
+        "IUPAC Periodic Table of Elements",
+        "NIST Physical Measurement Laboratory",
+        "PubChem"
+      ],
+      "notes": "Standard IUPAC values."
+    }
+  },
+  {
+    "id": "cadmium",
+    "atomicNumber": 48,
+    "name": "Cadmium",
+    "symbol": "Cd",
+    "atomicMass": 112.41,
+    "category": "transition_metals",
+    "group": 12,
+    "period": 5,
+    "block": "d",
+    "phase": "solid",
+    "electronConfiguration": "[Kr] 4d10 5s2",
+    "electronShells": [
+      2,
+      8,
+      18,
+      18,
+      2
+    ],
+    "electronegativity": 1.69,
+    "oxidationStates": [
+      1,
+      2
+    ],
+    "meltingPoint": 594.22,
+    "boilingPoint": 1040,
+    "density": 8.65,
+    "appearance": "silvery-bluish metallic",
+    "discoveryYear": 1817,
+    "commonUses": [
+      "NiCd batteries",
+      "corrosion protection",
+      "pigments"
+    ],
+    "safetyClass": "toxic_solid",
+    "verification": {
+      "status": "verified",
+      "sources": [
+        "IUPAC Periodic Table of Elements",
+        "NIST Physical Measurement Laboratory",
+        "PubChem"
+      ],
+      "notes": "Standard IUPAC values."
+    }
+  },
+  {
+    "id": "indium",
+    "atomicNumber": 49,
+    "name": "Indium",
+    "symbol": "In",
+    "atomicMass": 114.82,
+    "category": "post_transition_metals",
+    "group": 13,
+    "period": 5,
+    "block": "p",
+    "phase": "solid",
+    "electronConfiguration": "[Kr] 4d10 5s2 5p1",
+    "electronShells": [
+      2,
+      8,
+      18,
+      18,
+      3
+    ],
+    "electronegativity": 1.78,
+    "oxidationStates": [
+      1,
+      2,
+      3
+    ],
+    "meltingPoint": 429.7485,
+    "boilingPoint": 2345,
+    "density": 7.31,
+    "appearance": "silvery-luster metal",
+    "discoveryYear": 1863,
+    "commonUses": [
+      "indium tin oxide (ITO) touchscreens",
+      "low-melting alloys"
+    ],
+    "safetyClass": "low_hazard",
+    "verification": {
+      "status": "verified",
+      "sources": [
+        "IUPAC Periodic Table of Elements",
+        "NIST Physical Measurement Laboratory",
+        "PubChem"
+      ],
+      "notes": "Standard IUPAC values."
+    }
+  },
+  {
+    "id": "tin",
+    "atomicNumber": 50,
+    "name": "Tin",
+    "symbol": "Sn",
+    "atomicMass": 118.71,
+    "category": "post_transition_metals",
+    "group": 14,
+    "period": 5,
+    "block": "p",
+    "phase": "solid",
+    "electronConfiguration": "[Kr] 4d10 5s2 5p2",
+    "electronShells": [
+      2,
+      8,
+      18,
+      18,
+      4
+    ],
+    "electronegativity": 1.96,
+    "oxidationStates": [
+      -4,
+      2,
+      4
+    ],
+    "meltingPoint": 505.08,
+    "boilingPoint": 2875,
+    "density": 7.31,
+    "appearance": "silvery-white metallic",
+    "discoveryYear": -3500,
+    "commonUses": [
+      "solder",
+      "tinplate coating for food cans",
+      "bronze alloy"
+    ],
+    "safetyClass": "low_hazard",
+    "verification": {
+      "status": "verified",
+      "sources": [
+        "IUPAC Periodic Table of Elements",
+        "NIST Physical Measurement Laboratory",
+        "PubChem"
+      ],
+      "notes": "Standard IUPAC values."
+    }
+  },
+  {
+    "id": "antimony",
+    "atomicNumber": 51,
+    "name": "Antimony",
+    "symbol": "Sb",
+    "atomicMass": 121.76,
+    "category": "metalloids",
+    "group": 15,
+    "period": 5,
+    "block": "p",
+    "phase": "solid",
+    "electronConfiguration": "[Kr] 4d10 5s2 5p3",
+    "electronShells": [
+      2,
+      8,
+      18,
+      18,
+      5
+    ],
+    "electronegativity": 2.05,
+    "oxidationStates": [
+      -3,
+      3,
+      5
+    ],
+    "meltingPoint": 903.78,
+    "boilingPoint": 1908,
+    "density": 6.697,
+    "appearance": "silvery lustrous gray",
+    "discoveryYear": -3000,
+    "commonUses": [
+      "flame retardants",
+      "lead-acid battery alloys"
+    ],
+    "safetyClass": "toxic_solid",
+    "verification": {
+      "status": "verified",
+      "sources": [
+        "IUPAC Periodic Table of Elements",
+        "NIST Physical Measurement Laboratory",
+        "PubChem"
+      ],
+      "notes": "Standard IUPAC values."
+    }
+  },
+  {
+    "id": "tellurium",
+    "atomicNumber": 52,
+    "name": "Tellurium",
+    "symbol": "Te",
+    "atomicMass": 127.6,
+    "category": "metalloids",
+    "group": 16,
+    "period": 5,
+    "block": "p",
+    "phase": "solid",
+    "electronConfiguration": "[Kr] 4d10 5s2 5p4",
+    "electronShells": [
+      2,
+      8,
+      18,
+      18,
+      6
+    ],
+    "electronegativity": 2.1,
+    "oxidationStates": [
+      -2,
+      2,
+      4,
+      6
+    ],
+    "meltingPoint": 722.66,
+    "boilingPoint": 1261,
+    "density": 6.24,
+    "appearance": "silvery-white metalloid",
+    "discoveryYear": 1782,
+    "commonUses": [
+      "thermoelectric devices",
+      "CdTe solar panels"
+    ],
+    "safetyClass": "toxic_solid",
+    "verification": {
+      "status": "verified",
+      "sources": [
+        "IUPAC Periodic Table of Elements",
+        "NIST Physical Measurement Laboratory",
+        "PubChem"
+      ],
+      "notes": "Standard IUPAC values."
+    }
+  },
+  {
+    "id": "iodine",
+    "atomicNumber": 53,
+    "name": "Iodine",
+    "symbol": "I",
+    "atomicMass": 126.9,
+    "category": "reactive_nonmetals",
+    "group": 17,
+    "period": 5,
+    "block": "p",
+    "phase": "solid",
+    "electronConfiguration": "[Kr] 4d10 5s2 5p5",
+    "electronShells": [
+      2,
+      8,
+      18,
+      18,
+      7
+    ],
+    "electronegativity": 2.66,
+    "oxidationStates": [
+      -1,
+      1,
+      3,
+      5,
+      7
+    ],
+    "meltingPoint": 386.85,
+    "boilingPoint": 457.4,
+    "density": 4.933,
+    "appearance": "violet-black lustrous solid",
+    "discoveryYear": 1811,
+    "commonUses": [
+      "antiseptics",
+      "table salt fortifier",
+      "thyroid function"
+    ],
+    "safetyClass": "irritant",
+    "verification": {
+      "status": "verified",
+      "sources": [
+        "IUPAC Periodic Table of Elements",
+        "NIST Physical Measurement Laboratory",
+        "PubChem"
+      ],
+      "notes": "Standard IUPAC values."
+    }
+  },
+  {
+    "id": "xenon",
+    "atomicNumber": 54,
+    "name": "Xenon",
+    "symbol": "Xe",
+    "atomicMass": 131.29,
+    "category": "noble_gases",
+    "group": 18,
+    "period": 5,
+    "block": "p",
+    "phase": "gas",
+    "electronConfiguration": "[Kr] 4d10 5s2 5p6",
+    "electronShells": [
+      2,
+      8,
+      18,
+      18,
+      8
+    ],
+    "electronegativity": 2.6,
+    "oxidationStates": [
+      0,
+      2,
+      4,
+      6,
+      8
+    ],
+    "meltingPoint": 161.4,
+    "boilingPoint": 165.051,
+    "density": 0.005894,
+    "appearance": "colorless gas",
+    "discoveryYear": 1898,
+    "commonUses": [
+      "flash lamps",
+      "ion thrusters",
+      "anesthetics"
+    ],
+    "safetyClass": "compressed_gas",
+    "verification": {
+      "status": "verified",
+      "sources": [
+        "IUPAC Periodic Table of Elements",
+        "NIST Physical Measurement Laboratory",
+        "PubChem"
+      ],
+      "notes": "Standard IUPAC values."
+    }
+  },
+  {
+    "id": "cesium",
+    "atomicNumber": 55,
+    "name": "Cesium",
+    "symbol": "Cs",
+    "atomicMass": 132.91,
+    "category": "alkali_metals",
+    "group": 1,
+    "period": 6,
+    "block": "s",
+    "phase": "solid",
+    "electronConfiguration": "[Xe] 6s1",
+    "electronShells": [
+      2,
+      8,
+      18,
+      18,
+      8,
+      1
+    ],
+    "electronegativity": 0.79,
+    "oxidationStates": [
+      1
+    ],
+    "meltingPoint": 301.7,
+    "boilingPoint": 944,
+    "density": 1.93,
+    "appearance": "pale golden metallic",
+    "discoveryYear": 1860,
+    "commonUses": [
+      "atomic clocks",
+      "drilling fluids"
+    ],
+    "safetyClass": "water_reactive",
+    "verification": {
+      "status": "verified",
+      "sources": [
+        "IUPAC Periodic Table of Elements",
+        "NIST Physical Measurement Laboratory",
+        "PubChem"
+      ],
+      "notes": "Standard IUPAC values."
+    }
+  },
+  {
+    "id": "barium",
+    "atomicNumber": 56,
+    "name": "Barium",
+    "symbol": "Ba",
+    "atomicMass": 137.33,
+    "category": "alkaline_earth_metals",
+    "group": 2,
+    "period": 6,
+    "block": "s",
+    "phase": "solid",
+    "electronConfiguration": "[Xe] 6s2",
+    "electronShells": [
+      2,
+      8,
+      18,
+      18,
+      8,
+      2
+    ],
+    "electronegativity": 0.89,
+    "oxidationStates": [
+      2
+    ],
+    "meltingPoint": 1000,
+    "boilingPoint": 2118,
+    "density": 3.51,
+    "appearance": "silvery-white metallic",
+    "discoveryYear": 1808,
+    "commonUses": [
+      "drilling muds",
+      "X-ray contrast agents (BaSO4)"
+    ],
+    "safetyClass": "toxic_solid",
+    "verification": {
+      "status": "verified",
+      "sources": [
+        "IUPAC Periodic Table of Elements",
+        "NIST Physical Measurement Laboratory",
+        "PubChem"
+      ],
+      "notes": "Standard IUPAC values."
+    }
+  },
+  {
+    "id": "lanthanum",
+    "atomicNumber": 57,
+    "name": "Lanthanum",
+    "symbol": "La",
+    "atomicMass": 138.91,
+    "category": "lanthanides",
+    "group": 3,
+    "period": 6,
+    "block": "f",
+    "phase": "solid",
+    "electronConfiguration": "[Xe] 5d1 6s2",
+    "electronShells": [
+      2,
+      8,
+      18,
+      18,
+      9,
+      2
+    ],
+    "electronegativity": 1.1,
+    "oxidationStates": [
+      1,
+      2,
+      3
+    ],
+    "meltingPoint": 1193,
+    "boilingPoint": 3737,
+    "density": 6.162,
+    "appearance": "silvery-white metallic",
+    "discoveryYear": 1838,
+    "commonUses": [
+      "hybrid car batteries",
+      "camera lenses"
+    ],
+    "safetyClass": "low_hazard",
+    "verification": {
+      "status": "verified",
+      "sources": [
+        "IUPAC Periodic Table of Elements",
+        "NIST Physical Measurement Laboratory",
+        "PubChem"
+      ],
+      "notes": "Standard IUPAC values."
+    }
+  },
+  {
+    "id": "cerium",
+    "atomicNumber": 58,
+    "name": "Cerium",
+    "symbol": "Ce",
+    "atomicMass": 140.12,
+    "category": "lanthanides",
+    "group": null,
+    "period": 6,
+    "block": "f",
+    "phase": "solid",
+    "electronConfiguration": "[Xe] 4f1 5d1 6s2",
+    "electronShells": [
+      2,
+      8,
+      18,
+      19,
+      9,
+      2
+    ],
+    "electronegativity": 1.12,
+    "oxidationStates": [
+      2,
+      3,
+      4
+    ],
+    "meltingPoint": 1068,
+    "boilingPoint": 3716,
+    "density": 6.77,
+    "appearance": "silvery-white metallic",
+    "discoveryYear": 1803,
+    "commonUses": [
+      "catalytic converters",
+      "lighter flints"
+    ],
+    "safetyClass": "low_hazard",
+    "verification": {
+      "status": "verified",
+      "sources": [
+        "IUPAC Periodic Table of Elements",
+        "NIST Physical Measurement Laboratory",
+        "PubChem"
+      ],
+      "notes": "Standard IUPAC values."
+    }
+  },
+  {
+    "id": "praseodymium",
+    "atomicNumber": 59,
+    "name": "Praseodymium",
+    "symbol": "Pr",
+    "atomicMass": 140.91,
+    "category": "lanthanides",
+    "group": null,
+    "period": 6,
+    "block": "f",
+    "phase": "solid",
+    "electronConfiguration": "[Xe] 4f3 6s2",
+    "electronShells": [
+      2,
+      8,
+      18,
+      21,
+      8,
+      2
+    ],
+    "electronegativity": 1.13,
+    "oxidationStates": [
+      2,
+      3,
+      4
+    ],
+    "meltingPoint": 1208,
+    "boilingPoint": 3793,
+    "density": 6.77,
+    "appearance": "silvery metallic",
+    "discoveryYear": 1885,
+    "commonUses": [
+      "high-strength magnets",
+      "yellow glass goggles"
+    ],
+    "safetyClass": "low_hazard",
+    "verification": {
+      "status": "verified",
+      "sources": [
+        "IUPAC Periodic Table of Elements",
+        "NIST Physical Measurement Laboratory",
+        "PubChem"
+      ],
+      "notes": "Standard IUPAC values."
+    }
+  },
+  {
+    "id": "neodymium",
+    "atomicNumber": 60,
+    "name": "Neodymium",
+    "symbol": "Nd",
+    "atomicMass": 144.24,
+    "category": "lanthanides",
+    "group": null,
+    "period": 6,
+    "block": "f",
+    "phase": "solid",
+    "electronConfiguration": "[Xe] 4f4 6s2",
+    "electronShells": [
+      2,
+      8,
+      18,
+      22,
+      8,
+      2
+    ],
+    "electronegativity": 1.14,
+    "oxidationStates": [
+      2,
+      3
+    ],
+    "meltingPoint": 1297,
+    "boilingPoint": 3347,
+    "density": 7.01,
+    "appearance": "silvery metallic",
+    "discoveryYear": 1885,
+    "commonUses": [
+      "powerful neodymium magnets (NdFeB)",
+      "laser crystals"
+    ],
+    "safetyClass": "low_hazard",
+    "verification": {
+      "status": "verified",
+      "sources": [
+        "IUPAC Periodic Table of Elements",
+        "NIST Physical Measurement Laboratory",
+        "PubChem"
+      ],
+      "notes": "Standard IUPAC values."
+    }
+  },
+  {
+    "id": "promethium",
+    "atomicNumber": 61,
+    "name": "Promethium",
+    "symbol": "Pm",
+    "atomicMass": 145.0,
+    "category": "lanthanides",
+    "group": null,
+    "period": 6,
+    "block": "f",
+    "phase": "solid",
+    "electronConfiguration": "[Xe] 4f5 6s2",
+    "electronShells": [
+      2,
+      8,
+      18,
+      23,
+      8,
+      2
+    ],
+    "electronegativity": 1.13,
+    "oxidationStates": [
+      3
+    ],
+    "meltingPoint": 1315,
+    "boilingPoint": 3273,
+    "density": 7.26,
+    "appearance": "metallic",
+    "discoveryYear": 1945,
+    "commonUses": [
+      "luminous paint",
+      "nuclear batteries"
+    ],
+    "safetyClass": "radioactive",
+    "verification": {
+      "status": "verified",
+      "sources": [
+        "IUPAC Periodic Table of Elements",
+        "NIST Physical Measurement Laboratory",
+        "PubChem"
+      ],
+      "notes": "Radioactive lanthanide."
+    }
+  },
+  {
+    "id": "samarium",
+    "atomicNumber": 62,
+    "name": "Samarium",
+    "symbol": "Sm",
+    "atomicMass": 150.36,
+    "category": "lanthanides",
+    "group": null,
+    "period": 6,
+    "block": "f",
+    "phase": "solid",
+    "electronConfiguration": "[Xe] 4f6 6s2",
+    "electronShells": [
+      2,
+      8,
+      18,
+      24,
+      8,
+      2
+    ],
+    "electronegativity": 1.17,
+    "oxidationStates": [
+      2,
+      3
+    ],
+    "meltingPoint": 1345,
+    "boilingPoint": 2067,
+    "density": 7.52,
+    "appearance": "silvery metallic",
+    "discoveryYear": 1879,
+    "commonUses": [
+      "samarium-cobalt magnets",
+      "cancer radiotherapy"
+    ],
+    "safetyClass": "low_hazard",
+    "verification": {
+      "status": "verified",
+      "sources": [
+        "IUPAC Periodic Table of Elements",
+        "NIST Physical Measurement Laboratory",
+        "PubChem"
+      ],
+      "notes": "Standard IUPAC values."
+    }
+  },
+  {
+    "id": "europium",
+    "atomicNumber": 63,
+    "name": "Europium",
+    "symbol": "Eu",
+    "atomicMass": 151.96,
+    "category": "lanthanides",
+    "group": null,
+    "period": 6,
+    "block": "f",
+    "phase": "solid",
+    "electronConfiguration": "[Xe] 4f7 6s2",
+    "electronShells": [
+      2,
+      8,
+      18,
+      25,
+      8,
+      2
+    ],
+    "electronegativity": 1.2,
+    "oxidationStates": [
+      2,
+      3
+    ],
+    "meltingPoint": 1099,
+    "boilingPoint": 1802,
+    "density": 5.244,
+    "appearance": "silvery metallic",
+    "discoveryYear": 1901,
+    "commonUses": [
+      "red phosphors in TV and anti-counterfeiting ink"
+    ],
+    "safetyClass": "low_hazard",
+    "verification": {
+      "status": "verified",
+      "sources": [
+        "IUPAC Periodic Table of Elements",
+        "NIST Physical Measurement Laboratory",
+        "PubChem"
+      ],
+      "notes": "Standard IUPAC values."
+    }
+  },
+  {
+    "id": "gadolinium",
+    "atomicNumber": 64,
+    "name": "Gadolinium",
+    "symbol": "Gd",
+    "atomicMass": 157.25,
+    "category": "lanthanides",
+    "group": null,
+    "period": 6,
+    "block": "f",
+    "phase": "solid",
+    "electronConfiguration": "[Xe] 4f7 5d1 6s2",
+    "electronShells": [
+      2,
+      8,
+      18,
+      25,
+      9,
+      2
+    ],
+    "electronegativity": 1.2,
+    "oxidationStates": [
+      1,
+      2,
+      3
+    ],
+    "meltingPoint": 1585,
+    "boilingPoint": 3523,
+    "density": 7.9,
+    "appearance": "silvery-white metallic",
+    "discoveryYear": 1880,
+    "commonUses": [
+      "MRI contrast agents",
+      "neutron radiography"
+    ],
+    "safetyClass": "low_hazard",
+    "verification": {
+      "status": "verified",
+      "sources": [
+        "IUPAC Periodic Table of Elements",
+        "NIST Physical Measurement Laboratory",
+        "PubChem"
+      ],
+      "notes": "Standard IUPAC values."
+    }
+  },
+  {
+    "id": "terbium",
+    "atomicNumber": 65,
+    "name": "Terbium",
+    "symbol": "Tb",
+    "atomicMass": 158.93,
+    "category": "lanthanides",
+    "group": null,
+    "period": 6,
+    "block": "f",
+    "phase": "solid",
+    "electronConfiguration": "[Xe] 4f9 6s2",
+    "electronShells": [
+      2,
+      8,
+      18,
+      27,
+      8,
+      2
+    ],
+    "electronegativity": 1.2,
+    "oxidationStates": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "meltingPoint": 1629,
+    "boilingPoint": 3503,
+    "density": 8.23,
+    "appearance": "silvery metallic",
+    "discoveryYear": 1843,
+    "commonUses": [
+      "green phosphors in fluorescent displays",
+      "sonar transducers"
+    ],
+    "safetyClass": "low_hazard",
+    "verification": {
+      "status": "verified",
+      "sources": [
+        "IUPAC Periodic Table of Elements",
+        "NIST Physical Measurement Laboratory",
+        "PubChem"
+      ],
+      "notes": "Standard IUPAC values."
+    }
+  },
+  {
+    "id": "dysprosium",
+    "atomicNumber": 66,
+    "name": "Dysprosium",
+    "symbol": "Dy",
+    "atomicMass": 162.5,
+    "category": "lanthanides",
+    "group": null,
+    "period": 6,
+    "block": "f",
+    "phase": "solid",
+    "electronConfiguration": "[Xe] 4f10 6s2",
+    "electronShells": [
+      2,
+      8,
+      18,
+      28,
+      8,
+      2
+    ],
+    "electronegativity": 1.22,
+    "oxidationStates": [
+      2,
+      3
+    ],
+    "meltingPoint": 1680,
+    "boilingPoint": 2840,
+    "density": 8.54,
+    "appearance": "silvery metallic",
+    "discoveryYear": 1886,
+    "commonUses": [
+      "ev magnets",
+      "nuclear control rods"
+    ],
+    "safetyClass": "low_hazard",
+    "verification": {
+      "status": "verified",
+      "sources": [
+        "IUPAC Periodic Table of Elements",
+        "NIST Physical Measurement Laboratory",
+        "PubChem"
+      ],
+      "notes": "Standard IUPAC values."
+    }
+  },
+  {
+    "id": "holmium",
+    "atomicNumber": 67,
+    "name": "Holmium",
+    "symbol": "Ho",
+    "atomicMass": 164.93,
+    "category": "lanthanides",
+    "group": null,
+    "period": 6,
+    "block": "f",
+    "phase": "solid",
+    "electronConfiguration": "[Xe] 4f11 6s2",
+    "electronShells": [
+      2,
+      8,
+      18,
+      29,
+      8,
+      2
+    ],
+    "electronegativity": 1.23,
+    "oxidationStates": [
+      3
+    ],
+    "meltingPoint": 1734,
+    "boilingPoint": 2993,
+    "density": 8.79,
+    "appearance": "silvery metallic",
+    "discoveryYear": 1878,
+    "commonUses": [
+      "high-field magnets",
+      "laser surgery equipment"
+    ],
+    "safetyClass": "low_hazard",
+    "verification": {
+      "status": "verified",
+      "sources": [
+        "IUPAC Periodic Table of Elements",
+        "NIST Physical Measurement Laboratory",
+        "PubChem"
+      ],
+      "notes": "Standard IUPAC values."
+    }
+  },
+  {
+    "id": "erbium",
+    "atomicNumber": 68,
+    "name": "Erbium",
+    "symbol": "Er",
+    "atomicMass": 167.26,
+    "category": "lanthanides",
+    "group": null,
+    "period": 6,
+    "block": "f",
+    "phase": "solid",
+    "electronConfiguration": "[Xe] 4f12 6s2",
+    "electronShells": [
+      2,
+      8,
+      18,
+      30,
+      8,
+      2
+    ],
+    "electronegativity": 1.24,
+    "oxidationStates": [
+      3
+    ],
+    "meltingPoint": 1802,
+    "boilingPoint": 3141,
+    "density": 9.066,
+    "appearance": "silvery metallic",
+    "discoveryYear": 1842,
+    "commonUses": [
+      "fiber-optic signal amplifiers",
+      "pink glass colorant"
+    ],
+    "safetyClass": "low_hazard",
+    "verification": {
+      "status": "verified",
+      "sources": [
+        "IUPAC Periodic Table of Elements",
+        "NIST Physical Measurement Laboratory",
+        "PubChem"
+      ],
+      "notes": "Standard IUPAC values."
+    }
+  },
+  {
+    "id": "thulium",
+    "atomicNumber": 69,
+    "name": "Thulium",
+    "symbol": "Tm",
+    "atomicMass": 168.93,
+    "category": "lanthanides",
+    "group": null,
+    "period": 6,
+    "block": "f",
+    "phase": "solid",
+    "electronConfiguration": "[Xe] 4f13 6s2",
+    "electronShells": [
+      2,
+      8,
+      18,
+      31,
+      8,
+      2
+    ],
+    "electronegativity": 1.25,
+    "oxidationStates": [
+      2,
+      3
+    ],
+    "meltingPoint": 1818,
+    "boilingPoint": 2223,
+    "density": 9.32,
+    "appearance": "silvery metallic",
+    "discoveryYear": 1879,
+    "commonUses": [
+      "portable X-ray devices",
+      "lasers"
+    ],
+    "safetyClass": "low_hazard",
+    "verification": {
+      "status": "verified",
+      "sources": [
+        "IUPAC Periodic Table of Elements",
+        "NIST Physical Measurement Laboratory",
+        "PubChem"
+      ],
+      "notes": "Standard IUPAC values."
+    }
+  },
+  {
+    "id": "ytterbium",
+    "atomicNumber": 70,
+    "name": "Ytterbium",
+    "symbol": "Yb",
+    "atomicMass": 173.05,
+    "category": "lanthanides",
+    "group": null,
+    "period": 6,
+    "block": "f",
+    "phase": "solid",
+    "electronConfiguration": "[Xe] 4f14 6s2",
+    "electronShells": [
+      2,
+      8,
+      18,
+      32,
+      8,
+      2
+    ],
+    "electronegativity": 1.1,
+    "oxidationStates": [
+      2,
+      3
+    ],
+    "meltingPoint": 1097,
+    "boilingPoint": 1469,
+    "density": 6.9,
+    "appearance": "silvery metallic",
+    "discoveryYear": 1878,
+    "commonUses": [
+      "atomic clocks",
+      "stainless steel grain refiners"
+    ],
+    "safetyClass": "low_hazard",
+    "verification": {
+      "status": "verified",
+      "sources": [
+        "IUPAC Periodic Table of Elements",
+        "NIST Physical Measurement Laboratory",
+        "PubChem"
+      ],
+      "notes": "Standard IUPAC values."
+    }
+  },
+  {
+    "id": "lutetium",
+    "atomicNumber": 71,
+    "name": "Lutetium",
+    "symbol": "Lu",
+    "atomicMass": 174.97,
+    "category": "lanthanides",
+    "group": 3,
+    "period": 6,
+    "block": "d",
+    "phase": "solid",
+    "electronConfiguration": "[Xe] 4f14 5d1 6s2",
+    "electronShells": [
+      2,
+      8,
+      18,
+      32,
+      9,
+      2
+    ],
+    "electronegativity": 1.27,
+    "oxidationStates": [
+      3
+    ],
+    "meltingPoint": 1925,
+    "boilingPoint": 3675,
+    "density": 9.841,
+    "appearance": "silvery metallic",
+    "discoveryYear": 1907,
+    "commonUses": [
+      "PET scan detectors",
+      "petroleum cracking catalysts"
+    ],
+    "safetyClass": "low_hazard",
+    "verification": {
+      "status": "verified",
+      "sources": [
+        "IUPAC Periodic Table of Elements",
+        "NIST Physical Measurement Laboratory",
+        "PubChem"
+      ],
+      "notes": "Standard IUPAC values."
+    }
+  },
+  {
+    "id": "hafnium",
+    "atomicNumber": 72,
+    "name": "Hafnium",
+    "symbol": "Hf",
+    "atomicMass": 178.49,
+    "category": "transition_metals",
+    "group": 4,
+    "period": 6,
+    "block": "d",
+    "phase": "solid",
+    "electronConfiguration": "[Xe] 4f14 5d2 6s2",
+    "electronShells": [
+      2,
+      8,
+      18,
+      32,
+      10,
+      2
+    ],
+    "electronegativity": 1.3,
+    "oxidationStates": [
+      2,
+      3,
+      4
+    ],
+    "meltingPoint": 2506,
+    "boilingPoint": 4876,
+    "density": 13.31,
+    "appearance": "steel gray metallic",
+    "discoveryYear": 1923,
+    "commonUses": [
+      "nuclear control rods",
+      "microprocessor dielectric layers"
+    ],
+    "safetyClass": "low_hazard",
+    "verification": {
+      "status": "verified",
+      "sources": [
+        "IUPAC Periodic Table of Elements",
+        "NIST Physical Measurement Laboratory",
+        "PubChem"
+      ],
+      "notes": "Standard IUPAC values."
+    }
+  },
+  {
+    "id": "tantalum",
+    "atomicNumber": 73,
+    "name": "Tantalum",
+    "symbol": "Ta",
+    "atomicMass": 180.95,
+    "category": "transition_metals",
+    "group": 5,
+    "period": 6,
+    "block": "d",
+    "phase": "solid",
+    "electronConfiguration": "[Xe] 4f14 5d3 6s2",
+    "electronShells": [
+      2,
+      8,
+      18,
+      32,
+      11,
+      2
+    ],
+    "electronegativity": 1.5,
+    "oxidationStates": [
+      -1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "meltingPoint": 3290,
+    "boilingPoint": 5731,
+    "density": 16.69,
+    "appearance": "gray metallic",
+    "discoveryYear": 1802,
+    "commonUses": [
+      "capacitors in smartphones",
+      "surgical implants"
+    ],
+    "safetyClass": "low_hazard",
+    "verification": {
+      "status": "verified",
+      "sources": [
+        "IUPAC Periodic Table of Elements",
+        "NIST Physical Measurement Laboratory",
+        "PubChem"
+      ],
+      "notes": "Standard IUPAC values."
+    }
+  },
+  {
+    "id": "tungsten",
+    "atomicNumber": 74,
+    "name": "Tungsten",
+    "symbol": "W",
+    "atomicMass": 183.84,
+    "category": "transition_metals",
+    "group": 6,
+    "period": 6,
+    "block": "d",
+    "phase": "solid",
+    "electronConfiguration": "[Xe] 4f14 5d4 6s2",
+    "electronShells": [
+      2,
+      8,
+      18,
+      32,
+      12,
+      2
+    ],
+    "electronegativity": 2.36,
+    "oxidationStates": [
+      -2,
+      -1,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "meltingPoint": 3695,
+    "boilingPoint": 5828,
+    "density": 19.25,
+    "appearance": "gray-white metallic",
+    "discoveryYear": 1783,
+    "commonUses": [
+      "light bulb filaments",
+      "tungsten carbide cutting tools"
+    ],
+    "safetyClass": "low_hazard",
+    "verification": {
+      "status": "verified",
+      "sources": [
+        "IUPAC Periodic Table of Elements",
+        "NIST Physical Measurement Laboratory",
+        "PubChem"
+      ],
+      "notes": "Standard IUPAC values."
+    }
+  },
+  {
+    "id": "rhenium",
+    "atomicNumber": 75,
+    "name": "Rhenium",
+    "symbol": "Re",
+    "atomicMass": 186.21,
+    "category": "transition_metals",
+    "group": 7,
+    "period": 6,
+    "block": "d",
+    "phase": "solid",
+    "electronConfiguration": "[Xe] 4f14 5d5 6s2",
+    "electronShells": [
+      2,
+      8,
+      18,
+      32,
+      13,
+      2
+    ],
+    "electronegativity": 1.9,
+    "oxidationStates": [
+      -3,
+      -1,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "meltingPoint": 3459,
+    "boilingPoint": 5869,
+    "density": 21.02,
+    "appearance": "silvery-white metallic",
+    "discoveryYear": 1925,
+    "commonUses": [
+      "jet engine turbine blades",
+      "octane reforming catalysts"
+    ],
+    "safetyClass": "low_hazard",
+    "verification": {
+      "status": "verified",
+      "sources": [
+        "IUPAC Periodic Table of Elements",
+        "NIST Physical Measurement Laboratory",
+        "PubChem"
+      ],
+      "notes": "Standard IUPAC values."
+    }
+  },
+  {
+    "id": "osmium",
+    "atomicNumber": 76,
+    "name": "Osmium",
+    "symbol": "Os",
+    "atomicMass": 190.23,
+    "category": "transition_metals",
+    "group": 8,
+    "period": 6,
+    "block": "d",
+    "phase": "solid",
+    "electronConfiguration": "[Xe] 4f14 5d6 6s2",
+    "electronShells": [
+      2,
+      8,
+      18,
+      32,
+      14,
+      2
+    ],
+    "electronegativity": 2.2,
+    "oxidationStates": [
+      -2,
+      -1,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "meltingPoint": 3306,
+    "boilingPoint": 5285,
+    "density": 22.59,
+    "appearance": "silvery-blue metallic",
+    "discoveryYear": 1803,
+    "commonUses": [
+      "fountain pen nib tips",
+      "electrical contacts"
+    ],
+    "safetyClass": "toxic_oxide",
+    "verification": {
+      "status": "verified",
+      "sources": [
+        "IUPAC Periodic Table of Elements",
+        "NIST Physical Measurement Laboratory",
+        "PubChem"
+      ],
+      "notes": "Standard IUPAC values."
+    }
+  },
+  {
+    "id": "iridium",
+    "atomicNumber": 77,
+    "name": "Iridium",
+    "symbol": "Ir",
+    "atomicMass": 192.22,
+    "category": "transition_metals",
+    "group": 9,
+    "period": 6,
+    "block": "d",
+    "phase": "solid",
+    "electronConfiguration": "[Xe] 4f14 5d7 6s2",
+    "electronShells": [
+      2,
+      8,
+      18,
+      32,
+      15,
+      2
+    ],
+    "electronegativity": 2.2,
+    "oxidationStates": [
+      -3,
+      -1,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "meltingPoint": 2719,
+    "boilingPoint": 4403,
+    "density": 22.56,
+    "appearance": "silvery-white metallic",
+    "discoveryYear": 1803,
+    "commonUses": [
+      "spark plugs",
+      "crucibles for high-temp single crystals"
+    ],
+    "safetyClass": "low_hazard",
+    "verification": {
+      "status": "verified",
+      "sources": [
+        "IUPAC Periodic Table of Elements",
+        "NIST Physical Measurement Laboratory",
+        "PubChem"
+      ],
+      "notes": "Standard IUPAC values."
+    }
+  },
+  {
+    "id": "platinum",
+    "atomicNumber": 78,
+    "name": "Platinum",
+    "symbol": "Pt",
+    "atomicMass": 195.08,
+    "category": "transition_metals",
+    "group": 10,
+    "period": 6,
+    "block": "d",
+    "phase": "solid",
+    "electronConfiguration": "[Xe] 4f14 5d9 6s1",
+    "electronShells": [
+      2,
+      8,
+      18,
+      32,
+      17,
+      1
+    ],
+    "electronegativity": 2.28,
+    "oxidationStates": [
+      -2,
+      -1,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "meltingPoint": 2041.4,
+    "boilingPoint": 4098,
+    "density": 21.45,
+    "appearance": "silvery-white metallic",
+    "discoveryYear": 1735,
+    "commonUses": [
+      "catalytic converters",
+      "jewelry",
+      "chemotherapy drugs (cisplatin)"
+    ],
+    "safetyClass": "low_hazard",
+    "verification": {
+      "status": "verified",
+      "sources": [
+        "IUPAC Periodic Table of Elements",
+        "NIST Physical Measurement Laboratory",
+        "PubChem"
+      ],
+      "notes": "Standard IUPAC values."
+    }
+  },
+  {
+    "id": "gold",
+    "atomicNumber": 79,
+    "name": "Gold",
+    "symbol": "Au",
+    "atomicMass": 196.97,
+    "category": "transition_metals",
+    "group": 11,
+    "period": 6,
+    "block": "d",
+    "phase": "solid",
+    "electronConfiguration": "[Xe] 4f14 5d10 6s1",
+    "electronShells": [
+      2,
+      8,
+      18,
+      32,
+      18,
+      1
+    ],
+    "electronegativity": 2.54,
+    "oxidationStates": [
+      -1,
+      1,
+      2,
+      3,
+      5
+    ],
+    "meltingPoint": 1337.33,
+    "boilingPoint": 3243,
+    "density": 19.3,
+    "appearance": "yellow metallic",
+    "discoveryYear": -6000,
+    "commonUses": [
+      "jewelry",
+      "electronics plating",
+      "monetary reserve"
+    ],
+    "safetyClass": "low_hazard",
+    "verification": {
+      "status": "verified",
+      "sources": [
+        "IUPAC Periodic Table of Elements",
+        "NIST Physical Measurement Laboratory",
+        "PubChem"
+      ],
+      "notes": "Standard IUPAC values."
+    }
+  },
+  {
+    "id": "mercury",
+    "atomicNumber": 80,
+    "name": "Mercury",
+    "symbol": "Hg",
+    "atomicMass": 200.59,
+    "category": "transition_metals",
+    "group": 12,
+    "period": 6,
+    "block": "d",
+    "phase": "liquid",
+    "electronConfiguration": "[Xe] 4f14 5d10 6s2",
+    "electronShells": [
+      2,
+      8,
+      18,
+      32,
+      18,
+      2
+    ],
+    "electronegativity": 2.0,
+    "oxidationStates": [
+      -2,
+      1,
+      2
+    ],
+    "meltingPoint": 234.321,
+    "boilingPoint": 629.88,
+    "density": 13.534,
+    "appearance": "silvery liquid",
+    "discoveryYear": -1500,
+    "commonUses": [
+      "thermometers",
+      "barometers",
+      "fluorescent lighting"
+    ],
+    "safetyClass": "toxic_liquid",
+    "verification": {
+      "status": "verified",
+      "sources": [
+        "IUPAC Periodic Table of Elements",
+        "NIST Physical Measurement Laboratory",
+        "PubChem"
+      ],
+      "notes": "Standard IUPAC values."
+    }
+  },
+  {
+    "id": "thallium",
+    "atomicNumber": 81,
+    "name": "Thallium",
+    "symbol": "Tl",
+    "atomicMass": 204.38,
+    "category": "post_transition_metals",
+    "group": 13,
+    "period": 6,
+    "block": "p",
+    "phase": "solid",
+    "electronConfiguration": "[Xe] 4f14 5d10 6s2 6p1",
+    "electronShells": [
+      2,
+      8,
+      18,
+      32,
+      18,
+      3
+    ],
+    "electronegativity": 1.62,
+    "oxidationStates": [
+      -1,
+      1,
+      3
+    ],
+    "meltingPoint": 577,
+    "boilingPoint": 1746,
+    "density": 11.85,
+    "appearance": "silvery-white metallic",
+    "discoveryYear": 1861,
+    "commonUses": [
+      "infrared optics",
+      "electronics"
+    ],
+    "safetyClass": "toxic_solid",
+    "verification": {
+      "status": "verified",
+      "sources": [
+        "IUPAC Periodic Table of Elements",
+        "NIST Physical Measurement Laboratory",
+        "PubChem"
+      ],
+      "notes": "Standard IUPAC values."
+    }
+  },
+  {
+    "id": "lead",
+    "atomicNumber": 82,
+    "name": "Lead",
+    "symbol": "Pb",
+    "atomicMass": 207.2,
+    "category": "post_transition_metals",
+    "group": 14,
+    "period": 6,
+    "block": "p",
+    "phase": "solid",
+    "electronConfiguration": "[Xe] 4f14 5d10 6s2 6p2",
+    "electronShells": [
+      2,
+      8,
+      18,
+      32,
+      18,
+      4
+    ],
+    "electronegativity": 1.87,
+    "oxidationStates": [
+      -4,
+      -2,
+      -1,
+      1,
+      2,
+      3,
+      4
+    ],
+    "meltingPoint": 600.61,
+    "boilingPoint": 2022,
+    "density": 11.34,
+    "appearance": "dull bluish-gray metallic",
+    "discoveryYear": -7000,
+    "commonUses": [
+      "lead-acid batteries",
+      "radiation shielding",
+      "construction"
+    ],
+    "safetyClass": "toxic_solid",
+    "verification": {
+      "status": "verified",
+      "sources": [
+        "IUPAC Periodic Table of Elements",
+        "NIST Physical Measurement Laboratory",
+        "PubChem"
+      ],
+      "notes": "Standard IUPAC values."
+    }
+  },
+  {
+    "id": "bismuth",
+    "atomicNumber": 83,
+    "name": "Bismuth",
+    "symbol": "Bi",
+    "atomicMass": 208.98,
+    "category": "post_transition_metals",
+    "group": 15,
+    "period": 6,
+    "block": "p",
+    "phase": "solid",
+    "electronConfiguration": "[Xe] 4f14 5d10 6s2 6p3",
+    "electronShells": [
+      2,
+      8,
+      18,
+      32,
+      18,
+      5
+    ],
+    "electronegativity": 2.02,
+    "oxidationStates": [
+      -3,
+      -2,
+      -1,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "meltingPoint": 544.7,
+    "boilingPoint": 1837,
+    "density": 9.78,
+    "appearance": "lustrous reddish-white",
+    "discoveryYear": 1753,
+    "commonUses": [
+      "Pepto-Bismol antacids",
+      "low-melting solders",
+      "cosmetics"
+    ],
+    "safetyClass": "low_hazard",
+    "verification": {
+      "status": "verified",
+      "sources": [
+        "IUPAC Periodic Table of Elements",
+        "NIST Physical Measurement Laboratory",
+        "PubChem"
+      ],
+      "notes": "Standard IUPAC values."
+    }
+  },
+  {
+    "id": "polonium",
+    "atomicNumber": 84,
+    "name": "Polonium",
+    "symbol": "Po",
+    "atomicMass": 209.0,
+    "category": "post_transition_metals",
+    "group": 16,
+    "period": 6,
+    "block": "p",
+    "phase": "solid",
+    "electronConfiguration": "[Xe] 4f14 5d10 6s2 6p4",
+    "electronShells": [
+      2,
+      8,
+      18,
+      32,
+      18,
+      6
+    ],
+    "electronegativity": 2.0,
+    "oxidationStates": [
+      -2,
+      2,
+      4,
+      6
+    ],
+    "meltingPoint": 527,
+    "boilingPoint": 1235,
+    "density": 9.196,
+    "appearance": "silvery metallic",
+    "discoveryYear": 1898,
+    "commonUses": [
+      "static eliminators in industrial equipment"
+    ],
+    "safetyClass": "radioactive",
+    "verification": {
+      "status": "verified",
+      "sources": [
+        "IUPAC Periodic Table of Elements",
+        "NIST Physical Measurement Laboratory",
+        "PubChem"
+      ],
+      "notes": "Radioactive post-transition metal."
+    }
+  },
+  {
+    "id": "astatine",
+    "atomicNumber": 85,
+    "name": "Astatine",
+    "symbol": "At",
+    "atomicMass": 210.0,
+    "category": "reactive_nonmetals",
+    "group": 17,
+    "period": 6,
+    "block": "p",
+    "phase": "solid",
+    "electronConfiguration": "[Xe] 4f14 5d10 6s2 6p5",
+    "electronShells": [
+      2,
+      8,
+      18,
+      32,
+      18,
+      7
+    ],
+    "electronegativity": 2.2,
+    "oxidationStates": [
+      -1,
+      1,
+      3,
+      5,
+      7
+    ],
+    "meltingPoint": 575,
+    "boilingPoint": 610,
+    "density": 6.35,
+    "appearance": "dark solid",
+    "discoveryYear": 1940,
+    "commonUses": [
+      "targeted alpha-particle cancer therapy"
+    ],
+    "safetyClass": "radioactive",
+    "verification": {
+      "status": "verified",
+      "sources": [
+        "IUPAC Periodic Table of Elements",
+        "NIST Physical Measurement Laboratory",
+        "PubChem"
+      ],
+      "notes": "Radioactive halogen."
+    }
+  },
+  {
+    "id": "radon",
+    "atomicNumber": 86,
+    "name": "Radon",
+    "symbol": "Rn",
+    "atomicMass": 222.0,
+    "category": "noble_gases",
+    "group": 18,
+    "period": 6,
+    "block": "p",
+    "phase": "gas",
+    "electronConfiguration": "[Xe] 4f14 5d10 6s2 6p6",
+    "electronShells": [
+      2,
+      8,
+      18,
+      32,
+      18,
+      8
+    ],
+    "electronegativity": 2.2,
+    "oxidationStates": [
+      0,
+      2,
+      6
+    ],
+    "meltingPoint": 202,
+    "boilingPoint": 211.5,
+    "density": 0.00973,
+    "appearance": "colorless gas",
+    "discoveryYear": 1899,
+    "commonUses": [
+      "cancer radiation therapy",
+      "earthquake prediction research"
+    ],
+    "safetyClass": "radioactive",
+    "verification": {
+      "status": "verified",
+      "sources": [
+        "IUPAC Periodic Table of Elements",
+        "NIST Physical Measurement Laboratory",
+        "PubChem"
+      ],
+      "notes": "Radioactive noble gas."
+    }
+  },
+  {
+    "id": "francium",
+    "atomicNumber": 87,
+    "name": "Francium",
+    "symbol": "Fr",
+    "atomicMass": 223.0,
+    "category": "alkali_metals",
+    "group": 1,
+    "period": 7,
+    "block": "s",
+    "phase": "solid",
+    "electronConfiguration": "[Rn] 7s1",
+    "electronShells": [
+      2,
+      8,
+      18,
+      32,
+      18,
+      8,
+      1
+    ],
+    "electronegativity": 0.79,
+    "oxidationStates": [
+      1
+    ],
+    "meltingPoint": 300,
+    "boilingPoint": 950,
+    "density": 2.48,
+    "appearance": "metallic",
+    "discoveryYear": 1939,
+    "commonUses": [
+      "atomic structure research"
+    ],
+    "safetyClass": "radioactive",
+    "verification": {
+      "status": "verified",
+      "sources": [
+        "IUPAC Periodic Table of Elements",
+        "NIST Physical Measurement Laboratory",
+        "PubChem"
+      ],
+      "notes": "Radioactive alkali metal."
+    }
+  },
+  {
+    "id": "radium",
+    "atomicNumber": 88,
+    "name": "Radium",
+    "symbol": "Ra",
+    "atomicMass": 226.0,
+    "category": "alkaline_earth_metals",
+    "group": 2,
+    "period": 7,
+    "block": "s",
+    "phase": "solid",
+    "electronConfiguration": "[Rn] 7s2",
+    "electronShells": [
+      2,
+      8,
+      18,
+      32,
+      18,
+      8,
+      2
+    ],
+    "electronegativity": 0.9,
+    "oxidationStates": [
+      2
+    ],
+    "meltingPoint": 973,
+    "boilingPoint": 2013,
+    "density": 5.5,
+    "appearance": "silvery-white metallic",
+    "discoveryYear": 1898,
+    "commonUses": [
+      "luminescent paint (historical)",
+      "cancer therapy"
+    ],
+    "safetyClass": "radioactive",
+    "verification": {
+      "status": "verified",
+      "sources": [
+        "IUPAC Periodic Table of Elements",
+        "NIST Physical Measurement Laboratory",
+        "PubChem"
+      ],
+      "notes": "Radioactive alkaline earth metal."
+    }
+  },
+  {
+    "id": "actinium",
+    "atomicNumber": 89,
+    "name": "Actinium",
+    "symbol": "Ac",
+    "atomicMass": 227.0,
+    "category": "actinides",
+    "group": 3,
+    "period": 7,
+    "block": "f",
+    "phase": "solid",
+    "electronConfiguration": "[Rn] 6d1 7s2",
+    "electronShells": [
+      2,
+      8,
+      18,
+      32,
+      18,
+      9,
+      2
+    ],
+    "electronegativity": 1.1,
+    "oxidationStates": [
+      2,
+      3
+    ],
+    "meltingPoint": 1323,
+    "boilingPoint": 3473,
+    "density": 10.07,
+    "appearance": "silvery metallic",
+    "discoveryYear": 1899,
+    "commonUses": [
+      "neutron sources",
+      "radiation medicine"
+    ],
+    "safetyClass": "radioactive",
+    "verification": {
+      "status": "verified",
+      "sources": [
+        "IUPAC Periodic Table of Elements",
+        "NIST Physical Measurement Laboratory",
+        "PubChem"
+      ],
+      "notes": "Radioactive actinide."
+    }
+  },
+  {
+    "id": "thorium",
+    "atomicNumber": 90,
+    "name": "Thorium",
+    "symbol": "Th",
+    "atomicMass": 232.04,
+    "category": "actinides",
+    "group": null,
+    "period": 7,
+    "block": "f",
+    "phase": "solid",
+    "electronConfiguration": "[Rn] 6d2 7s2",
+    "electronShells": [
+      2,
+      8,
+      18,
+      32,
+      18,
+      10,
+      2
+    ],
+    "electronegativity": 1.3,
+    "oxidationStates": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "meltingPoint": 2023,
+    "boilingPoint": 5061,
+    "density": 11.72,
+    "appearance": "silvery metallic",
+    "discoveryYear": 1829,
+    "commonUses": [
+      "nuclear reactor fuel cycle",
+      "gas mantle mantles"
+    ],
+    "safetyClass": "radioactive",
+    "verification": {
+      "status": "verified",
+      "sources": [
+        "IUPAC Periodic Table of Elements",
+        "NIST Physical Measurement Laboratory",
+        "PubChem"
+      ],
+      "notes": "Naturally occurring radioactive element."
+    }
+  },
+  {
+    "id": "protactinium",
+    "atomicNumber": 91,
+    "name": "Protactinium",
+    "symbol": "Pa",
+    "atomicMass": 231.04,
+    "category": "actinides",
+    "group": null,
+    "period": 7,
+    "block": "f",
+    "phase": "solid",
+    "electronConfiguration": "[Rn] 5f2 6d1 7s2",
+    "electronShells": [
+      2,
+      8,
+      18,
+      32,
+      20,
+      9,
+      2
+    ],
+    "electronegativity": 1.5,
+    "oxidationStates": [
+      3,
+      4,
+      5
+    ],
+    "meltingPoint": 1841,
+    "boilingPoint": 4300,
+    "density": 15.37,
+    "appearance": "bright silvery metallic",
+    "discoveryYear": 1913,
+    "commonUses": [
+      "scientific research"
+    ],
+    "safetyClass": "radioactive",
+    "verification": {
+      "status": "verified",
+      "sources": [
+        "IUPAC Periodic Table of Elements",
+        "NIST Physical Measurement Laboratory",
+        "PubChem"
+      ],
+      "notes": "Naturally occurring radioactive element."
+    }
+  },
+  {
+    "id": "uranium",
+    "atomicNumber": 92,
+    "name": "Uranium",
+    "symbol": "U",
+    "atomicMass": 238.03,
+    "category": "actinides",
+    "group": null,
+    "period": 7,
+    "block": "f",
+    "phase": "solid",
+    "electronConfiguration": "[Rn] 5f3 6d1 7s2",
+    "electronShells": [
+      2,
+      8,
+      18,
+      32,
+      21,
+      9,
+      2
+    ],
+    "electronegativity": 1.38,
+    "oxidationStates": [
+      3,
+      4,
+      5,
+      6
+    ],
+    "meltingPoint": 1405.3,
+    "boilingPoint": 4404,
+    "density": 19.1,
+    "appearance": "silvery-gray metallic",
+    "discoveryYear": 1789,
+    "commonUses": [
+      "nuclear power generation",
+      "armor-piercing projectiles"
+    ],
+    "safetyClass": "radioactive",
+    "verification": {
+      "status": "verified",
+      "sources": [
+        "IUPAC Periodic Table of Elements",
+        "NIST Physical Measurement Laboratory",
+        "PubChem"
+      ],
+      "notes": "Naturally occurring radioactive element."
+    }
+  },
+  {
+    "id": "neptunium",
+    "atomicNumber": 93,
+    "name": "Neptunium",
+    "symbol": "Np",
+    "atomicMass": 237.0,
+    "category": "actinides",
+    "group": null,
+    "period": 7,
+    "block": "f",
+    "phase": "solid",
+    "electronConfiguration": "[Rn] 5f4 6d1 7s2",
+    "electronShells": [
+      2,
+      8,
+      18,
+      32,
+      22,
+      9,
+      2
+    ],
+    "electronegativity": 1.36,
+    "oxidationStates": [
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "meltingPoint": 912,
+    "boilingPoint": 4174,
+    "density": 20.45,
+    "appearance": "silvery metallic",
+    "discoveryYear": 1940,
+    "commonUses": [
+      "neutron detector instruments"
+    ],
+    "safetyClass": "radioactive",
+    "verification": {
+      "status": "verified",
+      "sources": [
+        "IUPAC Periodic Table of Elements",
+        "NIST Physical Measurement Laboratory",
+        "PubChem"
+      ],
+      "notes": "Synthetic radioactive element."
+    }
+  },
+  {
+    "id": "plutonium",
+    "atomicNumber": 94,
+    "name": "Plutonium",
+    "symbol": "Pu",
+    "atomicMass": 244.0,
+    "category": "actinides",
+    "group": null,
+    "period": 7,
+    "block": "f",
+    "phase": "solid",
+    "electronConfiguration": "[Rn] 5f6 7s2",
+    "electronShells": [
+      2,
+      8,
+      18,
+      32,
+      24,
+      8,
+      2
+    ],
+    "electronegativity": 1.28,
+    "oxidationStates": [
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "meltingPoint": 912.5,
+    "boilingPoint": 3505,
+    "density": 19.816,
+    "appearance": "silvery-white metallic",
+    "discoveryYear": 1940,
+    "commonUses": [
+      "space probe radioisotope thermoelectric generators (RTGs)"
+    ],
+    "safetyClass": "radioactive",
+    "verification": {
+      "status": "verified",
+      "sources": [
+        "IUPAC Periodic Table of Elements",
+        "NIST Physical Measurement Laboratory",
+        "PubChem"
+      ],
+      "notes": "Synthetic radioactive element."
+    }
+  },
+  {
+    "id": "americium",
+    "atomicNumber": 95,
+    "name": "Americium",
+    "symbol": "Am",
+    "atomicMass": 243.0,
+    "category": "actinides",
+    "group": null,
+    "period": 7,
+    "block": "f",
+    "phase": "solid",
+    "electronConfiguration": "[Rn] 5f7 7s2",
+    "electronShells": [
+      2,
+      8,
+      18,
+      32,
+      25,
+      8,
+      2
+    ],
+    "electronegativity": 1.13,
+    "oxidationStates": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "meltingPoint": 1449,
+    "boilingPoint": 2880,
+    "density": 12.0,
+    "appearance": "silvery metallic",
+    "discoveryYear": 1944,
+    "commonUses": [
+      "household ionization smoke detectors"
+    ],
+    "safetyClass": "radioactive",
+    "verification": {
+      "status": "verified",
+      "sources": [
+        "IUPAC Periodic Table of Elements",
+        "NIST Physical Measurement Laboratory",
+        "PubChem"
+      ],
+      "notes": "Synthetic radioactive element."
+    }
+  },
+  {
+    "id": "curium",
+    "atomicNumber": 96,
+    "name": "Curium",
+    "symbol": "Cm",
+    "atomicMass": 247.0,
+    "category": "actinides",
+    "group": null,
+    "period": 7,
+    "block": "f",
+    "phase": "solid",
+    "electronConfiguration": "[Rn] 5f7 6d1 7s2",
+    "electronShells": [
+      2,
+      8,
+      18,
+      32,
+      25,
+      9,
+      2
+    ],
+    "electronegativity": 1.28,
+    "oxidationStates": [
+      3,
+      4
+    ],
+    "meltingPoint": 1613,
+    "boilingPoint": 3383,
+    "density": 13.51,
+    "appearance": "silvery metallic",
+    "discoveryYear": 1944,
+    "commonUses": [
+      "alpha particle X-ray spectrometers on Mars rovers"
+    ],
+    "safetyClass": "radioactive",
+    "verification": {
+      "status": "verified",
+      "sources": [
+        "IUPAC Periodic Table of Elements",
+        "NIST Physical Measurement Laboratory",
+        "PubChem"
+      ],
+      "notes": "Synthetic radioactive element."
+    }
+  },
+  {
+    "id": "berkelium",
+    "atomicNumber": 97,
+    "name": "Berkelium",
+    "symbol": "Bk",
+    "atomicMass": 247.0,
+    "category": "actinides",
+    "group": null,
+    "period": 7,
+    "block": "f",
+    "phase": "solid",
+    "electronConfiguration": "[Rn] 5f9 7s2",
+    "electronShells": [
+      2,
+      8,
+      18,
+      32,
+      27,
+      8,
+      2
+    ],
+    "electronegativity": 1.3,
+    "oxidationStates": [
+      3,
+      4
+    ],
+    "meltingPoint": 1259,
+    "boilingPoint": 2900,
+    "density": 14.78,
+    "appearance": "silvery metallic",
+    "discoveryYear": 1949,
+    "commonUses": [
+      "synthesis of heavier transuranic elements"
+    ],
+    "safetyClass": "radioactive",
+    "verification": {
+      "status": "verified",
+      "sources": [
+        "IUPAC Periodic Table of Elements",
+        "NIST Physical Measurement Laboratory",
+        "PubChem"
+      ],
+      "notes": "Synthetic radioactive element."
+    }
+  },
+  {
+    "id": "californium",
+    "atomicNumber": 98,
+    "name": "Californium",
+    "symbol": "Cf",
+    "atomicMass": 251.0,
+    "category": "actinides",
+    "group": null,
+    "period": 7,
+    "block": "f",
+    "phase": "solid",
+    "electronConfiguration": "[Rn] 5f10 7s2",
+    "electronShells": [
+      2,
+      8,
+      18,
+      32,
+      28,
+      8,
+      2
+    ],
+    "electronegativity": 1.3,
+    "oxidationStates": [
+      2,
+      3,
+      4
+    ],
+    "meltingPoint": 1173,
+    "boilingPoint": 1745,
+    "density": 15.1,
+    "appearance": "silvery metallic",
+    "discoveryYear": 1950,
+    "commonUses": [
+      "neutron moisture gauges",
+      "well-logging sensors"
+    ],
+    "safetyClass": "radioactive",
+    "verification": {
+      "status": "verified",
+      "sources": [
+        "IUPAC Periodic Table of Elements",
+        "NIST Physical Measurement Laboratory",
+        "PubChem"
+      ],
+      "notes": "Synthetic radioactive element."
+    }
+  },
+  {
+    "id": "einsteinium",
+    "atomicNumber": 99,
+    "name": "Einsteinium",
+    "symbol": "Es",
+    "atomicMass": 252.0,
+    "category": "actinides",
+    "group": null,
+    "period": 7,
+    "block": "f",
+    "phase": "solid",
+    "electronConfiguration": "[Rn] 5f11 7s2",
+    "electronShells": [
+      2,
+      8,
+      18,
+      32,
+      29,
+      8,
+      2
+    ],
+    "electronegativity": 1.3,
+    "oxidationStates": [
+      2,
+      3,
+      4
+    ],
+    "meltingPoint": 1133,
+    "boilingPoint": 1269,
+    "density": 8.84,
+    "appearance": "silvery metallic",
+    "discoveryYear": 1952,
+    "commonUses": [
+      "fundamental nuclear chemistry research"
+    ],
+    "safetyClass": "radioactive",
+    "verification": {
+      "status": "verified",
+      "sources": [
+        "IUPAC Periodic Table of Elements",
+        "NIST Physical Measurement Laboratory",
+        "PubChem"
+      ],
+      "notes": "Synthetic radioactive element."
+    }
+  },
+  {
+    "id": "fermium",
+    "atomicNumber": 100,
+    "name": "Fermium",
+    "symbol": "Fm",
+    "atomicMass": 257.0,
+    "category": "actinides",
+    "group": null,
+    "period": 7,
+    "block": "f",
+    "phase": "solid",
+    "electronConfiguration": "[Rn] 5f12 7s2",
+    "electronShells": [
+      2,
+      8,
+      18,
+      32,
+      30,
+      8,
+      2
+    ],
+    "electronegativity": 1.3,
+    "oxidationStates": [
+      2,
+      3
+    ],
+    "meltingPoint": 1800,
+    "boilingPoint": null,
+    "density": null,
+    "appearance": "metallic",
+    "discoveryYear": 1952,
+    "commonUses": [
+      "fundamental nuclear physics research"
+    ],
+    "safetyClass": "radioactive",
+    "verification": {
+      "status": "review_required",
+      "sources": [
+        "IUPAC Technical Reports",
+        "Joint Institute for Nuclear Research",
+        "Lawrence Livermore National Laboratory"
+      ],
+      "notes": "Synthetic element; bulk properties largely unmeasured."
+    }
+  },
+  {
+    "id": "mendelevium",
+    "atomicNumber": 101,
+    "name": "Mendelevium",
+    "symbol": "Md",
+    "atomicMass": 258.0,
+    "category": "actinides",
+    "group": null,
+    "period": 7,
+    "block": "f",
+    "phase": "solid",
+    "electronConfiguration": "[Rn] 5f13 7s2",
+    "electronShells": [
+      2,
+      8,
+      18,
+      32,
+      31,
+      8,
+      2
+    ],
+    "electronegativity": 1.3,
+    "oxidationStates": [
+      2,
+      3
+    ],
+    "meltingPoint": 1100,
+    "boilingPoint": null,
+    "density": null,
+    "appearance": "metallic",
+    "discoveryYear": 1955,
+    "commonUses": [
+      "fundamental research"
+    ],
+    "safetyClass": "radioactive",
+    "verification": {
+      "status": "review_required",
+      "sources": [
+        "IUPAC Technical Reports",
+        "Joint Institute for Nuclear Research",
+        "Lawrence Livermore National Laboratory"
+      ],
+      "notes": "Synthetic element; bulk physical properties unmeasured."
+    }
+  },
+  {
+    "id": "nobelium",
+    "atomicNumber": 102,
+    "name": "Nobelium",
+    "symbol": "No",
+    "atomicMass": 259.0,
+    "category": "actinides",
+    "group": null,
+    "period": 7,
+    "block": "f",
+    "phase": "solid",
+    "electronConfiguration": "[Rn] 5f14 7s2",
+    "electronShells": [
+      2,
+      8,
+      18,
+      32,
+      32,
+      8,
+      2
+    ],
+    "electronegativity": 1.3,
+    "oxidationStates": [
+      2,
+      3
+    ],
+    "meltingPoint": 1100,
+    "boilingPoint": null,
+    "density": null,
+    "appearance": "metallic",
+    "discoveryYear": 1958,
+    "commonUses": [
+      "fundamental research"
+    ],
+    "safetyClass": "radioactive",
+    "verification": {
+      "status": "review_required",
+      "sources": [
+        "IUPAC Technical Reports",
+        "Joint Institute for Nuclear Research",
+        "Lawrence Livermore National Laboratory"
+      ],
+      "notes": "Synthetic element; bulk physical properties unmeasured."
+    }
+  },
+  {
+    "id": "lawrencium",
+    "atomicNumber": 103,
+    "name": "Lawrencium",
+    "symbol": "Lr",
+    "atomicMass": 266.0,
+    "category": "actinides",
+    "group": 3,
+    "period": 7,
+    "block": "d",
+    "phase": "solid",
+    "electronConfiguration": "[Rn] 5f14 7s2 7p1",
+    "electronShells": [
+      2,
+      8,
+      18,
+      32,
+      32,
+      8,
+      3
+    ],
+    "electronegativity": 1.3,
+    "oxidationStates": [
+      3
+    ],
+    "meltingPoint": 1900,
+    "boilingPoint": null,
+    "density": null,
+    "appearance": "metallic",
+    "discoveryYear": 1961,
+    "commonUses": [
+      "fundamental research"
+    ],
+    "safetyClass": "radioactive",
+    "verification": {
+      "status": "review_required",
+      "sources": [
+        "IUPAC Technical Reports",
+        "Joint Institute for Nuclear Research",
+        "Lawrence Livermore National Laboratory"
+      ],
+      "notes": "Synthetic element; bulk physical properties unmeasured."
+    }
+  },
+  {
+    "id": "rutherfordium",
+    "atomicNumber": 104,
+    "name": "Rutherfordium",
+    "symbol": "Rf",
+    "atomicMass": 267.0,
+    "category": "transition_metals",
+    "group": 4,
+    "period": 7,
+    "block": "d",
+    "phase": "solid",
+    "electronConfiguration": "[Rn] 5f14 6d2 7s2",
+    "electronShells": [
+      2,
+      8,
+      18,
+      32,
+      32,
+      10,
+      2
+    ],
+    "electronegativity": null,
+    "oxidationStates": [
+      4
+    ],
+    "meltingPoint": 2400,
+    "boilingPoint": 5800,
+    "density": 23.2,
+    "appearance": "metallic",
+    "discoveryYear": 1964,
+    "commonUses": [
+      "fundamental research"
+    ],
+    "safetyClass": "radioactive",
+    "verification": {
+      "status": "review_required",
+      "sources": [
+        "IUPAC Technical Reports",
+        "Joint Institute for Nuclear Research",
+        "Lawrence Livermore National Laboratory"
+      ],
+      "notes": "Superheavy synthetic element; physical properties predicted."
+    }
+  },
+  {
+    "id": "dubnium",
+    "atomicNumber": 105,
+    "name": "Dubnium",
+    "symbol": "Db",
+    "atomicMass": 268.0,
+    "category": "transition_metals",
+    "group": 5,
+    "period": 7,
+    "block": "d",
+    "phase": "solid",
+    "electronConfiguration": "[Rn] 5f14 6d3 7s2",
+    "electronShells": [
+      2,
+      8,
+      18,
+      32,
+      32,
+      11,
+      2
+    ],
+    "electronegativity": null,
+    "oxidationStates": [
+      5
+    ],
+    "meltingPoint": null,
+    "boilingPoint": null,
+    "density": 29.3,
+    "appearance": "metallic",
+    "discoveryYear": 1970,
+    "commonUses": [
+      "fundamental research"
+    ],
+    "safetyClass": "radioactive",
+    "verification": {
+      "status": "review_required",
+      "sources": [
+        "IUPAC Technical Reports",
+        "Joint Institute for Nuclear Research",
+        "Lawrence Livermore National Laboratory"
+      ],
+      "notes": "Superheavy synthetic element; physical properties predicted."
+    }
+  },
+  {
+    "id": "seaborgium",
+    "atomicNumber": 106,
+    "name": "Seaborgium",
+    "symbol": "Sg",
+    "atomicMass": 269.0,
+    "category": "transition_metals",
+    "group": 6,
+    "period": 7,
+    "block": "d",
+    "phase": "solid",
+    "electronConfiguration": "[Rn] 5f14 6d4 7s2",
+    "electronShells": [
+      2,
+      8,
+      18,
+      32,
+      32,
+      12,
+      2
+    ],
+    "electronegativity": null,
+    "oxidationStates": [
+      6
+    ],
+    "meltingPoint": null,
+    "boilingPoint": null,
+    "density": 35.0,
+    "appearance": "metallic",
+    "discoveryYear": 1974,
+    "commonUses": [
+      "fundamental research"
+    ],
+    "safetyClass": "radioactive",
+    "verification": {
+      "status": "review_required",
+      "sources": [
+        "IUPAC Technical Reports",
+        "Joint Institute for Nuclear Research",
+        "Lawrence Livermore National Laboratory"
+      ],
+      "notes": "Superheavy synthetic element; physical properties predicted."
+    }
+  },
+  {
+    "id": "bohrium",
+    "atomicNumber": 107,
+    "name": "Bohrium",
+    "symbol": "Bh",
+    "atomicMass": 270.0,
+    "category": "transition_metals",
+    "group": 7,
+    "period": 7,
+    "block": "d",
+    "phase": "solid",
+    "electronConfiguration": "[Rn] 5f14 6d5 7s2",
+    "electronShells": [
+      2,
+      8,
+      18,
+      32,
+      32,
+      13,
+      2
+    ],
+    "electronegativity": null,
+    "oxidationStates": [
+      7
+    ],
+    "meltingPoint": null,
+    "boilingPoint": null,
+    "density": 37.1,
+    "appearance": "metallic",
+    "discoveryYear": 1981,
+    "commonUses": [
+      "fundamental research"
+    ],
+    "safetyClass": "radioactive",
+    "verification": {
+      "status": "review_required",
+      "sources": [
+        "IUPAC Technical Reports",
+        "Joint Institute for Nuclear Research",
+        "Lawrence Livermore National Laboratory"
+      ],
+      "notes": "Superheavy synthetic element; physical properties predicted."
+    }
+  },
+  {
+    "id": "hassium",
+    "atomicNumber": 108,
+    "name": "Hassium",
+    "symbol": "Hs",
+    "atomicMass": 277.0,
+    "category": "transition_metals",
+    "group": 8,
+    "period": 7,
+    "block": "d",
+    "phase": "solid",
+    "electronConfiguration": "[Rn] 5f14 6d6 7s2",
+    "electronShells": [
+      2,
+      8,
+      18,
+      32,
+      32,
+      14,
+      2
+    ],
+    "electronegativity": null,
+    "oxidationStates": [
+      8
+    ],
+    "meltingPoint": null,
+    "boilingPoint": null,
+    "density": 40.7,
+    "appearance": "metallic",
+    "discoveryYear": 1984,
+    "commonUses": [
+      "fundamental research"
+    ],
+    "safetyClass": "radioactive",
+    "verification": {
+      "status": "review_required",
+      "sources": [
+        "IUPAC Technical Reports",
+        "Joint Institute for Nuclear Research",
+        "Lawrence Livermore National Laboratory"
+      ],
+      "notes": "Superheavy synthetic element; physical properties predicted."
+    }
+  },
+  {
+    "id": "meitnerium",
+    "atomicNumber": 109,
+    "name": "Meitnerium",
+    "symbol": "Mt",
+    "atomicMass": 278.0,
+    "category": "unknown",
+    "group": 9,
+    "period": 7,
+    "block": "d",
+    "phase": "solid",
+    "electronConfiguration": "[Rn] 5f14 6d7 7s2",
+    "electronShells": [
+      2,
+      8,
+      18,
+      32,
+      32,
+      15,
+      2
+    ],
+    "electronegativity": null,
+    "oxidationStates": [
+      1,
+      3,
+      4,
+      8
+    ],
+    "meltingPoint": null,
+    "boilingPoint": null,
+    "density": 37.4,
+    "appearance": "metallic",
+    "discoveryYear": 1982,
+    "commonUses": [
+      "fundamental research"
+    ],
+    "safetyClass": "radioactive",
+    "verification": {
+      "status": "review_required",
+      "sources": [
+        "IUPAC Technical Reports",
+        "Joint Institute for Nuclear Research",
+        "Lawrence Livermore National Laboratory"
+      ],
+      "notes": "Superheavy synthetic element; physical properties unconfirmed."
+    }
+  },
+  {
+    "id": "darmstadtium",
+    "atomicNumber": 110,
+    "name": "Darmstadtium",
+    "symbol": "Ds",
+    "atomicMass": 281.0,
+    "category": "unknown",
+    "group": 10,
+    "period": 7,
+    "block": "d",
+    "phase": "solid",
+    "electronConfiguration": "[Rn] 5f14 6d8 7s2",
+    "electronShells": [
+      2,
+      8,
+      18,
+      32,
+      32,
+      16,
+      2
+    ],
+    "electronegativity": null,
+    "oxidationStates": [
+      2,
+      4,
+      6,
+      8
+    ],
+    "meltingPoint": null,
+    "boilingPoint": null,
+    "density": 34.8,
+    "appearance": "metallic",
+    "discoveryYear": 1994,
+    "commonUses": [
+      "fundamental research"
+    ],
+    "safetyClass": "radioactive",
+    "verification": {
+      "status": "review_required",
+      "sources": [
+        "IUPAC Technical Reports",
+        "Joint Institute for Nuclear Research",
+        "Lawrence Livermore National Laboratory"
+      ],
+      "notes": "Superheavy synthetic element; physical properties unconfirmed."
+    }
+  },
+  {
+    "id": "roentgenium",
+    "atomicNumber": 111,
+    "name": "Roentgenium",
+    "symbol": "Rg",
+    "atomicMass": 282.0,
+    "category": "unknown",
+    "group": 11,
+    "period": 7,
+    "block": "d",
+    "phase": "solid",
+    "electronConfiguration": "[Rn] 5f14 6d9 7s2",
+    "electronShells": [
+      2,
+      8,
+      18,
+      32,
+      32,
+      17,
+      2
+    ],
+    "electronegativity": null,
+    "oxidationStates": [
+      -1,
+      1,
+      3,
+      5
+    ],
+    "meltingPoint": null,
+    "boilingPoint": null,
+    "density": 28.7,
+    "appearance": "metallic",
+    "discoveryYear": 1994,
+    "commonUses": [
+      "fundamental research"
+    ],
+    "safetyClass": "radioactive",
+    "verification": {
+      "status": "review_required",
+      "sources": [
+        "IUPAC Technical Reports",
+        "Joint Institute for Nuclear Research",
+        "Lawrence Livermore National Laboratory"
+      ],
+      "notes": "Superheavy synthetic element; physical properties unconfirmed."
+    }
+  },
+  {
+    "id": "copernicium",
+    "atomicNumber": 112,
+    "name": "Copernicium",
+    "symbol": "Cn",
+    "atomicMass": 285.0,
+    "category": "transition_metals",
+    "group": 12,
+    "period": 7,
+    "block": "d",
+    "phase": "gas",
+    "electronConfiguration": "[Rn] 5f14 6d10 7s2",
+    "electronShells": [
+      2,
+      8,
+      18,
+      32,
+      32,
+      18,
+      2
+    ],
+    "electronegativity": null,
+    "oxidationStates": [
+      2,
+      4
+    ],
+    "meltingPoint": 283,
+    "boilingPoint": 357,
+    "density": 14.0,
+    "appearance": "volatile metal / gas",
+    "discoveryYear": 1996,
+    "commonUses": [
+      "fundamental research"
+    ],
+    "safetyClass": "radioactive",
+    "verification": {
+      "status": "review_required",
+      "sources": [
+        "IUPAC Technical Reports",
+        "Joint Institute for Nuclear Research",
+        "Lawrence Livermore National Laboratory"
+      ],
+      "notes": "Superheavy synthetic element; physical properties unconfirmed."
+    }
+  },
+  {
+    "id": "nihonium",
+    "atomicNumber": 113,
+    "name": "Nihonium",
+    "symbol": "Nh",
+    "atomicMass": 286.0,
+    "category": "unknown",
+    "group": 13,
+    "period": 7,
+    "block": "p",
+    "phase": "solid",
+    "electronConfiguration": "[Rn] 5f14 6d10 7s2 7p1",
+    "electronShells": [
+      2,
+      8,
+      18,
+      32,
+      32,
+      18,
+      3
+    ],
+    "electronegativity": null,
+    "oxidationStates": [
+      1,
+      3,
+      5
+    ],
+    "meltingPoint": 700,
+    "boilingPoint": 1400,
+    "density": 16.0,
+    "appearance": "metallic",
+    "discoveryYear": 2004,
+    "commonUses": [
+      "fundamental research"
+    ],
+    "safetyClass": "radioactive",
+    "verification": {
+      "status": "review_required",
+      "sources": [
+        "IUPAC Technical Reports",
+        "Joint Institute for Nuclear Research",
+        "Lawrence Livermore National Laboratory"
+      ],
+      "notes": "Superheavy synthetic element; physical properties unconfirmed."
+    }
+  },
+  {
+    "id": "flerovium",
+    "atomicNumber": 114,
+    "name": "Flerovium",
+    "symbol": "Fl",
+    "atomicMass": 289.0,
+    "category": "unknown",
+    "group": 14,
+    "period": 7,
+    "block": "p",
+    "phase": "gas",
+    "electronConfiguration": "[Rn] 5f14 6d10 7s2 7p2",
+    "electronShells": [
+      2,
+      8,
+      18,
+      32,
+      32,
+      18,
+      4
+    ],
+    "electronegativity": null,
+    "oxidationStates": [
+      0,
+      1,
+      2,
+      4
+    ],
+    "meltingPoint": 284,
+    "boilingPoint": 320,
+    "density": 9.928,
+    "appearance": "volatile metal / gas",
+    "discoveryYear": 1998,
+    "commonUses": [
+      "fundamental research"
+    ],
+    "safetyClass": "radioactive",
+    "verification": {
+      "status": "review_required",
+      "sources": [
+        "IUPAC Technical Reports",
+        "Joint Institute for Nuclear Research",
+        "Lawrence Livermore National Laboratory"
+      ],
+      "notes": "Superheavy synthetic element; physical properties unconfirmed."
+    }
+  },
+  {
+    "id": "moscovium",
+    "atomicNumber": 115,
+    "name": "Moscovium",
+    "symbol": "Mc",
+    "atomicMass": 290.0,
+    "category": "unknown",
+    "group": 15,
+    "period": 7,
+    "block": "p",
+    "phase": "solid",
+    "electronConfiguration": "[Rn] 5f14 6d10 7s2 7p3",
+    "electronShells": [
+      2,
+      8,
+      18,
+      32,
+      32,
+      18,
+      5
+    ],
+    "electronegativity": null,
+    "oxidationStates": [
+      1,
+      3
+    ],
+    "meltingPoint": 670,
+    "boilingPoint": 1400,
+    "density": 13.5,
+    "appearance": "metallic",
+    "discoveryYear": 2003,
+    "commonUses": [
+      "fundamental research"
+    ],
+    "safetyClass": "radioactive",
+    "verification": {
+      "status": "review_required",
+      "sources": [
+        "IUPAC Technical Reports",
+        "Joint Institute for Nuclear Research",
+        "Lawrence Livermore National Laboratory"
+      ],
+      "notes": "Superheavy synthetic element; physical properties unconfirmed."
+    }
+  },
+  {
+    "id": "livermorium",
+    "atomicNumber": 116,
+    "name": "Livermorium",
+    "symbol": "Lv",
+    "atomicMass": 293.0,
+    "category": "unknown",
+    "group": 16,
+    "period": 7,
+    "block": "p",
+    "phase": "solid",
+    "electronConfiguration": "[Rn] 5f14 6d10 7s2 7p4",
+    "electronShells": [
+      2,
+      8,
+      18,
+      32,
+      32,
+      18,
+      6
+    ],
+    "electronegativity": null,
+    "oxidationStates": [
+      2,
+      4
+    ],
+    "meltingPoint": 709,
+    "boilingPoint": 1085,
+    "density": 12.9,
+    "appearance": "metallic",
+    "discoveryYear": 2000,
+    "commonUses": [
+      "fundamental research"
+    ],
+    "safetyClass": "radioactive",
+    "verification": {
+      "status": "review_required",
+      "sources": [
+        "IUPAC Technical Reports",
+        "Joint Institute for Nuclear Research",
+        "Lawrence Livermore National Laboratory"
+      ],
+      "notes": "Superheavy synthetic element; physical properties unconfirmed."
+    }
+  },
+  {
+    "id": "tennessine",
+    "atomicNumber": 117,
+    "name": "Tennessine",
+    "symbol": "Ts",
+    "atomicMass": 294.0,
+    "category": "unknown",
+    "group": 17,
+    "period": 7,
+    "block": "p",
+    "phase": "solid",
+    "electronConfiguration": "[Rn] 5f14 6d10 7s2 7p5",
+    "electronShells": [
+      2,
+      8,
+      18,
+      32,
+      32,
+      18,
+      7
+    ],
+    "electronegativity": null,
+    "oxidationStates": [
+      -1,
+      1,
+      3,
+      5
+    ],
+    "meltingPoint": 723,
+    "boilingPoint": 883,
+    "density": 7.2,
+    "appearance": "metallic",
+    "discoveryYear": 2010,
+    "commonUses": [
+      "fundamental research"
+    ],
+    "safetyClass": "radioactive",
+    "verification": {
+      "status": "review_required",
+      "sources": [
+        "IUPAC Technical Reports",
+        "Joint Institute for Nuclear Research",
+        "Lawrence Livermore National Laboratory"
+      ],
+      "notes": "Superheavy synthetic element; physical properties unconfirmed."
+    }
+  },
+  {
+    "id": "oganesson",
+    "atomicNumber": 118,
+    "name": "Oganesson",
+    "symbol": "Og",
+    "atomicMass": 294.0,
+    "category": "unknown",
+    "group": 18,
+    "period": 7,
+    "block": "p",
+    "phase": "gas",
+    "electronConfiguration": "[Rn] 5f14 6d10 7s2 7p6",
+    "electronShells": [
+      2,
+      8,
+      18,
+      32,
+      32,
+      18,
+      8
+    ],
+    "electronegativity": null,
+    "oxidationStates": [
+      0,
+      2,
+      4
+    ],
+    "meltingPoint": 325,
+    "boilingPoint": 350,
+    "density": 4.95,
+    "appearance": "colorless gas",
+    "discoveryYear": 2002,
+    "commonUses": [
+      "fundamental research"
+    ],
+    "safetyClass": "radioactive",
+    "verification": {
+      "status": "review_required",
+      "sources": [
+        "IUPAC Technical Reports",
+        "Joint Institute for Nuclear Research",
+        "Lawrence Livermore National Laboratory"
+      ],
+      "notes": "Superheavy synthetic element; physical properties unconfirmed."
+    }
+  }
+]

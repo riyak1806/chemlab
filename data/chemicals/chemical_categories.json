@@ -1,0 +1,72 @@
+[
+  {
+    "id": "acid",
+    "name": "Acid",
+    "description": "Chemical species that donates protons (H+) or accepts electron pairs."
+  },
+  {
+    "id": "base",
+    "name": "Base",
+    "description": "Chemical species that accepts protons or donates electron pairs (alkalis when dissolved in water)."
+  },
+  {
+    "id": "salt",
+    "name": "Salt",
+    "description": "Ionic compound formed from the neutralization reaction of an acid and a base."
+  },
+  {
+    "id": "metal",
+    "name": "Metal Elemental/Substance",
+    "description": "Metallic chemical element or elemental metal substance."
+  },
+  {
+    "id": "nonmetal",
+    "name": "Nonmetal Elemental/Substance",
+    "description": "Nonmetallic element or simple nonmetallic substance."
+  },
+  {
+    "id": "oxide",
+    "name": "Oxide",
+    "description": "Chemical compound that contains at least one oxygen atom and another element in its chemical formula."
+  },
+  {
+    "id": "indicator",
+    "name": "pH / Chemical Indicator",
+    "description": "Substance that changes color in response to a chemical change (such as pH change)."
+  },
+  {
+    "id": "organic",
+    "name": "Organic Chemical",
+    "description": "Carbon-containing chemical compound."
+  },
+  {
+    "id": "inorganic",
+    "name": "Inorganic Chemical",
+    "description": "Chemical compound that lacks carbon-hydrogen bonds."
+  },
+  {
+    "id": "gas",
+    "name": "Gas",
+    "description": "Substance existing in a gaseous physical state under standard ambient temperature and pressure."
+  },
+  {
+    "id": "liquid",
+    "name": "Liquid",
+    "description": "Substance existing in a liquid physical state under standard ambient conditions."
+  },
+  {
+    "id": "solid",
+    "name": "Solid",
+    "description": "Substance existing in a solid physical state under standard ambient conditions."
+  },
+  {
+    "id": "solution",
+    "name": "Solution",
+    "description": "Homogeneous mixture composed of two or more substances (usually aqueous)."
+  },
+  {
+    "id": "solvent",
+    "name": "Solvent",
+    "description": "Substance that dissolves a solute, resulting in a solution."
+  }
+]

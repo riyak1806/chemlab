@@ -1,0 +1,52 @@
+[
+  {
+    "id": "alkali_metals",
+    "name": "Alkali Metals",
+    "description": "Highly reactive, soft metals in Group 1 of the periodic table."
+  },
+  {
+    "id": "alkaline_earth_metals",
+    "name": "Alkaline Earth Metals",
+    "description": "Reactive, electropositive metals in Group 2 of the periodic table."
+  },
+  {
+    "id": "transition_metals",
+    "name": "Transition Metals",
+    "description": "Metals characterized by partially filled d subshells, variable oxidation states, and colored compounds."
+  },
+  {
+    "id": "post_transition_metals",
+    "name": "Post-Transition Metals",
+    "description": "Soft metals with low melting points located between transition metals and metalloids."
+  },
+  {
+    "id": "metalloids",
+    "name": "Metalloids",
+    "description": "Elements with properties intermediate between metals and nonmetals."
+  },
+  {
+    "id": "reactive_nonmetals",
+    "name": "Reactive Nonmetals",
+    "description": "Nonmetallic elements that readily form chemical bonds, including halogens and nonmetal life elements."
+  },
+  {
+    "id": "noble_gases",
+    "name": "Noble Gases",
+    "description": "Extremely unreactive, odorless, colorless gases in Group 18 with complete electron shells."
+  },
+  {
+    "id": "lanthanides",
+    "name": "Lanthanides",
+    "description": "Series of 15 metallic elements from lanthanum to lutetium."
+  },
+  {
+    "id": "actinides",
+    "name": "Actinides",
+    "description": "Series of 15 radioactive metallic elements from actinium to lawrencium."
+  },
+  {
+    "id": "unknown",
+    "name": "Unknown Properties",
+    "description": "Superheavy synthetic elements with unconfirmed macroscopic physical/chemical properties."
+  }
+]

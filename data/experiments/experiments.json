@@ -1,0 +1,596 @@
+[
+  {
+    "id": "neutralize_acid_base",
+    "title": "Neutralize an Acid with a Base",
+    "description": "Perform a classical acid-base titration using hydrochloric acid and sodium hydroxide to achieve a neutral pH of 7.",
+    "difficulty": "beginner",
+    "estimatedTime": "10 mins",
+    "availableChemicals": [
+      "hydrochloric_acid",
+      "sodium_hydroxide",
+      "universal_indicator"
+    ],
+    "availableEquipment": [
+      "beaker",
+      "erlenmeyer_flask",
+      "dropper",
+      "ph_meter",
+      "glass_stirrer"
+    ],
+    "objective": "Mix hydrochloric acid and sodium hydroxide carefully until the solution reaches neutral pH (7.0).",
+    "successConditions": [
+      {
+        "property": "ph",
+        "operator": "equals",
+        "value": 7.0,
+        "tolerance": 0.5
+      },
+      {
+        "property": "reactionCompleted",
+        "operator": "is",
+        "value": "hcl_naoh_neutralization"
+      }
+    ],
+    "hints": [
+      "Add universal indicator to monitor color change from red to green.",
+      "Add sodium hydroxide drop by drop as you get closer to pH 7."
+    ],
+    "reward": {
+      "exp": 100,
+      "badge": "Acid Neutralizer"
+    },
+    "relatedReactions": [
+      "hcl_naoh_neutralization"
+    ]
+  },
+  {
+    "id": "fizzing_gas_evolution",
+    "title": "Observe Gas Evolution from Baking Soda & Acid",
+    "description": "Investigate how sodium bicarbonate reacts with acid to produce carbon dioxide gas effervescence.",
+    "difficulty": "beginner",
+    "estimatedTime": "5 mins",
+    "availableChemicals": [
+      "acetic_acid",
+      "sodium_bicarbonate"
+    ],
+    "availableEquipment": [
+      "beaker",
+      "spatula",
+      "glass_stirrer"
+    ],
+    "objective": "Add sodium bicarbonate powder to acetic acid and observe the generation of carbon dioxide gas bubbles.",
+    "successConditions": [
+      {
+        "property": "gasProduced",
+        "operator": "equals",
+        "value": "carbon_dioxide_gas"
+      },
+      {
+        "property": "reactionCompleted",
+        "operator": "is",
+        "value": "ch3cooh_nahco3_gas_evolution"
+      }
+    ],
+    "hints": [
+      "Use the spatula to add sodium bicarbonate into the beaker containing vinegar."
+    ],
+    "reward": {
+      "exp": 80,
+      "badge": "Gas Explorer"
+    },
+    "relatedReactions": [
+      "ch3cooh_nahco3_gas_evolution"
+    ]
+  },
+  {
+    "id": "silver_chloride_precipitation",
+    "title": "Form a White Silver Chloride Precipitate",
+    "description": "Combine clear silver nitrate and sodium chloride solutions to synthesize insoluble silver chloride solid.",
+    "difficulty": "intermediate",
+    "estimatedTime": "10 mins",
+    "availableChemicals": [
+      "silver_nitrate",
+      "sodium_chloride"
+    ],
+    "availableEquipment": [
+      "test_tube",
+      "test_tube_rack",
+      "dropper"
+    ],
+    "objective": "Mix silver nitrate solution with sodium chloride solution to form a dense white precipitate.",
+    "successConditions": [
+      {
+        "property": "precipitateFormed",
+        "operator": "equals",
+        "value": "white_silver_chloride"
+      },
+      {
+        "property": "reactionCompleted",
+        "operator": "is",
+        "value": "agno3_nacl_precipitation"
+      }
+    ],
+    "hints": [
+      "Add a few drops of silver nitrate solution into the sodium chloride solution test tube."
+    ],
+    "reward": {
+      "exp": 120,
+      "badge": "Precipitate Maker"
+    },
+    "relatedReactions": [
+      "agno3_nacl_precipitation"
+    ]
+  },
+  {
+    "id": "barium_sulfate_cloud",
+    "name": "Barium Sulfate Cloud Formation",
+    "title": "Detect Sulfate Ions using Barium Chloride",
+    "description": "Test for sulfate ions by reacting barium chloride with sulfuric acid to create insoluble white barium sulfate precipitate.",
+    "difficulty": "intermediate",
+    "estimatedTime": "10 mins",
+    "availableChemicals": [
+      "barium_chloride",
+      "sulfuric_acid"
+    ],
+    "availableEquipment": [
+      "test_tube",
+      "test_tube_rack",
+      "dropper"
+    ],
+    "objective": "Produce a milky white precipitate of barium sulfate by combining barium chloride and sulfuric acid.",
+    "successConditions": [
+      {
+        "property": "precipitateFormed",
+        "operator": "equals",
+        "value": "white_barium_sulfate"
+      },
+      {
+        "property": "reactionCompleted",
+        "operator": "is",
+        "value": "bacl2_h2so4_precipitation"
+      }
+    ],
+    "hints": [
+      "Barium chloride is a specific analytical reagent for detecting sulfate ions."
+    ],
+    "reward": {
+      "exp": 120,
+      "badge": "Sulfate Detective"
+    },
+    "relatedReactions": [
+      "bacl2_h2so4_precipitation"
+    ]
+  },
+  {
+    "id": "copper_displacement_zinc",
+    "title": "Displace Copper from Solution using Zinc",
+    "description": "Demonstrate the metal activity series by placing zinc granules into blue copper sulfate solution.",
+    "difficulty": "intermediate",
+    "estimatedTime": "15 mins",
+    "availableChemicals": [
+      "copper_sulfate",
+      "zinc_metal"
+    ],
+    "availableEquipment": [
+      "beaker",
+      "spatula",
+      "glass_stirrer"
+    ],
+    "objective": "Observe the blue solution decolorize while reddish copper metal deposits on the zinc.",
+    "successConditions": [
+      {
+        "property": "metalDeposited",
+        "operator": "equals",
+        "value": "copper_metal"
+      },
+      {
+        "property": "reactionCompleted",
+        "operator": "is",
+        "value": "cuso4_zn_displacement"
+      }
+    ],
+    "hints": [
+      "Zinc is more reactive than copper and donates electrons to Cu2+ ions."
+    ],
+    "reward": {
+      "exp": 150,
+      "badge": "Reactivity Master"
+    },
+    "relatedReactions": [
+      "cuso4_zn_displacement"
+    ]
+  },
+  {
+    "id": "elephant_toothpaste_demo",
+    "title": "Perform the Elephant Toothpaste Catalyzed Decomposition",
+    "description": "Decompose hydrogen peroxide solution rapidly using potassium iodide as a catalyst.",
+    "difficulty": "intermediate",
+    "estimatedTime": "10 mins",
+    "availableChemicals": [
+      "hydrogen_peroxide",
+      "potassium_iodide"
+    ],
+    "availableEquipment": [
+      "erlenmeyer_flask",
+      "spatula",
+      "thermometer"
+    ],
+    "objective": "Trigger rapid oxygen gas foam release and observe exothermic heat production.",
+    "successConditions": [
+      {
+        "property": "gasProduced",
+        "operator": "equals",
+        "value": "oxygen_gas"
+      },
+      {
+        "property": "reactionCompleted",
+        "operator": "is",
+        "value": "h2o2_ki_decomposition"
+      }
+    ],
+    "hints": [
+      "Potassium iodide lowers the activation energy for H2O2 decomposition."
+    ],
+    "reward": {
+      "exp": 150,
+      "badge": "Catalyst Chemist"
+    },
+    "relatedReactions": [
+      "h2o2_ki_decomposition"
+    ]
+  },
+  {
+    "id": "magnesium_acid_gas",
+    "title": "Generate Hydrogen Gas with Acid and Magnesium",
+    "description": "React active magnesium metal ribbon with hydrochloric acid to generate flammable hydrogen gas.",
+    "difficulty": "beginner",
+    "estimatedTime": "10 mins",
+    "availableChemicals": [
+      "hydrochloric_acid",
+      "magnesium_metal"
+    ],
+    "availableEquipment": [
+      "test_tube",
+      "test_tube_rack"
+    ],
+    "objective": "Evolve hydrogen gas bubbles by adding magnesium ribbon into hydrochloric acid solution.",
+    "successConditions": [
+      {
+        "property": "gasProduced",
+        "operator": "equals",
+        "value": "hydrogen_gas"
+      },
+      {
+        "property": "reactionCompleted",
+        "operator": "is",
+        "value": "hcl_mg_single_displacement"
+      }
+    ],
+    "hints": [
+      "Watch the test tube warm up as hydrogen bubbles off rapidly."
+    ],
+    "reward": {
+      "exp": 100,
+      "badge": "Hydrogen Maker"
+    },
+    "relatedReactions": [
+      "hcl_mg_single_displacement"
+    ]
+  },
+  {
+    "id": "phenolphthalein_pink_shift",
+    "title": "Indicator Rainbow: Pink Phenolphthalein Shift",
+    "description": "Use phenolphthalein to detect basic conditions created by adding sodium hydroxide.",
+    "difficulty": "beginner",
+    "estimatedTime": "5 mins",
+    "availableChemicals": [
+      "water",
+      "sodium_hydroxide",
+      "phenolphthalein"
+    ],
+    "availableEquipment": [
+      "beaker",
+      "dropper",
+      "glass_stirrer"
+    ],
+    "objective": "Turn a clear solution into vibrant pink by making it basic with sodium hydroxide in the presence of phenolphthalein.",
+    "successConditions": [
+      {
+        "property": "solutionColor",
+        "operator": "equals",
+        "value": "pink"
+      },
+      {
+        "property": "reactionCompleted",
+        "operator": "is",
+        "value": "phenolphthalein_base_indicator"
+      }
+    ],
+    "hints": [
+      "Phenolphthalein is colorless in acidic or neutral solutions and pink above pH 8.2."
+    ],
+    "reward": {
+      "exp": 80,
+      "badge": "Color Shift Expert"
+    },
+    "relatedReactions": [
+      "phenolphthalein_base_indicator"
+    ]
+  },
+  {
+    "id": "limewater_co2_detection",
+    "title": "Detect Carbon Dioxide Gas using Limewater",
+    "description": "Pass generated carbon dioxide gas into clear limewater to observe precipitation of calcium carbonate.",
+    "difficulty": "intermediate",
+    "estimatedTime": "15 mins",
+    "availableChemicals": [
+      "calcium_hydroxide",
+      "carbon_dioxide_gas"
+    ],
+    "availableEquipment": [
+      "beaker",
+      "glass_stirrer",
+      "ph_meter"
+    ],
+    "objective": "Turn clear limewater cloudy by reacting it with carbon dioxide gas.",
+    "successConditions": [
+      {
+        "property": "solutionAppearance",
+        "operator": "equals",
+        "value": "milky_white"
+      },
+      {
+        "property": "reactionCompleted",
+        "operator": "is",
+        "value": "co2_caoh2_precipitation"
+      }
+    ],
+    "hints": [
+      "Limewater contains dissolved calcium hydroxide which precipitates as calcium carbonate."
+    ],
+    "reward": {
+      "exp": 120,
+      "badge": "CO2 Detector"
+    },
+    "relatedReactions": [
+      "co2_caoh2_precipitation"
+    ]
+  },
+  {
+    "id": "endothermic_cold_pack",
+    "title": "Investigate Endothermic Dissolution with Ammonium Chloride",
+    "description": "Measure the temperature drop when solid ammonium chloride dissolves in water.",
+    "difficulty": "beginner",
+    "estimatedTime": "10 mins",
+    "availableChemicals": [
+      "water",
+      "ammonium_chloride"
+    ],
+    "availableEquipment": [
+      "beaker",
+      "thermometer",
+      "spatula",
+      "balance"
+    ],
+    "objective": "Dissolve ammonium chloride in water and record a temperature decrease of at least 5 \u00b0C.",
+    "successConditions": [
+      {
+        "property": "temperatureDrop",
+        "operator": "greaterThan",
+        "value": 5.0
+      },
+      {
+        "property": "reactionCompleted",
+        "operator": "is",
+        "value": "nh4cl_water_dissolution"
+      }
+    ],
+    "hints": [
+      "Stir the mixture continuously while keeping the thermometer probe immersed."
+    ],
+    "reward": {
+      "exp": 100,
+      "badge": "Thermodynamics Explorer"
+    },
+    "relatedReactions": [
+      "nh4cl_water_dissolution"
+    ]
+  },
+  {
+    "id": "exothermic_hot_pack",
+    "title": "Investigate Exothermic Dissolution with Calcium Chloride",
+    "description": "Observe and measure heat release when anhydrous calcium chloride dissolves in water.",
+    "difficulty": "beginner",
+    "estimatedTime": "10 mins",
+    "availableChemicals": [
+      "water",
+      "calcium_chloride"
+    ],
+    "availableEquipment": [
+      "beaker",
+      "thermometer",
+      "spatula",
+      "balance"
+    ],
+    "objective": "Dissolve calcium chloride solid in water and measure a temperature increase of at least 10 \u00b0C.",
+    "successConditions": [
+      {
+        "property": "temperatureRise",
+        "operator": "greaterThan",
+        "value": 10.0
+      },
+      {
+        "property": "reactionCompleted",
+        "operator": "is",
+        "value": "cacl2_water_dissolution"
+      }
+    ],
+    "hints": [
+      "Hydration of calcium ions releases significant thermal energy."
+    ],
+    "reward": {
+      "exp": 100,
+      "badge": "Heat Generator"
+    },
+    "relatedReactions": [
+      "cacl2_water_dissolution"
+    ]
+  },
+  {
+    "id": "copper_oxide_acid_dissolution",
+    "title": "Prepare Copper Sulfate from Insoluble Oxide",
+    "description": "Dissolve black copper(II) oxide powder in warm sulfuric acid to create bright blue copper sulfate solution.",
+    "difficulty": "advanced",
+    "estimatedTime": "15 mins",
+    "availableChemicals": [
+      "copper_oxide",
+      "sulfuric_acid"
+    ],
+    "availableEquipment": [
+      "beaker",
+      "hot_plate",
+      "glass_stirrer",
+      "spatula"
+    ],
+    "objective": "Heat sulfuric acid with black copper oxide until the black powder dissolves into a blue solution.",
+    "successConditions": [
+      {
+        "property": "solutionColor",
+        "operator": "equals",
+        "value": "blue"
+      },
+      {
+        "property": "reactionCompleted",
+        "operator": "is",
+        "value": "cuo_h2so4_neutralization"
+      }
+    ],
+    "hints": [
+      "Warm the acid gently on the hot plate to speed up the reaction with the solid oxide."
+    ],
+    "reward": {
+      "exp": 180,
+      "badge": "Oxide Transformer"
+    },
+    "relatedReactions": [
+      "cuo_h2so4_neutralization"
+    ]
+  },
+  {
+    "id": "water_splitting_electrolysis",
+    "title": "Split Water molecules via Electrolysis",
+    "description": "Use electrical direct current to decompose water molecules into hydrogen and oxygen gas gases.",
+    "difficulty": "advanced",
+    "estimatedTime": "20 mins",
+    "availableChemicals": [
+      "water",
+      "sulfuric_acid"
+    ],
+    "availableEquipment": [
+      "beaker",
+      "test_tube",
+      "test_tube_rack"
+    ],
+    "objective": "Generate hydrogen and oxygen gas bubbles at electrical electrodes in acidified water.",
+    "successConditions": [
+      {
+        "property": "gasProduced",
+        "operator": "contains",
+        "value": "hydrogen_gas"
+      },
+      {
+        "property": "reactionCompleted",
+        "operator": "is",
+        "value": "water_electrolysis"
+      }
+    ],
+    "hints": [
+      "Sulfuric acid acts as an electrolyte to increase electrical conductivity."
+    ],
+    "reward": {
+      "exp": 200,
+      "badge": "Electrochemical Pioneer"
+    },
+    "relatedReactions": [
+      "water_electrolysis"
+    ]
+  },
+  {
+    "id": "iodine_sublimation_demo",
+    "title": "Observe Direct Phase Change: Iodine Sublimation",
+    "description": "Gently heat solid dark iodine crystals on a hot plate to produce vibrant purple gas vapor.",
+    "difficulty": "intermediate",
+    "estimatedTime": "10 mins",
+    "availableChemicals": [
+      "iodine_solid"
+    ],
+    "availableEquipment": [
+      "beaker",
+      "hot_plate",
+      "evaporating_dish"
+    ],
+    "objective": "Heat iodine solid until purple iodine gas vapors fill the container without liquid formation.",
+    "successConditions": [
+      {
+        "property": "vaporObserved",
+        "operator": "equals",
+        "value": "purple_iodine_gas"
+      },
+      {
+        "property": "reactionCompleted",
+        "operator": "is",
+        "value": "iodine_sublimation"
+      }
+    ],
+    "hints": [
+      "Solid iodine converts directly to gas at atmospheric pressure upon heating."
+    ],
+    "reward": {
+      "exp": 140,
+      "badge": "Sublimation Specialist"
+    },
+    "relatedReactions": [
+      "iodine_sublimation"
+    ]
+  },
+  {
+    "id": "potassium_permanganate_decolorization",
+    "title": "Redox Decolorization of Permanganate",
+    "description": "Oxidize hydrogen peroxide with potassium permanganate in acidic solution and observe purple color discharge.",
+    "difficulty": "advanced",
+    "estimatedTime": "15 mins",
+    "availableChemicals": [
+      "potassium_permanganate",
+      "hydrogen_peroxide",
+      "sulfuric_acid"
+    ],
+    "availableEquipment": [
+      "erlenmeyer_flask",
+      "dropper",
+      "glass_stirrer"
+    ],
+    "objective": "Discharge the deep purple color of permanganate to clear solution by adding hydrogen peroxide.",
+    "successConditions": [
+      {
+        "property": "solutionColor",
+        "operator": "equals",
+        "value": "colorless"
+      },
+      {
+        "property": "reactionCompleted",
+        "operator": "is",
+        "value": "kmno4_h2o2_redox"
+      }
+    ],
+    "hints": [
+      "Permanganate ions (MnO4-) are reduced to colorless Mn2+ ions in acidic solution."
+    ],
+    "reward": {
+      "exp": 180,
+      "badge": "Redox Master"
+    },
+    "relatedReactions": [
+      "kmno4_h2o2_redox"
+    ]
+  }
+]

@@ -1,0 +1,207 @@
+[
+  {
+    "id": "first_reaction",
+    "title": "Spark of Discovery",
+    "description": "Successfully perform your very first chemical reaction in ChemLab.",
+    "condition": {
+      "type": "reaction_count",
+      "targetValue": 1
+    },
+    "reward": {
+      "exp": 50,
+      "badge": "Novice Chemist"
+    }
+  },
+  {
+    "id": "first_experiment",
+    "title": "Lab Apprentice",
+    "description": "Complete your first guided experiment.",
+    "condition": {
+      "type": "experiment_count",
+      "targetValue": 1
+    },
+    "reward": {
+      "exp": 100,
+      "badge": "Lab Apprentice"
+    }
+  },
+  {
+    "id": "reaction_explorer_10",
+    "title": "Reaction Explorer",
+    "description": "Perform 10 distinct chemical reactions.",
+    "condition": {
+      "type": "distinct_reactions_count",
+      "targetValue": 10
+    },
+    "reward": {
+      "exp": 250,
+      "badge": "Reaction Explorer"
+    }
+  },
+  {
+    "id": "acid_base_expert",
+    "title": "Acid-Base Master",
+    "description": "Complete all neutralization experiments and acid/base challenges.",
+    "condition": {
+      "type": "category_experiments_completed",
+      "category": "neutralization",
+      "targetValue": 3
+    },
+    "reward": {
+      "exp": 300,
+      "badge": "Acid-Base Expert"
+    }
+  },
+  {
+    "id": "element_hunter_50",
+    "title": "Element Hunter",
+    "description": "Inspect and unlock detailed data for at least 50 periodic table elements.",
+    "condition": {
+      "type": "elements_inspected_count",
+      "targetValue": 50
+    },
+    "reward": {
+      "exp": 200,
+      "badge": "Element Hunter"
+    }
+  },
+  {
+    "id": "precipitation_master",
+    "title": "Precipitation Master",
+    "description": "Successfully synthesize 5 distinct chemical precipitates.",
+    "condition": {
+      "type": "precipitate_reactions_count",
+      "targetValue": 5
+    },
+    "reward": {
+      "exp": 300,
+      "badge": "Precipitation Master"
+    }
+  },
+  {
+    "id": "gas_master",
+    "title": "Alchemist of Air",
+    "description": "Generate carbon dioxide, hydrogen, and oxygen gases in the laboratory.",
+    "condition": {
+      "type": "gases_generated_types",
+      "targetValues": [
+        "carbon_dioxide_gas",
+        "hydrogen_gas",
+        "oxygen_gas"
+      ]
+    },
+    "reward": {
+      "exp": 350,
+      "badge": "Gas Master"
+    }
+  },
+  {
+    "id": "perfect_experiment",
+    "title": "Flawless Execution",
+    "description": "Complete a guided experiment without requesting any hints.",
+    "condition": {
+      "type": "experiment_no_hints",
+      "targetValue": 1
+    },
+    "reward": {
+      "exp": 150,
+      "badge": "Flawless Chemist"
+    }
+  },
+  {
+    "id": "speed_chemist",
+    "title": "Speed Chemist",
+    "description": "Complete any timed chemistry challenge with more than 50% time remaining.",
+    "condition": {
+      "type": "challenge_speed_margin",
+      "targetValue": 0.5
+    },
+    "reward": {
+      "exp": 200,
+      "badge": "Speed Chemist"
+    }
+  },
+  {
+    "id": "master_of_thermo",
+    "title": "Master of Thermodynamics",
+    "description": "Successfully conduct both endothermic and exothermic dissolution reactions.",
+    "condition": {
+      "type": "energy_types_completed",
+      "targetValues": [
+        "endothermic",
+        "exothermic"
+      ]
+    },
+    "reward": {
+      "exp": 250,
+      "badge": "Thermo Master"
+    }
+  },
+  {
+    "id": "redox_pioneer",
+    "title": "Redox Pioneer",
+    "description": "Perform electron transfer redox reactions resulting in solution color transitions.",
+    "condition": {
+      "type": "reaction_type_completed",
+      "reactionType": "redox",
+      "targetValue": 2
+    },
+    "reward": {
+      "exp": 250,
+      "badge": "Redox Pioneer"
+    }
+  },
+  {
+    "id": "electrochemist",
+    "title": "Spark of Electrochemistry",
+    "description": "Perform electrolysis of water or metal salt solution.",
+    "condition": {
+      "type": "reaction_type_completed",
+      "reactionType": "electrochemical",
+      "targetValue": 1
+    },
+    "reward": {
+      "exp": 300,
+      "badge": "Electrochemist"
+    }
+  },
+  {
+    "id": "challenge_champion",
+    "title": "Challenge Champion",
+    "description": "Successfully finish 10 chemistry challenges.",
+    "condition": {
+      "type": "challenges_completed_count",
+      "targetValue": 10
+    },
+    "reward": {
+      "exp": 500,
+      "badge": "Challenge Champion"
+    }
+  },
+  {
+    "id": "safety_first",
+    "title": "Safety Conscious",
+    "description": "Read safety guidelines for 15 hazardous chemical compounds.",
+    "condition": {
+      "type": "chemical_safety_inspected",
+      "targetValue": 15
+    },
+    "reward": {
+      "exp": 100,
+      "badge": "Safety First"
+    }
+  },
+  {
+    "id": "periodic_completest",
+    "title": "Periodic Table Master",
+    "description": "Inspect all 118 chemical elements in the periodic table dataset.",
+    "condition": {
+      "type": "elements_inspected_count",
+      "targetValue": 118
+    },
+    "reward": {
+      "exp": 1000,
+      "badge": "Periodic Table Master"
+    }
+  }
+]

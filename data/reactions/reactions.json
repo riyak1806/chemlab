@@ -1,0 +1,2182 @@
+[
+  {
+    "id": "hcl_naoh_neutralization",
+    "name": "Neutralization of Hydrochloric Acid with Sodium Hydroxide",
+    "type": "neutralization",
+    "reactants": [
+      {
+        "chemicalId": "hydrochloric_acid",
+        "stoichiometry": 1
+      },
+      {
+        "chemicalId": "sodium_hydroxide",
+        "stoichiometry": 1
+      }
+    ],
+    "products": [
+      {
+        "chemicalId": "sodium_chloride",
+        "stoichiometry": 1
+      },
+      {
+        "chemicalId": "water",
+        "stoichiometry": 1
+      }
+    ],
+    "equation": "HCl(aq) + NaOH(aq) -> NaCl(aq) + H2O(l)",
+    "conditions": {
+      "minTemperature": 0.0,
+      "maxTemperature": 100.0,
+      "requiresHeating": false,
+      "catalyst": null
+    },
+    "effects": {
+      "temperatureChange": 5.0,
+      "phChange": true,
+      "targetPh": 7.0,
+      "colorChange": null,
+      "gasProduced": null,
+      "precipitate": null,
+      "flame": false,
+      "bubbles": false,
+      "crystalFormation": false,
+      "smoke": false,
+      "energyChange": "exothermic",
+      "stateChange": null
+    },
+    "visualEffect": "neutralization",
+    "difficulty": 1,
+    "explanation": "Hydrochloric acid reacts with sodium hydroxide in a 1:1 mole ratio to yield aqueous sodium chloride and water. The strong acid (H+) and strong base (OH-) neutralize to form H2O, raising pH to 7 and releasing heat.",
+    "verification": {
+      "status": "verified",
+      "sources": [
+        "Zumdahl Chemistry 10th Ed",
+        "PubChem"
+      ],
+      "notes": "Classic strong acid-strong base neutralization reaction."
+    }
+  },
+  {
+    "id": "h2so4_naoh_neutralization",
+    "name": "Neutralization of Sulfuric Acid with Sodium Hydroxide",
+    "type": "neutralization",
+    "reactants": [
+      {
+        "chemicalId": "sulfuric_acid",
+        "stoichiometry": 1
+      },
+      {
+        "chemicalId": "sodium_hydroxide",
+        "stoichiometry": 2
+      }
+    ],
+    "products": [
+      {
+        "chemicalId": "sodium_sulfate",
+        "stoichiometry": 1
+      },
+      {
+        "chemicalId": "water",
+        "stoichiometry": 2
+      }
+    ],
+    "equation": "H2SO4(aq) + 2NaOH(aq) -> Na2SO4(aq) + 2H2O(l)",
+    "conditions": {
+      "minTemperature": 0.0,
+      "maxTemperature": 100.0,
+      "requiresHeating": false,
+      "catalyst": null
+    },
+    "effects": {
+      "temperatureChange": 8.0,
+      "phChange": true,
+      "targetPh": 7.0,
+      "colorChange": null,
+      "gasProduced": null,
+      "precipitate": null,
+      "flame": false,
+      "bubbles": false,
+      "crystalFormation": false,
+      "smoke": false,
+      "energyChange": "exothermic",
+      "stateChange": null
+    },
+    "visualEffect": "neutralization",
+    "difficulty": 1,
+    "explanation": "Diprotic sulfuric acid requires two equivalents of sodium hydroxide to reach neutralization, producing soluble sodium sulfate and releasing significant hydration heat.",
+    "verification": {
+      "status": "verified",
+      "sources": [
+        "CRC Handbook of Chemistry and Physics"
+      ],
+      "notes": "Standard acid-base neutralization."
+    }
+  },
+  {
+    "id": "hno3_koh_neutralization",
+    "name": "Neutralization of Nitric Acid with Potassium Hydroxide",
+    "type": "neutralization",
+    "reactants": [
+      {
+        "chemicalId": "nitric_acid",
+        "stoichiometry": 1
+      },
+      {
+        "chemicalId": "potassium_hydroxide",
+        "stoichiometry": 1
+      }
+    ],
+    "products": [
+      {
+        "chemicalId": "potassium_nitrate",
+        "stoichiometry": 1
+      },
+      {
+        "chemicalId": "water",
+        "stoichiometry": 1
+      }
+    ],
+    "equation": "HNO3(aq) + KOH(aq) -> KNO3(aq) + H2O(l)",
+    "conditions": {
+      "minTemperature": 0.0,
+      "maxTemperature": 100.0,
+      "requiresHeating": false,
+      "catalyst": null
+    },
+    "effects": {
+      "temperatureChange": 5.5,
+      "phChange": true,
+      "targetPh": 7.0,
+      "colorChange": null,
+      "gasProduced": null,
+      "precipitate": null,
+      "flame": false,
+      "bubbles": false,
+      "crystalFormation": false,
+      "smoke": false,
+      "energyChange": "exothermic",
+      "stateChange": null
+    },
+    "visualEffect": "neutralization",
+    "difficulty": 1,
+    "explanation": "Nitric acid neutralizes potassium hydroxide to form potassium nitrate salt solution and water.",
+    "verification": {
+      "status": "verified",
+      "sources": [
+        "PubChem"
+      ],
+      "notes": "Standard acid-base reaction."
+    }
+  },
+  {
+    "id": "ch3cooh_naoh_neutralization",
+    "name": "Neutralization of Acetic Acid with Sodium Hydroxide",
+    "type": "neutralization",
+    "reactants": [
+      {
+        "chemicalId": "acetic_acid",
+        "stoichiometry": 1
+      },
+      {
+        "chemicalId": "sodium_hydroxide",
+        "stoichiometry": 1
+      }
+    ],
+    "products": [
+      {
+        "chemicalId": "water",
+        "stoichiometry": 1
+      }
+    ],
+    "equation": "CH3COOH(aq) + NaOH(aq) -> CH3COONa(aq) + H2O(l)",
+    "conditions": {
+      "minTemperature": 0.0,
+      "maxTemperature": 100.0,
+      "requiresHeating": false,
+      "catalyst": null
+    },
+    "effects": {
+      "temperatureChange": 3.5,
+      "phChange": true,
+      "targetPh": 8.8,
+      "colorChange": null,
+      "gasProduced": null,
+      "precipitate": null,
+      "flame": false,
+      "bubbles": false,
+      "crystalFormation": false,
+      "smoke": false,
+      "energyChange": "exothermic",
+      "stateChange": null
+    },
+    "visualEffect": "neutralization",
+    "difficulty": 1,
+    "explanation": "Weak acid acetic acid reacts with strong base NaOH, resulting in a slightly basic equivalence point (pH ~ 8.8) due to sodium acetate hydrolysis.",
+    "verification": {
+      "status": "verified",
+      "sources": [
+        "Skoog Analytical Chemistry"
+      ],
+      "notes": "Weak acid - strong base titration curve."
+    }
+  },
+  {
+    "id": "hcl_nahco3_gas_evolution",
+    "name": "Reaction of Hydrochloric Acid and Sodium Bicarbonate",
+    "type": "gas_evolution",
+    "reactants": [
+      {
+        "chemicalId": "hydrochloric_acid",
+        "stoichiometry": 1
+      },
+      {
+        "chemicalId": "sodium_bicarbonate",
+        "stoichiometry": 1
+      }
+    ],
+    "products": [
+      {
+        "chemicalId": "sodium_chloride",
+        "stoichiometry": 1
+      },
+      {
+        "chemicalId": "water",
+        "stoichiometry": 1
+      },
+      {
+        "chemicalId": "carbon_dioxide_gas",
+        "stoichiometry": 1
+      }
+    ],
+    "equation": "HCl(aq) + NaHCO3(s) -> NaCl(aq) + H2O(l) + CO2(g)",
+    "conditions": {
+      "minTemperature": 0.0,
+      "maxTemperature": 100.0,
+      "requiresHeating": false,
+      "catalyst": null
+    },
+    "effects": {
+      "temperatureChange": -2.0,
+      "phChange": true,
+      "targetPh": 6.5,
+      "colorChange": null,
+      "gasProduced": "carbon_dioxide_gas",
+      "precipitate": null,
+      "flame": false,
+      "bubbles": true,
+      "crystalFormation": false,
+      "smoke": false,
+      "energyChange": "endothermic",
+      "stateChange": "gas_release"
+    },
+    "visualEffect": "gas_evolution",
+    "difficulty": 1,
+    "explanation": "Hydrochloric acid reacts with sodium bicarbonate to form carbonic acid, which rapidly decomposes into water and vigorous carbon dioxide gas effervescence.",
+    "verification": {
+      "status": "verified",
+      "sources": [
+        "PubChem",
+        "Royal Society of Chemistry"
+      ],
+      "notes": "Classic fizzy acid-carbonate gas evolution reaction."
+    }
+  },
+  {
+    "id": "ch3cooh_nahco3_gas_evolution",
+    "name": "Reaction of Vinegar and Baking Soda",
+    "type": "gas_evolution",
+    "reactants": [
+      {
+        "chemicalId": "acetic_acid",
+        "stoichiometry": 1
+      },
+      {
+        "chemicalId": "sodium_bicarbonate",
+        "stoichiometry": 1
+      }
+    ],
+    "products": [
+      {
+        "chemicalId": "water",
+        "stoichiometry": 1
+      },
+      {
+        "chemicalId": "carbon_dioxide_gas",
+        "stoichiometry": 1
+      }
+    ],
+    "equation": "CH3COOH(aq) + NaHCO3(s) -> CH3COONa(aq) + H2O(l) + CO2(g)",
+    "conditions": {
+      "minTemperature": 0.0,
+      "maxTemperature": 100.0,
+      "requiresHeating": false,
+      "catalyst": null
+    },
+    "effects": {
+      "temperatureChange": -3.0,
+      "phChange": true,
+      "targetPh": 6.0,
+      "colorChange": null,
+      "gasProduced": "carbon_dioxide_gas",
+      "precipitate": null,
+      "flame": false,
+      "bubbles": true,
+      "crystalFormation": false,
+      "smoke": false,
+      "energyChange": "endothermic",
+      "stateChange": "gas_release"
+    },
+    "visualEffect": "gas_evolution",
+    "difficulty": 1,
+    "explanation": "Baking soda and vinegar react to produce foam and bubbles of carbon dioxide gas while dropping solution temperature slightly.",
+    "verification": {
+      "status": "verified",
+      "sources": [
+        "ACS Middle School Chemistry"
+      ],
+      "notes": "Popular kitchen chemistry demonstration."
+    }
+  },
+  {
+    "id": "hcl_caco3_gas_evolution",
+    "name": "Reaction of Hydrochloric Acid and Calcium Carbonate (Marble)",
+    "type": "gas_evolution",
+    "reactants": [
+      {
+        "chemicalId": "hydrochloric_acid",
+        "stoichiometry": 2
+      },
+      {
+        "chemicalId": "calcium_carbonate",
+        "stoichiometry": 1
+      }
+    ],
+    "products": [
+      {
+        "chemicalId": "calcium_chloride",
+        "stoichiometry": 1
+      },
+      {
+        "chemicalId": "water",
+        "stoichiometry": 1
+      },
+      {
+        "chemicalId": "carbon_dioxide_gas",
+        "stoichiometry": 1
+      }
+    ],
+    "equation": "2HCl(aq) + CaCO3(s) -> CaCl2(aq) + H2O(l) + CO2(g)",
+    "conditions": {
+      "minTemperature": 0.0,
+      "maxTemperature": 100.0,
+      "requiresHeating": false,
+      "catalyst": null
+    },
+    "effects": {
+      "temperatureChange": 1.5,
+      "phChange": true,
+      "targetPh": 5.5,
+      "colorChange": null,
+      "gasProduced": "carbon_dioxide_gas",
+      "precipitate": null,
+      "flame": false,
+      "bubbles": true,
+      "crystalFormation": false,
+      "smoke": false,
+      "energyChange": "exothermic",
+      "stateChange": "dissolution"
+    },
+    "visualEffect": "gas_evolution",
+    "difficulty": 1,
+    "explanation": "Solid marble chips (CaCO3) dissolve in hydrochloric acid with brisk bubbling as CO2 gas is released.",
+    "verification": {
+      "status": "verified",
+      "sources": [
+        "RSC Chemical Demonstrations"
+      ],
+      "notes": "Standard acid-carbonate dissolution reaction."
+    }
+  },
+  {
+    "id": "hcl_zn_single_displacement",
+    "name": "Reaction of Hydrochloric Acid and Zinc Metal",
+    "type": "single_displacement",
+    "reactants": [
+      {
+        "chemicalId": "hydrochloric_acid",
+        "stoichiometry": 2
+      },
+      {
+        "chemicalId": "zinc_metal",
+        "stoichiometry": 1
+      }
+    ],
+    "products": [
+      {
+        "chemicalId": "zinc_chloride",
+        "stoichiometry": 1
+      },
+      {
+        "chemicalId": "hydrogen_gas",
+        "stoichiometry": 1
+      }
+    ],
+    "equation": "2HCl(aq) + Zn(s) -> ZnCl2(aq) + H2(g)",
+    "conditions": {
+      "minTemperature": 15.0,
+      "maxTemperature": 100.0,
+      "requiresHeating": false,
+      "catalyst": null
+    },
+    "effects": {
+      "temperatureChange": 6.0,
+      "phChange": true,
+      "targetPh": 4.0,
+      "colorChange": null,
+      "gasProduced": "hydrogen_gas",
+      "precipitate": null,
+      "flame": false,
+      "bubbles": true,
+      "crystalFormation": false,
+      "smoke": false,
+      "energyChange": "exothermic",
+      "stateChange": "dissolution"
+    },
+    "visualEffect": "gas_evolution",
+    "difficulty": 2,
+    "explanation": "Zinc metal dissolves in hydrochloric acid, displacing hydrogen to evolve flammable hydrogen gas bubbles.",
+    "verification": {
+      "status": "verified",
+      "sources": [
+        "Zumdahl Chemistry 10th Ed"
+      ],
+      "notes": "Classic lab preparation of H2 gas."
+    }
+  },
+  {
+    "id": "hcl_mg_single_displacement",
+    "name": "Reaction of Hydrochloric Acid and Magnesium Ribbon",
+    "type": "single_displacement",
+    "reactants": [
+      {
+        "chemicalId": "hydrochloric_acid",
+        "stoichiometry": 2
+      },
+      {
+        "chemicalId": "magnesium_metal",
+        "stoichiometry": 1
+      }
+    ],
+    "products": [
+      {
+        "chemicalId": "hydrogen_gas",
+        "stoichiometry": 1
+      }
+    ],
+    "equation": "2HCl(aq) + Mg(s) -> MgCl2(aq) + H2(g)",
+    "conditions": {
+      "minTemperature": 10.0,
+      "maxTemperature": 100.0,
+      "requiresHeating": false,
+      "catalyst": null
+    },
+    "effects": {
+      "temperatureChange": 15.0,
+      "phChange": true,
+      "targetPh": 5.0,
+      "colorChange": null,
+      "gasProduced": "hydrogen_gas",
+      "precipitate": null,
+      "flame": false,
+      "bubbles": true,
+      "crystalFormation": false,
+      "smoke": false,
+      "energyChange": "exothermic",
+      "stateChange": "dissolution"
+    },
+    "visualEffect": "gas_evolution",
+    "difficulty": 1,
+    "explanation": "Magnesium reacts vigorously with hydrochloric acid, releasing rapid hydrogen gas bubbles and significant thermal energy.",
+    "verification": {
+      "status": "verified",
+      "sources": [
+        "RSC Chemistry"
+      ],
+      "notes": "Vigorous metal-acid reaction."
+    }
+  },
+  {
+    "id": "h2so4_fe_single_displacement",
+    "name": "Reaction of Sulfuric Acid and Iron Filings",
+    "type": "single_displacement",
+    "reactants": [
+      {
+        "chemicalId": "sulfuric_acid",
+        "stoichiometry": 1
+      },
+      {
+        "chemicalId": "iron_filings",
+        "stoichiometry": 1
+      }
+    ],
+    "products": [
+      {
+        "chemicalId": "hydrogen_gas",
+        "stoichiometry": 1
+      }
+    ],
+    "equation": "H2SO4(aq) + Fe(s) -> FeSO4(aq) + H2(g)",
+    "conditions": {
+      "minTemperature": 20.0,
+      "maxTemperature": 100.0,
+      "requiresHeating": false,
+      "catalyst": null
+    },
+    "effects": {
+      "temperatureChange": 4.0,
+      "phChange": true,
+      "targetPh": 3.0,
+      "colorChange": {
+        "from": "colorless",
+        "to": "pale green"
+      },
+      "gasProduced": "hydrogen_gas",
+      "precipitate": null,
+      "flame": false,
+      "bubbles": true,
+      "crystalFormation": false,
+      "smoke": false,
+      "energyChange": "exothermic",
+      "stateChange": null
+    },
+    "visualEffect": "gas_evolution",
+    "difficulty": 2,
+    "explanation": "Iron metal dissolves in dilute sulfuric acid, releasing hydrogen gas and forming a pale green iron(II) sulfate solution.",
+    "verification": {
+      "status": "verified",
+      "sources": [
+        "PubChem"
+      ],
+      "notes": "Displacement reaction yielding iron(II) sulfate."
+    }
+  },
+  {
+    "id": "agno3_nacl_precipitation",
+    "name": "Precipitation of Silver Chloride from Silver Nitrate and Sodium Chloride",
+    "type": "precipitation",
+    "reactants": [
+      {
+        "chemicalId": "silver_nitrate",
+        "stoichiometry": 1
+      },
+      {
+        "chemicalId": "sodium_chloride",
+        "stoichiometry": 1
+      }
+    ],
+    "products": [
+      {
+        "chemicalId": "sodium_nitrate",
+        "stoichiometry": 1
+      }
+    ],
+    "equation": "AgNO3(aq) + NaCl(aq) -> AgCl(s) + NaNO3(aq)",
+    "conditions": {
+      "minTemperature": 0.0,
+      "maxTemperature": 100.0,
+      "requiresHeating": false,
+      "catalyst": null
+    },
+    "effects": {
+      "temperatureChange": 0.5,
+      "phChange": false,
+      "targetPh": 7.0,
+      "colorChange": {
+        "from": "colorless",
+        "to": "cloudy white"
+      },
+      "gasProduced": null,
+      "precipitate": "white_silver_chloride",
+      "flame": false,
+      "bubbles": false,
+      "crystalFormation": false,
+      "smoke": false,
+      "energyChange": "slightly_exothermic",
+      "stateChange": "precipitation"
+    },
+    "visualEffect": "precipitation",
+    "difficulty": 1,
+    "explanation": "Mixing clear silver nitrate and sodium chloride solutions instantly produces a dense white curtain of curdy silver chloride precipitate.",
+    "verification": {
+      "status": "verified",
+      "sources": [
+        "PubChem",
+        "Vogel Quantitative Chemical Analysis"
+      ],
+      "notes": "Classic qualitative halide precipitation test."
+    }
+  },
+  {
+    "id": "bacl2_h2so4_precipitation",
+    "name": "Precipitation of Barium Sulfate from Barium Chloride and Sulfuric Acid",
+    "type": "precipitation",
+    "reactants": [
+      {
+        "chemicalId": "barium_chloride",
+        "stoichiometry": 1
+      },
+      {
+        "chemicalId": "sulfuric_acid",
+        "stoichiometry": 1
+      }
+    ],
+    "products": [
+      {
+        "chemicalId": "hydrochloric_acid",
+        "stoichiometry": 2
+      }
+    ],
+    "equation": "BaCl2(aq) + H2SO4(aq) -> BaSO4(s) + 2HCl(aq)",
+    "conditions": {
+      "minTemperature": 0.0,
+      "maxTemperature": 100.0,
+      "requiresHeating": false,
+      "catalyst": null
+    },
+    "effects": {
+      "temperatureChange": 1.0,
+      "phChange": false,
+      "targetPh": 1.0,
+      "colorChange": {
+        "from": "colorless",
+        "to": "milky white"
+      },
+      "gasProduced": null,
+      "precipitate": "white_barium_sulfate",
+      "flame": false,
+      "bubbles": false,
+      "crystalFormation": false,
+      "smoke": false,
+      "energyChange": "exothermic",
+      "stateChange": "precipitation"
+    },
+    "visualEffect": "precipitation",
+    "difficulty": 1,
+    "explanation": "Barium ions react with sulfate ions to form an extremely insoluble fine white precipitate of barium sulfate.",
+    "verification": {
+      "status": "verified",
+      "sources": [
+        "PubChem"
+      ],
+      "notes": "Standard qualitative test for sulfate ions."
+    }
+  },
+  {
+    "id": "bacl2_na2so4_precipitation",
+    "name": "Precipitation of Barium Sulfate from Barium Chloride and Sodium Sulfate",
+    "type": "double_displacement",
+    "reactants": [
+      {
+        "chemicalId": "barium_chloride",
+        "stoichiometry": 1
+      },
+      {
+        "chemicalId": "sodium_sulfate",
+        "stoichiometry": 1
+      }
+    ],
+    "products": [
+      {
+        "chemicalId": "sodium_chloride",
+        "stoichiometry": 2
+      }
+    ],
+    "equation": "BaCl2(aq) + Na2SO4(aq) -> BaSO4(s) + 2NaCl(aq)",
+    "conditions": {
+      "minTemperature": 0.0,
+      "maxTemperature": 100.0,
+      "requiresHeating": false,
+      "catalyst": null
+    },
+    "effects": {
+      "temperatureChange": 0.5,
+      "phChange": false,
+      "targetPh": 7.0,
+      "colorChange": {
+        "from": "colorless",
+        "to": "milky white"
+      },
+      "gasProduced": null,
+      "precipitate": "white_barium_sulfate",
+      "flame": false,
+      "bubbles": false,
+      "crystalFormation": false,
+      "smoke": false,
+      "energyChange": "slightly_exothermic",
+      "stateChange": "precipitation"
+    },
+    "visualEffect": "precipitation",
+    "difficulty": 1,
+    "explanation": "Double displacement exchange produces white insoluble barium sulfate solid dispersed in aqueous sodium chloride.",
+    "verification": {
+      "status": "verified",
+      "sources": [
+        "PubChem"
+      ],
+      "notes": "Double displacement precipitation."
+    }
+  },
+  {
+    "id": "cuso4_naoh_precipitation",
+    "name": "Precipitation of Copper(II) Hydroxide",
+    "type": "precipitation",
+    "reactants": [
+      {
+        "chemicalId": "copper_sulfate",
+        "stoichiometry": 1
+      },
+      {
+        "chemicalId": "sodium_hydroxide",
+        "stoichiometry": 2
+      }
+    ],
+    "products": [
+      {
+        "chemicalId": "sodium_sulfate",
+        "stoichiometry": 1
+      }
+    ],
+    "equation": "CuSO4(aq) + 2NaOH(aq) -> Cu(OH)2(s) + Na2SO4(aq)",
+    "conditions": {
+      "minTemperature": 0.0,
+      "maxTemperature": 100.0,
+      "requiresHeating": false,
+      "catalyst": null
+    },
+    "effects": {
+      "temperatureChange": 1.0,
+      "phChange": true,
+      "targetPh": 12.0,
+      "colorChange": {
+        "from": "blue",
+        "to": "pale royal blue precipitate"
+      },
+      "gasProduced": null,
+      "precipitate": "light_blue_copper_hydroxide",
+      "flame": false,
+      "bubbles": false,
+      "crystalFormation": false,
+      "smoke": false,
+      "energyChange": "exothermic",
+      "stateChange": "precipitation"
+    },
+    "visualEffect": "precipitation",
+    "difficulty": 1,
+    "explanation": "Adding sodium hydroxide to blue copper sulfate forms a gelatinous light-blue precipitate of copper(II) hydroxide.",
+    "verification": {
+      "status": "verified",
+      "sources": [
+        "PubChem",
+        "RSC Chemistry"
+      ],
+      "notes": "Precipitation test for copper(II) cations."
+    }
+  },
+  {
+    "id": "fecl3_naoh_precipitation",
+    "name": "Precipitation of Iron(III) Hydroxide",
+    "type": "precipitation",
+    "reactants": [
+      {
+        "chemicalId": "iron_chloride",
+        "stoichiometry": 1
+      },
+      {
+        "chemicalId": "sodium_hydroxide",
+        "stoichiometry": 3
+      }
+    ],
+    "products": [
+      {
+        "chemicalId": "sodium_chloride",
+        "stoichiometry": 3
+      }
+    ],
+    "equation": "FeCl3(aq) + 3NaOH(aq) -> Fe(OH)3(s) + 3NaCl(aq)",
+    "conditions": {
+      "minTemperature": 0.0,
+      "maxTemperature": 100.0,
+      "requiresHeating": false,
+      "catalyst": null
+    },
+    "effects": {
+      "temperatureChange": 1.5,
+      "phChange": true,
+      "targetPh": 12.0,
+      "colorChange": {
+        "from": "yellow-brown",
+        "to": "reddish-brown precipitate"
+      },
+      "gasProduced": null,
+      "precipitate": "red_brown_iron_hydroxide",
+      "flame": false,
+      "bubbles": false,
+      "crystalFormation": false,
+      "smoke": false,
+      "energyChange": "exothermic",
+      "stateChange": "precipitation"
+    },
+    "visualEffect": "precipitation",
+    "difficulty": 1,
+    "explanation": "Ferric chloride solution reacts with sodium hydroxide to yield a dark reddish-brown rusty precipitate of iron(III) hydroxide.",
+    "verification": {
+      "status": "verified",
+      "sources": [
+        "PubChem"
+      ],
+      "notes": "Qualitative cation test for Fe3+."
+    }
+  },
+  {
+    "id": "cuso4_zn_displacement",
+    "name": "Displacement of Copper by Zinc Metal",
+    "type": "single_displacement",
+    "reactants": [
+      {
+        "chemicalId": "copper_sulfate",
+        "stoichiometry": 1
+      },
+      {
+        "chemicalId": "zinc_metal",
+        "stoichiometry": 1
+      }
+    ],
+    "products": [
+      {
+        "chemicalId": "zinc_sulfate",
+        "stoichiometry": 1
+      },
+      {
+        "chemicalId": "copper_metal",
+        "stoichiometry": 1
+      }
+    ],
+    "equation": "CuSO4(aq) + Zn(s) -> ZnSO4(aq) + Cu(s)",
+    "conditions": {
+      "minTemperature": 15.0,
+      "maxTemperature": 100.0,
+      "requiresHeating": false,
+      "catalyst": null
+    },
+    "effects": {
+      "temperatureChange": 12.0,
+      "phChange": false,
+      "targetPh": 4.5,
+      "colorChange": {
+        "from": "deep blue",
+        "to": "colorless solution"
+      },
+      "gasProduced": null,
+      "precipitate": "reddish_brown_copper_metal",
+      "flame": false,
+      "bubbles": false,
+      "crystalFormation": false,
+      "smoke": false,
+      "energyChange": "exothermic",
+      "stateChange": "metal_deposition"
+    },
+    "visualEffect": "color_change",
+    "difficulty": 1,
+    "explanation": "Zinc metal displaces copper from copper sulfate solution. The blue color fades as zinc sulfate forms and reddish-brown copper metal deposits onto the zinc surface.",
+    "verification": {
+      "status": "verified",
+      "sources": [
+        "RSC Chemical Demonstrations"
+      ],
+      "notes": "Classic reactivity series demonstration."
+    }
+  },
+  {
+    "id": "cuso4_fe_displacement",
+    "name": "Displacement of Copper by Iron Filings",
+    "type": "single_displacement",
+    "reactants": [
+      {
+        "chemicalId": "copper_sulfate",
+        "stoichiometry": 1
+      },
+      {
+        "chemicalId": "iron_filings",
+        "stoichiometry": 1
+      }
+    ],
+    "products": [
+      {
+        "chemicalId": "iron_sulfate",
+        "stoichiometry": 1
+      },
+      {
+        "chemicalId": "copper_metal",
+        "stoichiometry": 1
+      }
+    ],
+    "equation": "CuSO4(aq) + Fe(s) -> FeSO4(aq) + Cu(s)",
+    "conditions": {
+      "minTemperature": 15.0,
+      "maxTemperature": 100.0,
+      "requiresHeating": false,
+      "catalyst": null
+    },
+    "effects": {
+      "temperatureChange": 5.0,
+      "phChange": false,
+      "targetPh": 4.5,
+      "colorChange": {
+        "from": "blue",
+        "to": "pale green solution"
+      },
+      "gasProduced": null,
+      "precipitate": "reddish_brown_copper_coating",
+      "flame": false,
+      "bubbles": false,
+      "crystalFormation": false,
+      "smoke": false,
+      "energyChange": "exothermic",
+      "stateChange": "metal_deposition"
+    },
+    "visualEffect": "color_change",
+    "difficulty": 1,
+    "explanation": "Iron displaces copper from copper sulfate solution, turning the blue solution pale green (FeSO4) while coating iron with metallic copper.",
+    "verification": {
+      "status": "verified",
+      "sources": [
+        "PubChem"
+      ],
+      "notes": "Single displacement metal reaction."
+    }
+  },
+  {
+    "id": "h2o2_ki_decomposition",
+    "name": "Catalyzed Decomposition of Hydrogen Peroxide by Potassium Iodide",
+    "type": "decomposition",
+    "reactants": [
+      {
+        "chemicalId": "hydrogen_peroxide",
+        "stoichiometry": 2
+      },
+      {
+        "chemicalId": "potassium_iodide",
+        "stoichiometry": 1
+      }
+    ],
+    "products": [
+      {
+        "chemicalId": "water",
+        "stoichiometry": 2
+      },
+      {
+        "chemicalId": "oxygen_gas",
+        "stoichiometry": 1
+      }
+    ],
+    "equation": "2H2O2(aq) -[KI]-> 2H2O(l) + O2(g)",
+    "conditions": {
+      "minTemperature": 15.0,
+      "maxTemperature": 100.0,
+      "requiresHeating": false,
+      "catalyst": "potassium_iodide"
+    },
+    "effects": {
+      "temperatureChange": 25.0,
+      "phChange": false,
+      "targetPh": 6.5,
+      "colorChange": {
+        "from": "colorless",
+        "to": "yellowish brown intermediate"
+      },
+      "gasProduced": "oxygen_gas",
+      "precipitate": null,
+      "flame": false,
+      "bubbles": true,
+      "crystalFormation": false,
+      "smoke": true,
+      "energyChange": "exothermic",
+      "stateChange": "gas_release"
+    },
+    "visualEffect": "gas_evolution",
+    "difficulty": 2,
+    "explanation": "Potassium iodide acts as a homogeneous catalyst, rapidly breaking down hydrogen peroxide into water and warm oxygen gas foam (elephant toothpaste).",
+    "verification": {
+      "status": "verified",
+      "sources": [
+        "Journal of Chemical Education",
+        "ACS"
+      ],
+      "notes": "Elephant toothpaste demonstration reaction."
+    }
+  },
+  {
+    "id": "h2o2_mno2_decomposition",
+    "name": "Catalyzed Decomposition of Hydrogen Peroxide by Manganese(IV) Oxide",
+    "type": "decomposition",
+    "reactants": [
+      {
+        "chemicalId": "hydrogen_peroxide",
+        "stoichiometry": 2
+      },
+      {
+        "chemicalId": "manganese_dioxide",
+        "stoichiometry": 1
+      }
+    ],
+    "products": [
+      {
+        "chemicalId": "water",
+        "stoichiometry": 2
+      },
+      {
+        "chemicalId": "oxygen_gas",
+        "stoichiometry": 1
+      }
+    ],
+    "equation": "2H2O2(aq) -[MnO2]-> 2H2O(l) + O2(g)",
+    "conditions": {
+      "minTemperature": 15.0,
+      "maxTemperature": 100.0,
+      "requiresHeating": false,
+      "catalyst": "manganese_dioxide"
+    },
+    "effects": {
+      "temperatureChange": 20.0,
+      "phChange": false,
+      "targetPh": 6.5,
+      "colorChange": null,
+      "gasProduced": "oxygen_gas",
+      "precipitate": null,
+      "flame": false,
+      "bubbles": true,
+      "crystalFormation": false,
+      "smoke": false,
+      "energyChange": "exothermic",
+      "stateChange": "gas_release"
+    },
+    "visualEffect": "gas_evolution",
+    "difficulty": 1,
+    "explanation": "Heterogeneous catalyst manganese dioxide rapidly speeds up H2O2 decomposition to evolve copious oxygen gas.",
+    "verification": {
+      "status": "verified",
+      "sources": [
+        "PubChem"
+      ],
+      "notes": "Standard laboratory method for generating O2 gas."
+    }
+  },
+  {
+    "id": "mg_o2_combustion",
+    "name": "Combustion of Magnesium Metal in Oxygen",
+    "type": "combustion",
+    "reactants": [
+      {
+        "chemicalId": "magnesium_metal",
+        "stoichiometry": 2
+      },
+      {
+        "chemicalId": "oxygen_gas",
+        "stoichiometry": 1
+      }
+    ],
+    "products": [],
+    "equation": "2Mg(s) + O2(g) -> 2MgO(s)",
+    "conditions": {
+      "minTemperature": 500.0,
+      "maxTemperature": 3000.0,
+      "requiresHeating": true,
+      "catalyst": null
+    },
+    "effects": {
+      "temperatureChange": 1500.0,
+      "phChange": false,
+      "targetPh": null,
+      "colorChange": {
+        "from": "silvery",
+        "to": "white ash"
+      },
+      "gasProduced": null,
+      "precipitate": null,
+      "flame": true,
+      "bubbles": false,
+      "crystalFormation": false,
+      "smoke": true,
+      "energyChange": "highly_exothermic",
+      "stateChange": "solid_ash"
+    },
+    "visualEffect": "combustion",
+    "difficulty": 2,
+    "explanation": "Magnesium burns in oxygen with a dazzling, blinding white light flame, forming a fine white ash of magnesium oxide.",
+    "verification": {
+      "status": "verified",
+      "sources": [
+        "RSC Chemical Demonstrations"
+      ],
+      "notes": "Bright white UV-emitting metal combustion."
+    }
+  },
+  {
+    "id": "h2_o2_combustion",
+    "name": "Combustion of Hydrogen Gas (Pop Test)",
+    "type": "combustion",
+    "reactants": [
+      {
+        "chemicalId": "hydrogen_gas",
+        "stoichiometry": 2
+      },
+      {
+        "chemicalId": "oxygen_gas",
+        "stoichiometry": 1
+      }
+    ],
+    "products": [
+      {
+        "chemicalId": "water",
+        "stoichiometry": 2
+      }
+    ],
+    "equation": "2H2(g) + O2(g) -> 2H2O(g)",
+    "conditions": {
+      "minTemperature": 500.0,
+      "maxTemperature": 2500.0,
+      "requiresHeating": true,
+      "catalyst": null
+    },
+    "effects": {
+      "temperatureChange": 800.0,
+      "phChange": false,
+      "targetPh": 7.0,
+      "colorChange": null,
+      "gasProduced": null,
+      "precipitate": null,
+      "flame": true,
+      "bubbles": false,
+      "crystalFormation": false,
+      "smoke": false,
+      "energyChange": "explosive_exothermic",
+      "stateChange": "condensation"
+    },
+    "visualEffect": "spark",
+    "difficulty": 1,
+    "explanation": "Hydrogen gas ignites with oxygen with a characteristic squeaky 'pop' sound, combining rapidly to form water vapor droplets.",
+    "verification": {
+      "status": "verified",
+      "sources": [
+        "RSC Chemical Safety"
+      ],
+      "notes": "Classic hydrogen squeaky pop test."
+    }
+  },
+  {
+    "id": "ethanol_combustion",
+    "name": "Combustion of Ethanol Fuel",
+    "type": "combustion",
+    "reactants": [
+      {
+        "chemicalId": "ethanol",
+        "stoichiometry": 1
+      },
+      {
+        "chemicalId": "oxygen_gas",
+        "stoichiometry": 3
+      }
+    ],
+    "products": [
+      {
+        "chemicalId": "carbon_dioxide_gas",
+        "stoichiometry": 2
+      },
+      {
+        "chemicalId": "water",
+        "stoichiometry": 3
+      }
+    ],
+    "equation": "C2H5OH(l) + 3O2(g) -> 2CO2(g) + 3H2O(g)",
+    "conditions": {
+      "minTemperature": 300.0,
+      "maxTemperature": 1200.0,
+      "requiresHeating": true,
+      "catalyst": null
+    },
+    "effects": {
+      "temperatureChange": 600.0,
+      "phChange": false,
+      "targetPh": null,
+      "colorChange": null,
+      "gasProduced": "carbon_dioxide_gas",
+      "precipitate": null,
+      "flame": true,
+      "bubbles": false,
+      "crystalFormation": false,
+      "smoke": false,
+      "energyChange": "exothermic",
+      "stateChange": "gas_release"
+    },
+    "visualEffect": "flame",
+    "difficulty": 1,
+    "explanation": "Ethanol burns smoothly in excess oxygen with a clean blue flame to form carbon dioxide gas and water vapor.",
+    "verification": {
+      "status": "verified",
+      "sources": [
+        "PubChem"
+      ],
+      "notes": "Organic liquid alcohol combustion."
+    }
+  },
+  {
+    "id": "sulfur_o2_combustion",
+    "name": "Combustion of Sulfur in Oxygen",
+    "type": "combustion",
+    "reactants": [
+      {
+        "chemicalId": "sulfur_powder",
+        "stoichiometry": 1
+      },
+      {
+        "chemicalId": "oxygen_gas",
+        "stoichiometry": 1
+      }
+    ],
+    "products": [],
+    "equation": "S(s) + O2(g) -> SO2(g)",
+    "conditions": {
+      "minTemperature": 250.0,
+      "maxTemperature": 1000.0,
+      "requiresHeating": true,
+      "catalyst": null
+    },
+    "effects": {
+      "temperatureChange": 400.0,
+      "phChange": false,
+      "targetPh": null,
+      "colorChange": {
+        "from": "yellow solid",
+        "to": "blue flame"
+      },
+      "gasProduced": "sulfur_dioxide",
+      "precipitate": null,
+      "flame": true,
+      "bubbles": false,
+      "crystalFormation": false,
+      "smoke": true,
+      "energyChange": "exothermic",
+      "stateChange": "gas_release"
+    },
+    "visualEffect": "flame",
+    "difficulty": 2,
+    "explanation": "Yellow sulfur powder melts and burns with an eerie bright blue flame in oxygen, releasing pungent sulfur dioxide fumes.",
+    "verification": {
+      "status": "verified",
+      "sources": [
+        "RSC Chemical Demonstrations"
+      ],
+      "notes": "Nonmetal element combustion in oxygen."
+    }
+  },
+  {
+    "id": "phenolphthalein_base_indicator",
+    "name": "Phenolphthalein Color Change in Basic Solution",
+    "type": "indicator",
+    "reactants": [
+      {
+        "chemicalId": "phenolphthalein",
+        "stoichiometry": 1
+      },
+      {
+        "chemicalId": "sodium_hydroxide",
+        "stoichiometry": 1
+      }
+    ],
+    "products": [],
+    "equation": "H2In(aq, colorless) + 2OH-(aq) -> In2-(aq, pink) + 2H2O(l)",
+    "conditions": {
+      "minTemperature": 0.0,
+      "maxTemperature": 100.0,
+      "requiresHeating": false,
+      "catalyst": null
+    },
+    "effects": {
+      "temperatureChange": 0.0,
+      "phChange": false,
+      "targetPh": 10.0,
+      "colorChange": {
+        "from": "colorless",
+        "to": "vibrant pink / magenta"
+      },
+      "gasProduced": null,
+      "precipitate": null,
+      "flame": false,
+      "bubbles": false,
+      "crystalFormation": false,
+      "smoke": false,
+      "energyChange": "neutral",
+      "stateChange": null
+    },
+    "visualEffect": "color_change",
+    "difficulty": 1,
+    "explanation": "Phenolphthalein undergoes structural deprotonation above pH 8.2, turning solutions from clear/colorless to brilliant magenta pink.",
+    "verification": {
+      "status": "verified",
+      "sources": [
+        "PubChem",
+        "Skoog Analytical Chemistry"
+      ],
+      "notes": "Classic acid-base indicator transition."
+    }
+  },
+  {
+    "id": "phenolphthalein_acid_indicator",
+    "name": "Phenolphthalein Color Reset in Acidic Solution",
+    "type": "indicator",
+    "reactants": [
+      {
+        "chemicalId": "phenolphthalein",
+        "stoichiometry": 1
+      },
+      {
+        "chemicalId": "hydrochloric_acid",
+        "stoichiometry": 1
+      }
+    ],
+    "products": [],
+    "equation": "In2-(aq, pink) + 2H+(aq) -> H2In(aq, colorless)",
+    "conditions": {
+      "minTemperature": 0.0,
+      "maxTemperature": 100.0,
+      "requiresHeating": false,
+      "catalyst": null
+    },
+    "effects": {
+      "temperatureChange": 0.0,
+      "phChange": false,
+      "targetPh": 2.0,
+      "colorChange": {
+        "from": "vibrant pink",
+        "to": "colorless"
+      },
+      "gasProduced": null,
+      "precipitate": null,
+      "flame": false,
+      "bubbles": false,
+      "crystalFormation": false,
+      "smoke": false,
+      "energyChange": "neutral",
+      "stateChange": null
+    },
+    "visualEffect": "color_change",
+    "difficulty": 1,
+    "explanation": "Protonation in acidic environment (pH < 8.2) restores the colorless neutral phenolphthalein form.",
+    "verification": {
+      "status": "verified",
+      "sources": [
+        "PubChem"
+      ],
+      "notes": "Reversible indicator equilibrium."
+    }
+  },
+  {
+    "id": "methyl_orange_acid_indicator",
+    "name": "Methyl Orange Color Change in Acidic Solution",
+    "type": "indicator",
+    "reactants": [
+      {
+        "chemicalId": "methyl_orange",
+        "stoichiometry": 1
+      },
+      {
+        "chemicalId": "hydrochloric_acid",
+        "stoichiometry": 1
+      }
+    ],
+    "products": [],
+    "equation": "In-(aq, yellow) + H+(aq) -> HIn(aq, red)",
+    "conditions": {
+      "minTemperature": 0.0,
+      "maxTemperature": 100.0,
+      "requiresHeating": false,
+      "catalyst": null
+    },
+    "effects": {
+      "temperatureChange": 0.0,
+      "phChange": false,
+      "targetPh": 2.0,
+      "colorChange": {
+        "from": "yellow",
+        "to": "red"
+      },
+      "gasProduced": null,
+      "precipitate": null,
+      "flame": false,
+      "bubbles": false,
+      "crystalFormation": false,
+      "smoke": false,
+      "energyChange": "neutral",
+      "stateChange": null
+    },
+    "visualEffect": "color_change",
+    "difficulty": 1,
+    "explanation": "Methyl orange turns red at pH levels below 3.1 upon protonation.",
+    "verification": {
+      "status": "verified",
+      "sources": [
+        "PubChem"
+      ],
+      "notes": "Methyl orange indicator transition."
+    }
+  },
+  {
+    "id": "universal_indicator_acid",
+    "name": "Universal Indicator in Strong Acid",
+    "type": "indicator",
+    "reactants": [
+      {
+        "chemicalId": "universal_indicator",
+        "stoichiometry": 1
+      },
+      {
+        "chemicalId": "hydrochloric_acid",
+        "stoichiometry": 1
+      }
+    ],
+    "products": [],
+    "equation": "Universal Indicator + H+ -> Red Solution",
+    "conditions": {
+      "minTemperature": 0.0,
+      "maxTemperature": 100.0,
+      "requiresHeating": false,
+      "catalyst": null
+    },
+    "effects": {
+      "temperatureChange": 0.0,
+      "phChange": false,
+      "targetPh": 1.0,
+      "colorChange": {
+        "from": "green",
+        "to": "bright red"
+      },
+      "gasProduced": null,
+      "precipitate": null,
+      "flame": false,
+      "bubbles": false,
+      "crystalFormation": false,
+      "smoke": false,
+      "energyChange": "neutral",
+      "stateChange": null
+    },
+    "visualEffect": "color_change",
+    "difficulty": 1,
+    "explanation": "Universal indicator turns deep red in strongly acidic solution (pH 1-2).",
+    "verification": {
+      "status": "verified",
+      "sources": [
+        "RSC Chemistry"
+      ],
+      "notes": "Universal pH indicator color scale."
+    }
+  },
+  {
+    "id": "universal_indicator_base",
+    "name": "Universal Indicator in Strong Base",
+    "type": "indicator",
+    "reactants": [
+      {
+        "chemicalId": "universal_indicator",
+        "stoichiometry": 1
+      },
+      {
+        "chemicalId": "sodium_hydroxide",
+        "stoichiometry": 1
+      }
+    ],
+    "products": [],
+    "equation": "Universal Indicator + OH- -> Purple Solution",
+    "conditions": {
+      "minTemperature": 0.0,
+      "maxTemperature": 100.0,
+      "requiresHeating": false,
+      "catalyst": null
+    },
+    "effects": {
+      "temperatureChange": 0.0,
+      "phChange": false,
+      "targetPh": 13.0,
+      "colorChange": {
+        "from": "green",
+        "to": "violet / purple"
+      },
+      "gasProduced": null,
+      "precipitate": null,
+      "flame": false,
+      "bubbles": false,
+      "crystalFormation": false,
+      "smoke": false,
+      "energyChange": "neutral",
+      "stateChange": null
+    },
+    "visualEffect": "color_change",
+    "difficulty": 1,
+    "explanation": "Universal indicator turns purple / violet in strongly basic solution (pH 12-14).",
+    "verification": {
+      "status": "verified",
+      "sources": [
+        "RSC Chemistry"
+      ],
+      "notes": "Universal pH indicator color scale."
+    }
+  },
+  {
+    "id": "co2_caoh2_precipitation",
+    "name": "Limewater Test for Carbon Dioxide Gas",
+    "type": "precipitation",
+    "reactants": [
+      {
+        "chemicalId": "carbon_dioxide_gas",
+        "stoichiometry": 1
+      },
+      {
+        "chemicalId": "calcium_hydroxide",
+        "stoichiometry": 1
+      }
+    ],
+    "products": [
+      {
+        "chemicalId": "calcium_carbonate",
+        "stoichiometry": 1
+      },
+      {
+        "chemicalId": "water",
+        "stoichiometry": 1
+      }
+    ],
+    "equation": "CO2(g) + Ca(OH)2(aq) -> CaCO3(s) + H2O(l)",
+    "conditions": {
+      "minTemperature": 0.0,
+      "maxTemperature": 100.0,
+      "requiresHeating": false,
+      "catalyst": null
+    },
+    "effects": {
+      "temperatureChange": 0.5,
+      "phChange": true,
+      "targetPh": 8.0,
+      "colorChange": {
+        "from": "clear",
+        "to": "milky cloudy white"
+      },
+      "gasProduced": null,
+      "precipitate": "white_calcium_carbonate",
+      "flame": false,
+      "bubbles": true,
+      "crystalFormation": false,
+      "smoke": false,
+      "energyChange": "exothermic",
+      "stateChange": "precipitation"
+    },
+    "visualEffect": "precipitation",
+    "difficulty": 1,
+    "explanation": "Bubbling CO2 gas through clear limewater produces fine suspended calcium carbonate precipitate, making solution milky white.",
+    "verification": {
+      "status": "verified",
+      "sources": [
+        "PubChem",
+        "RSC Practical Chemistry"
+      ],
+      "notes": "Diagnostic limewater test for carbon dioxide gas."
+    }
+  },
+  {
+    "id": "nh4cl_water_dissolution",
+    "name": "Endothermic Dissolution of Ammonium Chloride in Water",
+    "type": "thermal",
+    "reactants": [
+      {
+        "chemicalId": "ammonium_chloride",
+        "stoichiometry": 1
+      },
+      {
+        "chemicalId": "water",
+        "stoichiometry": 1
+      }
+    ],
+    "products": [],
+    "equation": "NH4Cl(s) + H2O(l) -> NH4+(aq) + Cl-(aq)",
+    "conditions": {
+      "minTemperature": 10.0,
+      "maxTemperature": 50.0,
+      "requiresHeating": false,
+      "catalyst": null
+    },
+    "effects": {
+      "temperatureChange": -12.0,
+      "phChange": true,
+      "targetPh": 5.5,
+      "colorChange": null,
+      "gasProduced": null,
+      "precipitate": null,
+      "flame": false,
+      "bubbles": false,
+      "crystalFormation": false,
+      "smoke": false,
+      "energyChange": "endothermic",
+      "stateChange": "dissolution"
+    },
+    "visualEffect": "temperature_drop",
+    "difficulty": 1,
+    "explanation": "Dissolving ammonium chloride in water absorbs lattice energy, causing a noticeable drop in solution temperature (cold pack principle).",
+    "verification": {
+      "status": "verified",
+      "sources": [
+        "PubChem",
+        "Atkins Physical Chemistry"
+      ],
+      "notes": "Endothermic salt dissolution."
+    }
+  },
+  {
+    "id": "cacl2_water_dissolution",
+    "name": "Exothermic Dissolution of Calcium Chloride in Water",
+    "type": "thermal",
+    "reactants": [
+      {
+        "chemicalId": "calcium_chloride",
+        "stoichiometry": 1
+      },
+      {
+        "chemicalId": "water",
+        "stoichiometry": 1
+      }
+    ],
+    "products": [],
+    "equation": "CaCl2(s) + H2O(l) -> Ca2+(aq) + 2Cl-(aq)",
+    "conditions": {
+      "minTemperature": 10.0,
+      "maxTemperature": 50.0,
+      "requiresHeating": false,
+      "catalyst": null
+    },
+    "effects": {
+      "temperatureChange": 22.0,
+      "phChange": false,
+      "targetPh": 7.0,
+      "colorChange": null,
+      "gasProduced": null,
+      "precipitate": null,
+      "flame": false,
+      "bubbles": false,
+      "crystalFormation": false,
+      "smoke": false,
+      "energyChange": "exothermic",
+      "stateChange": "dissolution"
+    },
+    "visualEffect": "temperature_rise",
+    "difficulty": 1,
+    "explanation": "Dissolving anhydrous calcium chloride releases high hydration enthalpy, rapidly warming the solution (hot pack principle).",
+    "verification": {
+      "status": "verified",
+      "sources": [
+        "PubChem"
+      ],
+      "notes": "Exothermic hydration enthalpy."
+    }
+  },
+  {
+    "id": "cuo_h2so4_neutralization",
+    "name": "Reaction of Copper(II) Oxide with Sulfuric Acid",
+    "type": "neutralization",
+    "reactants": [
+      {
+        "chemicalId": "copper_oxide",
+        "stoichiometry": 1
+      },
+      {
+        "chemicalId": "sulfuric_acid",
+        "stoichiometry": 1
+      }
+    ],
+    "products": [
+      {
+        "chemicalId": "copper_sulfate",
+        "stoichiometry": 1
+      },
+      {
+        "chemicalId": "water",
+        "stoichiometry": 1
+      }
+    ],
+    "equation": "CuO(s) + H2SO4(aq) -> CuSO4(aq) + H2O(l)",
+    "conditions": {
+      "minTemperature": 50.0,
+      "maxTemperature": 100.0,
+      "requiresHeating": true,
+      "catalyst": null
+    },
+    "effects": {
+      "temperatureChange": 5.0,
+      "phChange": true,
+      "targetPh": 4.0,
+      "colorChange": {
+        "from": "black powder",
+        "to": "sky blue solution"
+      },
+      "gasProduced": null,
+      "precipitate": null,
+      "flame": false,
+      "bubbles": false,
+      "crystalFormation": false,
+      "smoke": false,
+      "energyChange": "exothermic",
+      "stateChange": "dissolution"
+    },
+    "visualEffect": "color_change",
+    "difficulty": 2,
+    "explanation": "Gently warming black copper(II) oxide powder in dilute sulfuric acid dissolves the solid to form bright blue copper(II) sulfate solution.",
+    "verification": {
+      "status": "verified",
+      "sources": [
+        "RSC Chemical Demonstrations"
+      ],
+      "notes": "Preparation of copper sulfate salt from insoluble oxide."
+    }
+  },
+  {
+    "id": "cuo_hcl_neutralization",
+    "name": "Reaction of Copper(II) Oxide with Hydrochloric Acid",
+    "type": "neutralization",
+    "reactants": [
+      {
+        "chemicalId": "copper_oxide",
+        "stoichiometry": 1
+      },
+      {
+        "chemicalId": "hydrochloric_acid",
+        "stoichiometry": 2
+      }
+    ],
+    "products": [
+      {
+        "chemicalId": "water",
+        "stoichiometry": 1
+      }
+    ],
+    "equation": "CuO(s) + 2HCl(aq) -> CuCl2(aq) + H2O(l)",
+    "conditions": {
+      "minTemperature": 40.0,
+      "maxTemperature": 100.0,
+      "requiresHeating": true,
+      "catalyst": null
+    },
+    "effects": {
+      "temperatureChange": 4.0,
+      "phChange": true,
+      "targetPh": 3.0,
+      "colorChange": {
+        "from": "black powder",
+        "to": "greenish-blue solution"
+      },
+      "gasProduced": null,
+      "precipitate": null,
+      "flame": false,
+      "bubbles": false,
+      "crystalFormation": false,
+      "smoke": false,
+      "energyChange": "exothermic",
+      "stateChange": "dissolution"
+    },
+    "visualEffect": "color_change",
+    "difficulty": 2,
+    "explanation": "Black copper oxide dissolves in warm hydrochloric acid forming aqueous copper(II) chloride with a distinctive blue-green color.",
+    "verification": {
+      "status": "verified",
+      "sources": [
+        "PubChem"
+      ],
+      "notes": "Oxide dissolution in acid."
+    }
+  },
+  {
+    "id": "cuso4_crystal_growth",
+    "name": "Crystallization of Copper(II) Sulfate Pentahydrate",
+    "type": "thermal",
+    "reactants": [
+      {
+        "chemicalId": "copper_sulfate",
+        "stoichiometry": 1
+      },
+      {
+        "chemicalId": "water",
+        "stoichiometry": 5
+      }
+    ],
+    "products": [
+      {
+        "chemicalId": "copper_sulfate",
+        "stoichiometry": 1
+      }
+    ],
+    "equation": "CuSO4(aq) + 5H2O(l) -> CuSO4\u00b75H2O(s)",
+    "conditions": {
+      "minTemperature": 0.0,
+      "maxTemperature": 40.0,
+      "requiresHeating": false,
+      "catalyst": null
+    },
+    "effects": {
+      "temperatureChange": -1.0,
+      "phChange": false,
+      "targetPh": null,
+      "colorChange": null,
+      "gasProduced": null,
+      "precipitate": null,
+      "flame": false,
+      "bubbles": false,
+      "crystalFormation": true,
+      "smoke": false,
+      "energyChange": "slightly_exothermic",
+      "stateChange": "crystallization"
+    },
+    "visualEffect": "crystal_growth",
+    "difficulty": 1,
+    "explanation": "Slow cooling or evaporation of saturated copper sulfate solution grows brilliant blue rhombic crystals of copper sulfate pentahydrate.",
+    "verification": {
+      "status": "verified",
+      "sources": [
+        "RSC Practical Chemistry"
+      ],
+      "notes": "Classic crystal growing experiment."
+    }
+  },
+  {
+    "id": "water_electrolysis",
+    "name": "Electrolysis of Water",
+    "type": "electrochemical",
+    "reactants": [
+      {
+        "chemicalId": "water",
+        "stoichiometry": 2
+      }
+    ],
+    "products": [
+      {
+        "chemicalId": "hydrogen_gas",
+        "stoichiometry": 2
+      },
+      {
+        "chemicalId": "oxygen_gas",
+        "stoichiometry": 1
+      }
+    ],
+    "equation": "2H2O(l) -[electric current]-> 2H2(g) + O2(g)",
+    "conditions": {
+      "minTemperature": 15.0,
+      "maxTemperature": 60.0,
+      "requiresHeating": false,
+      "catalyst": "sulfuric_acid"
+    },
+    "effects": {
+      "temperatureChange": 2.0,
+      "phChange": false,
+      "targetPh": 7.0,
+      "colorChange": null,
+      "gasProduced": "hydrogen_gas_and_oxygen_gas",
+      "precipitate": null,
+      "flame": false,
+      "bubbles": true,
+      "crystalFormation": false,
+      "smoke": false,
+      "energyChange": "endothermic",
+      "stateChange": "gas_release"
+    },
+    "visualEffect": "electrolysis",
+    "difficulty": 2,
+    "explanation": "Passing electrical direct current through acidified water produces hydrogen gas at the cathode and oxygen gas at the anode in a 2:1 volume ratio.",
+    "verification": {
+      "status": "verified",
+      "sources": [
+        "PubChem",
+        "IUPAC Electrochemistry Guidelines"
+      ],
+      "notes": "Hofmann voltameter water electrolysis."
+    }
+  },
+  {
+    "id": "cuso4_electrolysis",
+    "name": "Electrolysis of Aqueous Copper(II) Sulfate",
+    "type": "electrochemical",
+    "reactants": [
+      {
+        "chemicalId": "copper_sulfate",
+        "stoichiometry": 1
+      },
+      {
+        "chemicalId": "water",
+        "stoichiometry": 1
+      }
+    ],
+    "products": [
+      {
+        "chemicalId": "oxygen_gas",
+        "stoichiometry": 1
+      },
+      {
+        "chemicalId": "sulfuric_acid",
+        "stoichiometry": 1
+      }
+    ],
+    "equation": "2CuSO4(aq) + 2H2O(l) -[electric current]-> 2Cu(s) + O2(g) + 2H2SO4(aq)",
+    "conditions": {
+      "minTemperature": 15.0,
+      "maxTemperature": 60.0,
+      "requiresHeating": false,
+      "catalyst": null
+    },
+    "effects": {
+      "temperatureChange": 1.5,
+      "phChange": true,
+      "targetPh": 1.5,
+      "colorChange": {
+        "from": "deep blue",
+        "to": "pale blue / colorless"
+      },
+      "gasProduced": "oxygen_gas",
+      "precipitate": "reddish_copper_plating",
+      "flame": false,
+      "bubbles": true,
+      "crystalFormation": false,
+      "smoke": false,
+      "energyChange": "endothermic",
+      "stateChange": "metal_deposition"
+    },
+    "visualEffect": "electrolysis",
+    "difficulty": 2,
+    "explanation": "Electrolyzing copper sulfate with inert carbon electrodes deposits shiny copper on the cathode while evolving oxygen gas bubbles at the anode.",
+    "verification": {
+      "status": "verified",
+      "sources": [
+        "PubChem"
+      ],
+      "notes": "Electroplating and electrolysis of copper sulfate."
+    }
+  },
+  {
+    "id": "kmno4_h2o2_redox",
+    "name": "Redox Reaction of Potassium Permanganate with Hydrogen Peroxide",
+    "type": "redox",
+    "reactants": [
+      {
+        "chemicalId": "potassium_permanganate",
+        "stoichiometry": 2
+      },
+      {
+        "chemicalId": "hydrogen_peroxide",
+        "stoichiometry": 5
+      },
+      {
+        "chemicalId": "sulfuric_acid",
+        "stoichiometry": 3
+      }
+    ],
+    "products": [
+      {
+        "chemicalId": "oxygen_gas",
+        "stoichiometry": 5
+      },
+      {
+        "chemicalId": "water",
+        "stoichiometry": 8
+      }
+    ],
+    "equation": "2KMnO4(aq) + 5H2O2(aq) + 3H2SO4(aq) -> 2MnSO4(aq) + K2SO4(aq) + 5O2(g) + 8H2O(l)",
+    "conditions": {
+      "minTemperature": 15.0,
+      "maxTemperature": 80.0,
+      "requiresHeating": false,
+      "catalyst": null
+    },
+    "effects": {
+      "temperatureChange": 15.0,
+      "phChange": true,
+      "targetPh": 3.0,
+      "colorChange": {
+        "from": "deep purple",
+        "to": "colorless"
+      },
+      "gasProduced": "oxygen_gas",
+      "precipitate": null,
+      "flame": false,
+      "bubbles": true,
+      "crystalFormation": false,
+      "smoke": false,
+      "energyChange": "exothermic",
+      "stateChange": "decolorization"
+    },
+    "visualEffect": "color_change",
+    "difficulty": 3,
+    "explanation": "Purple permanganate ions reduce to colorless Mn2+ ions while peroxide oxidizes to oxygen gas bubbles in acidic solution.",
+    "verification": {
+      "status": "verified",
+      "sources": [
+        "Vogel Quantitative Chemical Analysis"
+      ],
+      "notes": "Redox titration decolorization reaction."
+    }
+  },
+  {
+    "id": "fecl3_ki_redox",
+    "name": "Redox Reaction between Iron(III) Chloride and Potassium Iodide",
+    "type": "redox",
+    "reactants": [
+      {
+        "chemicalId": "iron_chloride",
+        "stoichiometry": 2
+      },
+      {
+        "chemicalId": "potassium_iodide",
+        "stoichiometry": 2
+      }
+    ],
+    "products": [
+      {
+        "chemicalId": "potassium_iodide",
+        "stoichiometry": 0
+      }
+    ],
+    "equation": "2FeCl3(aq) + 2KI(aq) -> 2FeCl2(aq) + 2KCl(aq) + I2(aq)",
+    "conditions": {
+      "minTemperature": 15.0,
+      "maxTemperature": 80.0,
+      "requiresHeating": false,
+      "catalyst": null
+    },
+    "effects": {
+      "temperatureChange": 2.0,
+      "phChange": false,
+      "targetPh": 4.0,
+      "colorChange": {
+        "from": "yellow-brown",
+        "to": "deep reddish-brown triiodide"
+      },
+      "gasProduced": null,
+      "precipitate": null,
+      "flame": false,
+      "bubbles": false,
+      "crystalFormation": false,
+      "smoke": false,
+      "energyChange": "exothermic",
+      "stateChange": null
+    },
+    "visualEffect": "color_change",
+    "difficulty": 2,
+    "explanation": "Fe3+ oxidizes iodide ions (I-) to elemental iodine (I2), causing the solution to turn dark reddish-brown.",
+    "verification": {
+      "status": "verified",
+      "sources": [
+        "PubChem"
+      ],
+      "notes": "Spontaneous redox electron transfer."
+    }
+  },
+  {
+    "id": "iodine_starch_complex",
+    "name": "Iodine-Starch Complex Formation",
+    "type": "indicator",
+    "reactants": [
+      {
+        "chemicalId": "iodine_solid",
+        "stoichiometry": 1
+      },
+      {
+        "chemicalId": "water",
+        "stoichiometry": 1
+      }
+    ],
+    "products": [],
+    "equation": "I2(aq) + Starch(aq) -> [I3--Starch] (deep blue/black complex)",
+    "conditions": {
+      "minTemperature": 0.0,
+      "maxTemperature": 50.0,
+      "requiresHeating": false,
+      "catalyst": null
+    },
+    "effects": {
+      "temperatureChange": 0.0,
+      "phChange": false,
+      "targetPh": 7.0,
+      "colorChange": {
+        "from": "yellow-brown",
+        "to": "intense blue-black"
+      },
+      "gasProduced": null,
+      "precipitate": null,
+      "flame": false,
+      "bubbles": false,
+      "crystalFormation": false,
+      "smoke": false,
+      "energyChange": "neutral",
+      "stateChange": null
+    },
+    "visualEffect": "color_change",
+    "difficulty": 1,
+    "explanation": "Triiodide ions slip inside amylose helix channels of starch to yield an extraordinarily dark blue-black inclusion complex.",
+    "verification": {
+      "status": "verified",
+      "sources": [
+        "PubChem",
+        "RSC Practical Chemistry"
+      ],
+      "notes": "Qualitative starch/iodine test."
+    }
+  },
+  {
+    "id": "iodine_sublimation",
+    "name": "Thermal Sublimation of Solid Iodine",
+    "type": "thermal",
+    "reactants": [
+      {
+        "chemicalId": "iodine_solid",
+        "stoichiometry": 1
+      }
+    ],
+    "products": [],
+    "equation": "I2(s) + heat -> I2(g)",
+    "conditions": {
+      "minTemperature": 80.0,
+      "maxTemperature": 180.0,
+      "requiresHeating": true,
+      "catalyst": null
+    },
+    "effects": {
+      "temperatureChange": 50.0,
+      "phChange": false,
+      "targetPh": null,
+      "colorChange": {
+        "from": "dark crystals",
+        "to": "vibrant purple vapor"
+      },
+      "gasProduced": "iodine_vapor",
+      "precipitate": null,
+      "flame": false,
+      "bubbles": false,
+      "crystalFormation": true,
+      "smoke": true,
+      "energyChange": "endothermic",
+      "stateChange": "sublimation"
+    },
+    "visualEffect": "smoke",
+    "difficulty": 1,
+    "explanation": "Heating dark solid iodine crystals causes direct phase change into beautiful deep purple iodine gas vapor, which recrystallizes on cool glass surfaces.",
+    "verification": {
+      "status": "verified",
+      "sources": [
+        "PubChem",
+        "NIST WebBook"
+      ],
+      "notes": "Classic physical phase change / sublimation demonstration."
+    }
+  }
+]

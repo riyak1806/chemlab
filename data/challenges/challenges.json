@@ -1,0 +1,195 @@
+[
+  {
+    "id": "target_ph_7",
+    "title": "Hit Target pH: Exact Neutrality",
+    "type": "ph_adjustment",
+    "description": "Adjust an acidic solution of hydrochloric acid by adding sodium hydroxide until the pH meter reads exactly 7.0 (\u00b1 0.2).",
+    "objective": "Achieve pH 7.0 neutral solution.",
+    "constraints": {
+      "maxVolume": 250.0,
+      "allowedChemicals": [
+        "hydrochloric_acid",
+        "sodium_hydroxide",
+        "water"
+      ]
+    },
+    "timeLimit": 120,
+    "maxAttempts": 3,
+    "reward": {
+      "exp": 150,
+      "points": 500
+    },
+    "difficulty": 1
+  },
+  {
+    "id": "identify_unknown_acid_base",
+    "title": "Mystery Solution: Acid or Base?",
+    "type": "unknown_identification",
+    "description": "You are given an unlabeled solution 'Unknown-A'. Use indicators to determine whether it is acidic, basic, or neutral.",
+    "objective": "Identify 'Unknown-A' as an acid, base, or neutral substance.",
+    "constraints": {
+      "allowedChemicals": [
+        "phenolphthalein",
+        "universal_indicator"
+      ]
+    },
+    "timeLimit": 90,
+    "maxAttempts": 2,
+    "reward": {
+      "exp": 100,
+      "points": 350
+    },
+    "difficulty": 1
+  },
+  {
+    "id": "precipitate_speedrun",
+    "title": "Speed Precipitate: Silver Chloride",
+    "type": "reaction_speedrun",
+    "description": "Produce at least 1.0 gram of white silver chloride precipitate before the 30-second timer runs out.",
+    "objective": "Form silver chloride precipitate in under 30 seconds.",
+    "constraints": {
+      "allowedChemicals": [
+        "silver_nitrate",
+        "sodium_chloride"
+      ]
+    },
+    "timeLimit": 30,
+    "maxAttempts": 5,
+    "reward": {
+      "exp": 180,
+      "points": 600
+    },
+    "difficulty": 2
+  },
+  {
+    "id": "gas_collector_co2",
+    "title": "Gas Collector: Carbon Dioxide",
+    "description": "Evolve 100 mL of carbon dioxide gas using acid and carbonate reagents without overflowing the vessel.",
+    "type": "gas_generation",
+    "objective": "Collect 100 mL of CO2 gas.",
+    "constraints": {
+      "allowedChemicals": [
+        "acetic_acid",
+        "sodium_bicarbonate"
+      ]
+    },
+    "timeLimit": 120,
+    "maxAttempts": 3,
+    "reward": {
+      "exp": 140,
+      "points": 450
+    },
+    "difficulty": 1
+  },
+  {
+    "id": "balance_equation_h2so4_naoh",
+    "title": "Balance Chemical Equation: Sulfuric Acid + Base",
+    "type": "equation_balancing",
+    "description": "Provide the correct stoichiometric coefficients for the reaction: _ H2SO4 + _ NaOH -> _ Na2SO4 + _ H2O.",
+    "objective": "Correctly balance the neutralization chemical equation.",
+    "constraints": {
+      "equationId": "h2so4_naoh_neutralization"
+    },
+    "timeLimit": 60,
+    "maxAttempts": 3,
+    "reward": {
+      "exp": 100,
+      "points": 300
+    },
+    "difficulty": 1
+  },
+  {
+    "id": "identify_element_atomic_26",
+    "title": "Periodic Mystery: Element #26",
+    "type": "element_deduction",
+    "description": "Deduce the unknown element with 26 protons, electron configuration [Ar] 3d6 4s2, and high magnetic susceptibility.",
+    "objective": "Correctly identify element 26.",
+    "constraints": {
+      "targetAtomicNumber": 26
+    },
+    "timeLimit": 45,
+    "maxAttempts": 1,
+    "reward": {
+      "exp": 120,
+      "points": 400
+    },
+    "difficulty": 1
+  },
+  {
+    "id": "cold_pack_challenge",
+    "title": "Freeze Challenge: Maximum Endothermic Cooling",
+    "type": "thermodynamics",
+    "description": "Lower solution temperature by at least 10 \u00b0C using endothermic dissolving salts.",
+    "objective": "Drop solution temperature by >= 10 \u00b0C.",
+    "constraints": {
+      "allowedChemicals": [
+        "water",
+        "ammonium_chloride"
+      ]
+    },
+    "timeLimit": 90,
+    "maxAttempts": 3,
+    "reward": {
+      "exp": 160,
+      "points": 500
+    },
+    "difficulty": 2
+  },
+  {
+    "id": "copper_plating_challenge",
+    "title": "Metal Coating: Electroplate Copper",
+    "type": "electrochemistry",
+    "description": "Plating a metal electrode with bright copper using copper sulfate solution.",
+    "objective": "Successfully deposit copper metal solid.",
+    "constraints": {
+      "allowedChemicals": [
+        "copper_sulfate",
+        "water"
+      ]
+    },
+    "timeLimit": 180,
+    "maxAttempts": 2,
+    "reward": {
+      "exp": 220,
+      "points": 750
+    },
+    "difficulty": 3
+  },
+  {
+    "id": "reagent_selection_sulfate_test",
+    "title": "Select Correct Reagent: Sulfate Cation Test",
+    "type": "reagent_selection",
+    "description": "Choose the correct chemical from the shelf to confirm the presence of sulfate ions in a solution.",
+    "objective": "Select barium chloride reagent.",
+    "constraints": {
+      "correctChemicalId": "barium_chloride"
+    },
+    "timeLimit": 60,
+    "maxAttempts": 2,
+    "reward": {
+      "exp": 110,
+      "points": 350
+    },
+    "difficulty": 2
+  },
+  {
+    "id": "elephant_foam_height",
+    "title": "Foam Tower: Maximum Elephant Toothpaste",
+    "type": "reaction_optimization",
+    "description": "Optimize reactant ratios of H2O2 and catalyst to reach maximum foam evolution rate.",
+    "objective": "Trigger peak decomposition gas evolution rate.",
+    "constraints": {
+      "allowedChemicals": [
+        "hydrogen_peroxide",
+        "potassium_iodide"
+      ]
+    },
+    "timeLimit": 120,
+    "maxAttempts": 3,
+    "reward": {
+      "exp": 200,
+      "points": 700
+    },
+    "difficulty": 2
+  }
+]

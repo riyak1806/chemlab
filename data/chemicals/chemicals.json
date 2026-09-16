@@ -1,0 +1,2818 @@
+[
+  {
+    "id": "water",
+    "name": "Water",
+    "formula": "H2O",
+    "type": "compound",
+    "categories": [
+      "solvent",
+      "inorganic",
+      "liquid"
+    ],
+    "state": "liquid",
+    "molarMass": 18.015,
+    "appearance": {
+      "color": "colorless",
+      "transparency": "transparent",
+      "state": "liquid"
+    },
+    "properties": {
+      "density": 1.0,
+      "ph": 7.0,
+      "boilingPoint": 100.0,
+      "meltingPoint": 0.0,
+      "conductive": false
+    },
+    "solubility": {
+      "waterSoluble": true,
+      "solubilityGPer100mL": null
+    },
+    "commonUses": [
+      "Universal solvent",
+      "Reaction medium",
+      "Cleaning"
+    ],
+    "safety": {
+      "hazardClass": "non_hazardous",
+      "ghsSignalWord": null,
+      "pictograms": [],
+      "precautions": [
+        "Standard laboratory practice"
+      ]
+    },
+    "visual": {
+      "hexColor": "#E0F7FA",
+      "opacity": 0.3,
+      "texture": "clear_liquid"
+    },
+    "availableInLab": true,
+    "verification": {
+      "status": "verified",
+      "sources": [
+        "PubChem CID 962",
+        "NIST WebBook"
+      ],
+      "notes": "Standard pure water properties at 25 \u00b0C."
+    }
+  },
+  {
+    "id": "hydrochloric_acid",
+    "name": "Hydrochloric Acid (1M)",
+    "formula": "HCl(aq)",
+    "type": "solution",
+    "categories": [
+      "acid",
+      "inorganic",
+      "solution"
+    ],
+    "state": "liquid",
+    "molarMass": 36.46,
+    "appearance": {
+      "color": "colorless",
+      "transparency": "transparent",
+      "state": "liquid"
+    },
+    "properties": {
+      "density": 1.02,
+      "ph": 0.0,
+      "boilingPoint": 108.5,
+      "meltingPoint": -30.0,
+      "conductive": true
+    },
+    "solubility": {
+      "waterSoluble": true,
+      "solubilityGPer100mL": null
+    },
+    "commonUses": [
+      "Acid-base titrations",
+      "pH adjustment",
+      "Rust removal",
+      "Metal etching"
+    ],
+    "safety": {
+      "hazardClass": "corrosive",
+      "ghsSignalWord": "Danger",
+      "pictograms": [
+        "corrosive"
+      ],
+      "precautions": [
+        "Wear safety goggles and gloves",
+        "Avoid skin contact",
+        "Use in ventilated area"
+      ]
+    },
+    "visual": {
+      "hexColor": "#F5F5F5",
+      "opacity": 0.2,
+      "texture": "clear_liquid"
+    },
+    "availableInLab": true,
+    "verification": {
+      "status": "verified",
+      "sources": [
+        "PubChem CID 313",
+        "RSC Chemical Data"
+      ],
+      "notes": "Properties specified for 1M aqueous hydrochloric acid solution."
+    }
+  },
+  {
+    "id": "sulfuric_acid",
+    "name": "Sulfuric Acid (1M)",
+    "formula": "H2SO4(aq)",
+    "type": "solution",
+    "categories": [
+      "acid",
+      "inorganic",
+      "solution"
+    ],
+    "state": "liquid",
+    "molarMass": 98.079,
+    "appearance": {
+      "color": "colorless",
+      "transparency": "transparent",
+      "state": "liquid"
+    },
+    "properties": {
+      "density": 1.06,
+      "ph": 0.3,
+      "boilingPoint": 102.0,
+      "meltingPoint": -3.0,
+      "conductive": true
+    },
+    "solubility": {
+      "waterSoluble": true,
+      "solubilityGPer100mL": null
+    },
+    "commonUses": [
+      "Dehydrating agent",
+      "Acid catalyst",
+      "Battery electrolyte",
+      "Chemical synthesis"
+    ],
+    "safety": {
+      "hazardClass": "corrosive",
+      "ghsSignalWord": "Danger",
+      "pictograms": [
+        "corrosive"
+      ],
+      "precautions": [
+        "Always add acid to water",
+        "Wear protective gloves and eye protection"
+      ]
+    },
+    "visual": {
+      "hexColor": "#FAFAFA",
+      "opacity": 0.25,
+      "texture": "slightly_viscous_liquid"
+    },
+    "availableInLab": true,
+    "verification": {
+      "status": "verified",
+      "sources": [
+        "PubChem CID 1118",
+        "NIST WebBook"
+      ],
+      "notes": "Properties specified for 1M aqueous sulfuric acid solution."
+    }
+  },
+  {
+    "id": "nitric_acid",
+    "name": "Nitric Acid (1M)",
+    "formula": "HNO3(aq)",
+    "type": "solution",
+    "categories": [
+      "acid",
+      "inorganic",
+      "solution"
+    ],
+    "state": "liquid",
+    "molarMass": 63.01,
+    "appearance": {
+      "color": "colorless",
+      "transparency": "transparent",
+      "state": "liquid"
+    },
+    "properties": {
+      "density": 1.03,
+      "ph": 0.0,
+      "boilingPoint": 101.0,
+      "meltingPoint": -4.0,
+      "conductive": true
+    },
+    "solubility": {
+      "waterSoluble": true,
+      "solubilityGPer100mL": null
+    },
+    "commonUses": [
+      "Fertilizer production",
+      "Oxidizing agent",
+      "Metal nitration"
+    ],
+    "safety": {
+      "hazardClass": "corrosive_oxidizer",
+      "ghsSignalWord": "Danger",
+      "pictograms": [
+        "corrosive",
+        "oxidizer"
+      ],
+      "precautions": [
+        "Avoid contact with combustible material",
+        "Wear full lab protective gear"
+      ]
+    },
+    "visual": {
+      "hexColor": "#FFFFF0",
+      "opacity": 0.2,
+      "texture": "clear_liquid"
+    },
+    "availableInLab": true,
+    "verification": {
+      "status": "verified",
+      "sources": [
+        "PubChem CID 944"
+      ],
+      "notes": "1M aqueous solution properties."
+    }
+  },
+  {
+    "id": "acetic_acid",
+    "name": "Acetic Acid (Vinegar)",
+    "formula": "CH3COOH(aq)",
+    "type": "solution",
+    "categories": [
+      "acid",
+      "organic",
+      "solution"
+    ],
+    "state": "liquid",
+    "molarMass": 60.05,
+    "appearance": {
+      "color": "colorless",
+      "transparency": "transparent",
+      "state": "liquid"
+    },
+    "properties": {
+      "density": 1.01,
+      "ph": 2.4,
+      "boilingPoint": 100.5,
+      "meltingPoint": 0.0,
+      "conductive": true
+    },
+    "solubility": {
+      "waterSoluble": true,
+      "solubilityGPer100mL": null
+    },
+    "commonUses": [
+      "Vinegar",
+      "Food preservation",
+      "Weak acid buffer",
+      "Ester synthesis"
+    ],
+    "safety": {
+      "hazardClass": "irritant",
+      "ghsSignalWord": "Warning",
+      "pictograms": [
+        "irritant"
+      ],
+      "precautions": [
+        "Avoid inhaling vapors",
+        "Avoid skin contact"
+      ]
+    },
+    "visual": {
+      "hexColor": "#FBFBFB",
+      "opacity": 0.2,
+      "texture": "clear_liquid"
+    },
+    "availableInLab": true,
+    "verification": {
+      "status": "verified",
+      "sources": [
+        "PubChem CID 176"
+      ],
+      "notes": "Dilute aqueous vinegar / acetic acid solution."
+    }
+  },
+  {
+    "id": "citric_acid",
+    "name": "Citric Acid",
+    "formula": "C6H8O7",
+    "type": "compound",
+    "categories": [
+      "acid",
+      "organic",
+      "solid"
+    ],
+    "state": "solid",
+    "molarMass": 192.12,
+    "appearance": {
+      "color": "white",
+      "transparency": "opaque",
+      "state": "powder"
+    },
+    "properties": {
+      "density": 1.665,
+      "ph": 2.2,
+      "boilingPoint": 310.0,
+      "meltingPoint": 153.0,
+      "conductive": false
+    },
+    "solubility": {
+      "waterSoluble": true,
+      "solubilityGPer100mL": 147.0
+    },
+    "commonUses": [
+      "Food acidulant",
+      "Buffer solution",
+      "Descaling agent"
+    ],
+    "safety": {
+      "hazardClass": "irritant",
+      "ghsSignalWord": "Warning",
+      "pictograms": [
+        "irritant"
+      ],
+      "precautions": [
+        "Causes eye irritation",
+        "Avoid breathing dust"
+      ]
+    },
+    "visual": {
+      "hexColor": "#FFFFFF",
+      "opacity": 1.0,
+      "texture": "white_crystalline_powder"
+    },
+    "availableInLab": true,
+    "verification": {
+      "status": "verified",
+      "sources": [
+        "PubChem CID 311"
+      ],
+      "notes": "Pure solid citric acid powder."
+    }
+  },
+  {
+    "id": "sodium_hydroxide",
+    "name": "Sodium Hydroxide (1M)",
+    "formula": "NaOH(aq)",
+    "type": "solution",
+    "categories": [
+      "base",
+      "inorganic",
+      "solution"
+    ],
+    "state": "liquid",
+    "molarMass": 39.997,
+    "appearance": {
+      "color": "colorless",
+      "transparency": "transparent",
+      "state": "liquid"
+    },
+    "properties": {
+      "density": 1.04,
+      "ph": 14.0,
+      "boilingPoint": 102.0,
+      "meltingPoint": -4.0,
+      "conductive": true
+    },
+    "solubility": {
+      "waterSoluble": true,
+      "solubilityGPer100mL": 109.0
+    },
+    "commonUses": [
+      "Strong base titrations",
+      "Saponification (soap making)",
+      "Drain cleaner"
+    ],
+    "safety": {
+      "hazardClass": "corrosive",
+      "ghsSignalWord": "Danger",
+      "pictograms": [
+        "corrosive"
+      ],
+      "precautions": [
+        "Causes severe skin burns and eye damage",
+        "Wear chemical splash goggles"
+      ]
+    },
+    "visual": {
+      "hexColor": "#F0F8FF",
+      "opacity": 0.2,
+      "texture": "clear_liquid"
+    },
+    "availableInLab": true,
+    "verification": {
+      "status": "verified",
+      "sources": [
+        "PubChem CID 14798",
+        "RSC Chemical Data"
+      ],
+      "notes": "1M aqueous solution properties."
+    }
+  },
+  {
+    "id": "potassium_hydroxide",
+    "name": "Potassium Hydroxide (1M)",
+    "formula": "KOH(aq)",
+    "type": "solution",
+    "categories": [
+      "base",
+      "inorganic",
+      "solution"
+    ],
+    "state": "liquid",
+    "molarMass": 56.105,
+    "appearance": {
+      "color": "colorless",
+      "transparency": "transparent",
+      "state": "liquid"
+    },
+    "properties": {
+      "density": 1.05,
+      "ph": 14.0,
+      "boilingPoint": 103.0,
+      "meltingPoint": -5.0,
+      "conductive": true
+    },
+    "solubility": {
+      "waterSoluble": true,
+      "solubilityGPer100mL": 121.0
+    },
+    "commonUses": [
+      "Alkaline batteries",
+      "Liquid soap manufacturing",
+      "Chemical reagent"
+    ],
+    "safety": {
+      "hazardClass": "corrosive",
+      "ghsSignalWord": "Danger",
+      "pictograms": [
+        "corrosive"
+      ],
+      "precautions": [
+        "Wear protective gloves and goggles"
+      ]
+    },
+    "visual": {
+      "hexColor": "#F0F8FF",
+      "opacity": 0.2,
+      "texture": "clear_liquid"
+    },
+    "availableInLab": true,
+    "verification": {
+      "status": "verified",
+      "sources": [
+        "PubChem CID 4873"
+      ],
+      "notes": "1M aqueous solution."
+    }
+  },
+  {
+    "id": "ammonia_solution",
+    "name": "Ammonia Solution (Aqueous)",
+    "formula": "NH3(aq)",
+    "type": "solution",
+    "categories": [
+      "base",
+      "inorganic",
+      "solution"
+    ],
+    "state": "liquid",
+    "molarMass": 17.031,
+    "appearance": {
+      "color": "colorless",
+      "transparency": "transparent",
+      "state": "liquid"
+    },
+    "properties": {
+      "density": 0.91,
+      "ph": 11.6,
+      "boilingPoint": 37.7,
+      "meltingPoint": -57.5,
+      "conductive": true
+    },
+    "solubility": {
+      "waterSoluble": true,
+      "solubilityGPer100mL": null
+    },
+    "commonUses": [
+      "Household cleaner",
+      "Complexing agent",
+      "Weak base titration"
+    ],
+    "safety": {
+      "hazardClass": "corrosive_irritant",
+      "ghsSignalWord": "Danger",
+      "pictograms": [
+        "corrosive",
+        "environment"
+      ],
+      "precautions": [
+        "Pungent odor",
+        "Use in fume hood",
+        "Avoid inhaling vapors"
+      ]
+    },
+    "visual": {
+      "hexColor": "#E6F2FF",
+      "opacity": 0.2,
+      "texture": "clear_liquid"
+    },
+    "availableInLab": true,
+    "verification": {
+      "status": "verified",
+      "sources": [
+        "PubChem CID 222"
+      ],
+      "notes": "Aqueous ammonium hydroxide / ammonia solution."
+    }
+  },
+  {
+    "id": "calcium_hydroxide",
+    "name": "Calcium Hydroxide (Limewater)",
+    "formula": "Ca(OH)2",
+    "type": "compound",
+    "categories": [
+      "base",
+      "inorganic",
+      "solid",
+      "solution"
+    ],
+    "state": "solid",
+    "molarMass": 74.093,
+    "appearance": {
+      "color": "white",
+      "transparency": "cloudy",
+      "state": "powder"
+    },
+    "properties": {
+      "density": 2.21,
+      "ph": 12.4,
+      "boilingPoint": null,
+      "meltingPoint": 580.0,
+      "conductive": true
+    },
+    "solubility": {
+      "waterSoluble": true,
+      "solubilityGPer100mL": 0.173
+    },
+    "commonUses": [
+      "Testing for CO2 gas (limewater test)",
+      "Mortar manufacturing",
+      "Soil acidity control"
+    ],
+    "safety": {
+      "hazardClass": "irritant_corrosive",
+      "ghsSignalWord": "Danger",
+      "pictograms": [
+        "corrosive"
+      ],
+      "precautions": [
+        "Causes skin and serious eye irritation"
+      ]
+    },
+    "visual": {
+      "hexColor": "#FFFFFF",
+      "opacity": 0.9,
+      "texture": "white_suspension_or_powder"
+    },
+    "availableInLab": true,
+    "verification": {
+      "status": "verified",
+      "sources": [
+        "PubChem CID 2736211"
+      ],
+      "notes": "Limewater is saturated aqueous Ca(OH)2."
+    }
+  },
+  {
+    "id": "sodium_bicarbonate",
+    "name": "Sodium Bicarbonate (Baking Soda)",
+    "formula": "NaHCO3",
+    "type": "compound",
+    "categories": [
+      "salt",
+      "base",
+      "inorganic",
+      "solid"
+    ],
+    "state": "solid",
+    "molarMass": 84.007,
+    "appearance": {
+      "color": "white",
+      "transparency": "opaque",
+      "state": "powder"
+    },
+    "properties": {
+      "density": 2.2,
+      "ph": 8.3,
+      "boilingPoint": null,
+      "meltingPoint": 50.0,
+      "conductive": true
+    },
+    "solubility": {
+      "waterSoluble": true,
+      "solubilityGPer100mL": 9.6
+    },
+    "commonUses": [
+      "Baking leavening agent",
+      "Acid neutralization",
+      "Fire extinguishers",
+      "Antacid"
+    ],
+    "safety": {
+      "hazardClass": "non_hazardous",
+      "ghsSignalWord": null,
+      "pictograms": [],
+      "precautions": [
+        "Standard lab care"
+      ]
+    },
+    "visual": {
+      "hexColor": "#FFFFFF",
+      "opacity": 1.0,
+      "texture": "fine_white_powder"
+    },
+    "availableInLab": true,
+    "verification": {
+      "status": "verified",
+      "sources": [
+        "PubChem CID 516892"
+      ],
+      "notes": "Decomposes above 50 \u00b0C into Na2CO3, H2O, and CO2."
+    }
+  },
+  {
+    "id": "sodium_carbonate",
+    "name": "Sodium Carbonate (Washing Soda)",
+    "formula": "Na2CO3",
+    "type": "compound",
+    "categories": [
+      "salt",
+      "base",
+      "inorganic",
+      "solid"
+    ],
+    "state": "solid",
+    "molarMass": 105.99,
+    "appearance": {
+      "color": "white",
+      "transparency": "opaque",
+      "state": "powder"
+    },
+    "properties": {
+      "density": 2.54,
+      "ph": 11.5,
+      "boilingPoint": 1600.0,
+      "meltingPoint": 851.0,
+      "conductive": true
+    },
+    "solubility": {
+      "waterSoluble": true,
+      "solubilityGPer100mL": 21.5
+    },
+    "commonUses": [
+      "Glass manufacture",
+      "Water softening",
+      "pH regulator"
+    ],
+    "safety": {
+      "hazardClass": "irritant",
+      "ghsSignalWord": "Warning",
+      "pictograms": [
+        "irritant"
+      ],
+      "precautions": [
+        "Causes serious eye irritation"
+      ]
+    },
+    "visual": {
+      "hexColor": "#FBFBFB",
+      "opacity": 1.0,
+      "texture": "white_crystalline_powder"
+    },
+    "availableInLab": true,
+    "verification": {
+      "status": "verified",
+      "sources": [
+        "PubChem CID 10340"
+      ],
+      "notes": "Anhydrous sodium carbonate."
+    }
+  },
+  {
+    "id": "sodium_chloride",
+    "name": "Sodium Chloride (Table Salt)",
+    "formula": "NaCl",
+    "type": "compound",
+    "categories": [
+      "salt",
+      "inorganic",
+      "solid"
+    ],
+    "state": "solid",
+    "molarMass": 58.44,
+    "appearance": {
+      "color": "white",
+      "transparency": "opaque",
+      "state": "crystals"
+    },
+    "properties": {
+      "density": 2.165,
+      "ph": 7.0,
+      "boilingPoint": 1465.0,
+      "meltingPoint": 801.0,
+      "conductive": true
+    },
+    "solubility": {
+      "waterSoluble": true,
+      "solubilityGPer100mL": 36.0
+    },
+    "commonUses": [
+      "Food seasoning/preservation",
+      "Saline solutions",
+      "Chlor-alkali industrial feedstock"
+    ],
+    "safety": {
+      "hazardClass": "non_hazardous",
+      "ghsSignalWord": null,
+      "pictograms": [],
+      "precautions": [
+        "Standard lab care"
+      ]
+    },
+    "visual": {
+      "hexColor": "#FFFFFF",
+      "opacity": 1.0,
+      "texture": "cubic_white_crystals"
+    },
+    "availableInLab": true,
+    "verification": {
+      "status": "verified",
+      "sources": [
+        "PubChem CID 5234"
+      ],
+      "notes": "Pure solid sodium chloride."
+    }
+  },
+  {
+    "id": "calcium_chloride",
+    "name": "Calcium Chloride",
+    "formula": "CaCl2",
+    "type": "compound",
+    "categories": [
+      "salt",
+      "inorganic",
+      "solid"
+    ],
+    "state": "solid",
+    "molarMass": 110.98,
+    "appearance": {
+      "color": "white",
+      "transparency": "opaque",
+      "state": "solid"
+    },
+    "properties": {
+      "density": 2.15,
+      "ph": 8.0,
+      "boilingPoint": 1935.0,
+      "meltingPoint": 772.0,
+      "conductive": true
+    },
+    "solubility": {
+      "waterSoluble": true,
+      "solubilityGPer100mL": 74.5
+    },
+    "commonUses": [
+      "De-icing roads",
+      "Desiccant",
+      "Precipitation reactions"
+    ],
+    "safety": {
+      "hazardClass": "irritant",
+      "ghsSignalWord": "Warning",
+      "pictograms": [
+        "irritant"
+      ],
+      "precautions": [
+        "Causes serious eye irritation"
+      ]
+    },
+    "visual": {
+      "hexColor": "#FFFFFF",
+      "opacity": 1.0,
+      "texture": "white_pellets"
+    },
+    "availableInLab": true,
+    "verification": {
+      "status": "verified",
+      "sources": [
+        "PubChem CID 24854"
+      ],
+      "notes": "Anhydrous calcium chloride."
+    }
+  },
+  {
+    "id": "copper_sulfate",
+    "name": "Copper(II) Sulfate Pentahydrate",
+    "formula": "CuSO4\u00b75H2O",
+    "type": "compound",
+    "categories": [
+      "salt",
+      "inorganic",
+      "solid"
+    ],
+    "state": "solid",
+    "molarMass": 249.68,
+    "appearance": {
+      "color": "bright blue",
+      "transparency": "translucent",
+      "state": "crystals"
+    },
+    "properties": {
+      "density": 2.286,
+      "ph": 4.0,
+      "boilingPoint": null,
+      "meltingPoint": 110.0,
+      "conductive": true
+    },
+    "solubility": {
+      "waterSoluble": true,
+      "solubilityGPer100mL": 32.0
+    },
+    "commonUses": [
+      "Fungicide/algaecide",
+      "Crystal growing experiments",
+      "Electroplating"
+    ],
+    "safety": {
+      "hazardClass": "toxic_environment",
+      "ghsSignalWord": "Warning",
+      "pictograms": [
+        "irritant",
+        "environment"
+      ],
+      "precautions": [
+        "Harmful if swallowed",
+        "Toxic to aquatic life"
+      ]
+    },
+    "visual": {
+      "hexColor": "#0066CC",
+      "opacity": 0.9,
+      "texture": "blue_crystalline_solid"
+    },
+    "availableInLab": true,
+    "verification": {
+      "status": "verified",
+      "sources": [
+        "PubChem CID 24462"
+      ],
+      "notes": "Blue pentahydrate salt."
+    }
+  },
+  {
+    "id": "iron_chloride",
+    "name": "Iron(III) Chloride",
+    "formula": "FeCl3",
+    "type": "compound",
+    "categories": [
+      "salt",
+      "inorganic",
+      "solid"
+    ],
+    "state": "solid",
+    "molarMass": 162.2,
+    "appearance": {
+      "color": "yellow-brown",
+      "transparency": "opaque",
+      "state": "solid"
+    },
+    "properties": {
+      "density": 2.9,
+      "ph": 2.0,
+      "boilingPoint": 315.0,
+      "meltingPoint": 307.6,
+      "conductive": true
+    },
+    "solubility": {
+      "waterSoluble": true,
+      "solubilityGPer100mL": 91.8
+    },
+    "commonUses": [
+      "PCB etching",
+      "Water treatment coagulant",
+      "Chemical catalyst"
+    ],
+    "safety": {
+      "hazardClass": "corrosive",
+      "ghsSignalWord": "Danger",
+      "pictograms": [
+        "corrosive",
+        "irritant"
+      ],
+      "precautions": [
+        "Causes skin and eye burns"
+      ]
+    },
+    "visual": {
+      "hexColor": "#B8860B",
+      "opacity": 0.9,
+      "texture": "yellow_brown_powder"
+    },
+    "availableInLab": true,
+    "verification": {
+      "status": "verified",
+      "sources": [
+        "PubChem CID 24380"
+      ],
+      "notes": "Anhydrous / hydrated ferric chloride."
+    }
+  },
+  {
+    "id": "silver_nitrate",
+    "name": "Silver Nitrate",
+    "formula": "AgNO3",
+    "type": "compound",
+    "categories": [
+      "salt",
+      "inorganic",
+      "solid"
+    ],
+    "state": "solid",
+    "molarMass": 169.87,
+    "appearance": {
+      "color": "white",
+      "transparency": "opaque",
+      "state": "crystals"
+    },
+    "properties": {
+      "density": 4.35,
+      "ph": 6.0,
+      "boilingPoint": 440.0,
+      "meltingPoint": 212.0,
+      "conductive": true
+    },
+    "solubility": {
+      "waterSoluble": true,
+      "solubilityGPer100mL": 256.0
+    },
+    "commonUses": [
+      "Halide testing reagent",
+      "Photography",
+      "Cautery agent"
+    ],
+    "safety": {
+      "hazardClass": "oxidizer_corrosive",
+      "ghsSignalWord": "Danger",
+      "pictograms": [
+        "oxidizer",
+        "corrosive",
+        "environment"
+      ],
+      "precautions": [
+        "Causes skin staining and burns",
+        "Toxic to aquatic life"
+      ]
+    },
+    "visual": {
+      "hexColor": "#F5F5F5",
+      "opacity": 1.0,
+      "texture": "white_crystalline_powder"
+    },
+    "availableInLab": true,
+    "verification": {
+      "status": "verified",
+      "sources": [
+        "PubChem CID 24470"
+      ],
+      "notes": "Pure silver nitrate crystals."
+    }
+  },
+  {
+    "id": "potassium_iodide",
+    "name": "Potassium Iodide",
+    "formula": "KI",
+    "type": "compound",
+    "categories": [
+      "salt",
+      "inorganic",
+      "solid"
+    ],
+    "state": "solid",
+    "molarMass": 166.0,
+    "appearance": {
+      "color": "white",
+      "transparency": "opaque",
+      "state": "crystals"
+    },
+    "properties": {
+      "density": 3.12,
+      "ph": 7.0,
+      "boilingPoint": 1330.0,
+      "meltingPoint": 681.0,
+      "conductive": true
+    },
+    "solubility": {
+      "waterSoluble": true,
+      "solubilityGPer100mL": 140.0
+    },
+    "commonUses": [
+      "Elephant toothpaste catalyst",
+      "Iodized salt supplement",
+      "Nutritional iodine"
+    ],
+    "safety": {
+      "hazardClass": "irritant",
+      "ghsSignalWord": "Warning",
+      "pictograms": [
+        "irritant"
+      ],
+      "precautions": [
+        "Causes mild skin/eye irritation"
+      ]
+    },
+    "visual": {
+      "hexColor": "#FFFFFF",
+      "opacity": 1.0,
+      "texture": "white_crystalline_powder"
+    },
+    "availableInLab": true,
+    "verification": {
+      "status": "verified",
+      "sources": [
+        "PubChem CID 4875"
+      ],
+      "notes": "Pure solid potassium iodide."
+    }
+  },
+  {
+    "id": "potassium_permanganate",
+    "name": "Potassium Permanganate",
+    "formula": "KMnO4",
+    "type": "compound",
+    "categories": [
+      "salt",
+      "inorganic",
+      "solid"
+    ],
+    "state": "solid",
+    "molarMass": 158.03,
+    "appearance": {
+      "color": "dark purple",
+      "transparency": "opaque",
+      "state": "crystals"
+    },
+    "properties": {
+      "density": 2.7,
+      "ph": 7.0,
+      "boilingPoint": null,
+      "meltingPoint": 240.0,
+      "conductive": true
+    },
+    "solubility": {
+      "waterSoluble": true,
+      "solubilityGPer100mL": 6.4
+    },
+    "commonUses": [
+      "Strong oxidizing titrations",
+      "Water disinfectant",
+      "Organic oxidation"
+    ],
+    "safety": {
+      "hazardClass": "oxidizer_toxic",
+      "ghsSignalWord": "Danger",
+      "pictograms": [
+        "oxidizer",
+        "irritant",
+        "environment"
+      ],
+      "precautions": [
+        "Strong oxidizer",
+        "Avoid contact with combustible materials"
+      ]
+    },
+    "visual": {
+      "hexColor": "#4B0082",
+      "opacity": 0.95,
+      "texture": "dark_purple_crystals"
+    },
+    "availableInLab": true,
+    "verification": {
+      "status": "verified",
+      "sources": [
+        "PubChem CID 516875"
+      ],
+      "notes": "Deep purple crystalline strong oxidant."
+    }
+  },
+  {
+    "id": "barium_chloride",
+    "name": "Barium Chloride",
+    "formula": "BaCl2",
+    "type": "compound",
+    "categories": [
+      "salt",
+      "inorganic",
+      "solid"
+    ],
+    "state": "solid",
+    "molarMass": 208.23,
+    "appearance": {
+      "color": "white",
+      "transparency": "opaque",
+      "state": "crystals"
+    },
+    "properties": {
+      "density": 3.85,
+      "ph": 7.0,
+      "boilingPoint": 1560.0,
+      "meltingPoint": 962.0,
+      "conductive": true
+    },
+    "solubility": {
+      "waterSoluble": true,
+      "solubilityGPer100mL": 35.8
+    },
+    "commonUses": [
+      "Sulfate ion test reagent",
+      "Fireworks green flame colorant"
+    ],
+    "safety": {
+      "hazardClass": "toxic",
+      "ghsSignalWord": "Danger",
+      "pictograms": [
+        "toxic"
+      ],
+      "precautions": [
+        "Toxic if swallowed",
+        "Avoid inhalation"
+      ]
+    },
+    "visual": {
+      "hexColor": "#FFFFFF",
+      "opacity": 1.0,
+      "texture": "white_crystalline_powder"
+    },
+    "availableInLab": true,
+    "verification": {
+      "status": "verified",
+      "sources": [
+        "PubChem CID 24204"
+      ],
+      "notes": "Anhydrous barium chloride."
+    }
+  },
+  {
+    "id": "magnesium_metal",
+    "name": "Magnesium Ribbon",
+    "formula": "Mg",
+    "type": "element",
+    "categories": [
+      "metal",
+      "inorganic",
+      "solid"
+    ],
+    "state": "solid",
+    "molarMass": 24.305,
+    "appearance": {
+      "color": "silvery-white",
+      "transparency": "opaque",
+      "state": "metal strip"
+    },
+    "properties": {
+      "density": 1.738,
+      "ph": null,
+      "boilingPoint": 1090.0,
+      "meltingPoint": 650.0,
+      "conductive": true
+    },
+    "solubility": {
+      "waterSoluble": false,
+      "solubilityGPer100mL": 0.0
+    },
+    "commonUses": [
+      "Combustion/flame demonstrations",
+      "Acid-metal displacement gas evolution"
+    ],
+    "safety": {
+      "hazardClass": "flammable_solid",
+      "ghsSignalWord": "Danger",
+      "pictograms": [
+        "flammable"
+      ],
+      "precautions": [
+        "Burns with intense UV light",
+        "Do not look directly at burning ribbon"
+      ]
+    },
+    "visual": {
+      "hexColor": "#C0C0C0",
+      "opacity": 1.0,
+      "texture": "shiny_metallic_ribbon"
+    },
+    "availableInLab": true,
+    "verification": {
+      "status": "verified",
+      "sources": [
+        "PubChem CID 5462224"
+      ],
+      "notes": "Pure magnesium metallic ribbon/strip."
+    }
+  },
+  {
+    "id": "zinc_metal",
+    "name": "Zinc Granules",
+    "formula": "Zn",
+    "type": "element",
+    "categories": [
+      "metal",
+      "inorganic",
+      "solid"
+    ],
+    "state": "solid",
+    "molarMass": 65.38,
+    "appearance": {
+      "color": "bluish-gray",
+      "transparency": "opaque",
+      "state": "granules"
+    },
+    "properties": {
+      "density": 7.14,
+      "ph": null,
+      "boilingPoint": 907.0,
+      "meltingPoint": 419.5,
+      "conductive": true
+    },
+    "solubility": {
+      "waterSoluble": false,
+      "solubilityGPer100mL": 0.0
+    },
+    "commonUses": [
+      "Hydrogen gas generation with acids",
+      "Galvanizing",
+      "Displacement reactions"
+    ],
+    "safety": {
+      "hazardClass": "low_hazard",
+      "ghsSignalWord": "Warning",
+      "pictograms": [
+        "environment"
+      ],
+      "precautions": [
+        "Avoid inhaling metal dust"
+      ]
+    },
+    "visual": {
+      "hexColor": "#A9A9A9",
+      "opacity": 1.0,
+      "texture": "metallic_granules"
+    },
+    "availableInLab": true,
+    "verification": {
+      "status": "verified",
+      "sources": [
+        "PubChem CID 23994"
+      ],
+      "notes": "Elemental zinc metal granules."
+    }
+  },
+  {
+    "id": "iron_filings",
+    "name": "Iron Filings",
+    "formula": "Fe",
+    "type": "element",
+    "categories": [
+      "metal",
+      "inorganic",
+      "solid"
+    ],
+    "state": "solid",
+    "molarMass": 55.845,
+    "appearance": {
+      "color": "dark gray",
+      "transparency": "opaque",
+      "state": "powder"
+    },
+    "properties": {
+      "density": 7.874,
+      "ph": null,
+      "boilingPoint": 2862.0,
+      "meltingPoint": 1538.0,
+      "conductive": true
+    },
+    "solubility": {
+      "waterSoluble": false,
+      "solubilityGPer100mL": 0.0
+    },
+    "commonUses": [
+      "Magnetic field mapping",
+      "Rusting experiments",
+      "Displacement reactions"
+    ],
+    "safety": {
+      "hazardClass": "low_hazard",
+      "ghsSignalWord": null,
+      "pictograms": [],
+      "precautions": [
+        "Avoid inhaling dust"
+      ]
+    },
+    "visual": {
+      "hexColor": "#464646",
+      "opacity": 1.0,
+      "texture": "dark_fine_powder"
+    },
+    "availableInLab": true,
+    "verification": {
+      "status": "verified",
+      "sources": [
+        "PubChem CID 23925"
+      ],
+      "notes": "Elemental iron metal powder/filings."
+    }
+  },
+  {
+    "id": "copper_metal",
+    "name": "Copper Wire / Turnings",
+    "formula": "Cu",
+    "type": "element",
+    "categories": [
+      "metal",
+      "inorganic",
+      "solid"
+    ],
+    "state": "solid",
+    "molarMass": 63.546,
+    "appearance": {
+      "color": "reddish-orange",
+      "transparency": "opaque",
+      "state": "wire"
+    },
+    "properties": {
+      "density": 8.96,
+      "ph": null,
+      "boilingPoint": 2562.0,
+      "meltingPoint": 1084.6,
+      "conductive": true
+    },
+    "solubility": {
+      "waterSoluble": false,
+      "solubilityGPer100mL": 0.0
+    },
+    "commonUses": [
+      "Electrical conductivity",
+      "Electrolysis electrodes",
+      "Displacement reactions"
+    ],
+    "safety": {
+      "hazardClass": "non_hazardous",
+      "ghsSignalWord": null,
+      "pictograms": [],
+      "precautions": [
+        "Standard lab care"
+      ]
+    },
+    "visual": {
+      "hexColor": "#B87333",
+      "opacity": 1.0,
+      "texture": "metallic_copper_wire"
+    },
+    "availableInLab": true,
+    "verification": {
+      "status": "verified",
+      "sources": [
+        "PubChem CID 23978"
+      ],
+      "notes": "Elemental copper wire."
+    }
+  },
+  {
+    "id": "aluminum_metal",
+    "name": "Aluminum Foil / Strip",
+    "formula": "Al",
+    "type": "element",
+    "categories": [
+      "metal",
+      "inorganic",
+      "solid"
+    ],
+    "state": "solid",
+    "molarMass": 26.982,
+    "appearance": {
+      "color": "silvery-gray",
+      "transparency": "opaque",
+      "state": "foil"
+    },
+    "properties": {
+      "density": 2.7,
+      "ph": null,
+      "boilingPoint": 2470.0,
+      "meltingPoint": 660.3,
+      "conductive": true
+    },
+    "solubility": {
+      "waterSoluble": false,
+      "solubilityGPer100mL": 0.0
+    },
+    "commonUses": [
+      "Reaction with acids/bases",
+      "Thermite reaction ingredient"
+    ],
+    "safety": {
+      "hazardClass": "non_hazardous",
+      "ghsSignalWord": null,
+      "pictograms": [],
+      "precautions": [
+        "Standard lab care"
+      ]
+    },
+    "visual": {
+      "hexColor": "#D3D3D3",
+      "opacity": 1.0,
+      "texture": "shiny_metallic_foil"
+    },
+    "availableInLab": true,
+    "verification": {
+      "status": "verified",
+      "sources": [
+        "PubChem CID 5359268"
+      ],
+      "notes": "Elemental aluminum metal sheet/foil."
+    }
+  },
+  {
+    "id": "lead_metal",
+    "name": "Lead Strip",
+    "formula": "Pb",
+    "type": "element",
+    "categories": [
+      "metal",
+      "inorganic",
+      "solid"
+    ],
+    "state": "solid",
+    "molarMass": 207.2,
+    "appearance": {
+      "color": "dull gray",
+      "transparency": "opaque",
+      "state": "metal strip"
+    },
+    "properties": {
+      "density": 11.34,
+      "ph": null,
+      "boilingPoint": 1749.0,
+      "meltingPoint": 327.5,
+      "conductive": true
+    },
+    "solubility": {
+      "waterSoluble": false,
+      "solubilityGPer100mL": 0.0
+    },
+    "commonUses": [
+      "Radiation shielding",
+      "Electrolysis electrodes",
+      "Displacement reactions"
+    ],
+    "safety": {
+      "hazardClass": "toxic",
+      "ghsSignalWord": "Danger",
+      "pictograms": [
+        "toxic",
+        "health_hazard"
+      ],
+      "precautions": [
+        "Toxic metal",
+        "Wash hands thoroughly after handling",
+        "Do not ingest"
+      ]
+    },
+    "visual": {
+      "hexColor": "#708090",
+      "opacity": 1.0,
+      "texture": "dull_gray_metal"
+    },
+    "availableInLab": true,
+    "verification": {
+      "status": "verified",
+      "sources": [
+        "PubChem CID 5352425"
+      ],
+      "notes": "Elemental lead solid metal."
+    }
+  },
+  {
+    "id": "hydrogen_gas",
+    "name": "Hydrogen Gas",
+    "formula": "H2",
+    "type": "element",
+    "categories": [
+      "gas",
+      "nonmetal",
+      "inorganic"
+    ],
+    "state": "gas",
+    "molarMass": 2.016,
+    "appearance": {
+      "color": "colorless",
+      "transparency": "transparent",
+      "state": "gas"
+    },
+    "properties": {
+      "density": 8.988e-05,
+      "ph": null,
+      "boilingPoint": -252.87,
+      "meltingPoint": -259.16,
+      "conductive": false
+    },
+    "solubility": {
+      "waterSoluble": false,
+      "solubilityGPer100mL": 0.00016
+    },
+    "commonUses": [
+      "Pop test for hydrogen gas",
+      "Combustion fuel",
+      "Reduction reactions"
+    ],
+    "safety": {
+      "hazardClass": "flammable_gas",
+      "ghsSignalWord": "Danger",
+      "pictograms": [
+        "flammable",
+        "compressed_gas"
+      ],
+      "precautions": [
+        "Extremely flammable gas",
+        "Keep away from open flame/sparks"
+      ]
+    },
+    "visual": {
+      "hexColor": "#E0FFFF",
+      "opacity": 0.05,
+      "texture": "invisible_gas_bubbles"
+    },
+    "availableInLab": true,
+    "verification": {
+      "status": "verified",
+      "sources": [
+        "PubChem CID 783"
+      ],
+      "notes": "Diatomic hydrogen gas."
+    }
+  },
+  {
+    "id": "oxygen_gas",
+    "name": "Oxygen Gas",
+    "formula": "O2",
+    "type": "element",
+    "categories": [
+      "gas",
+      "nonmetal",
+      "inorganic"
+    ],
+    "state": "gas",
+    "molarMass": 31.999,
+    "appearance": {
+      "color": "colorless",
+      "transparency": "transparent",
+      "state": "gas"
+    },
+    "properties": {
+      "density": 0.001429,
+      "ph": null,
+      "boilingPoint": -182.96,
+      "meltingPoint": -218.79,
+      "conductive": false
+    },
+    "solubility": {
+      "waterSoluble": false,
+      "solubilityGPer100mL": 0.004
+    },
+    "commonUses": [
+      "Glowing splint test",
+      "Combustion support",
+      "Oxidizing agent"
+    ],
+    "safety": {
+      "hazardClass": "oxidizer",
+      "ghsSignalWord": "Danger",
+      "pictograms": [
+        "oxidizer",
+        "compressed_gas"
+      ],
+      "precautions": [
+        "Accelerates combustion"
+      ]
+    },
+    "visual": {
+      "hexColor": "#F0FFFF",
+      "opacity": 0.05,
+      "texture": "invisible_gas_bubbles"
+    },
+    "availableInLab": true,
+    "verification": {
+      "status": "verified",
+      "sources": [
+        "PubChem CID 977"
+      ],
+      "notes": "Diatomic oxygen gas."
+    }
+  },
+  {
+    "id": "carbon_dioxide_gas",
+    "name": "Carbon Dioxide Gas",
+    "formula": "CO2",
+    "type": "compound",
+    "categories": [
+      "gas",
+      "inorganic",
+      "oxide"
+    ],
+    "state": "gas",
+    "molarMass": 44.01,
+    "appearance": {
+      "color": "colorless",
+      "transparency": "transparent",
+      "state": "gas"
+    },
+    "properties": {
+      "density": 0.001977,
+      "ph": 5.6,
+      "boilingPoint": -78.5,
+      "meltingPoint": -56.6,
+      "conductive": false
+    },
+    "solubility": {
+      "waterSoluble": true,
+      "solubilityGPer100mL": 0.145
+    },
+    "commonUses": [
+      "Limewater turning cloudy",
+      "Extinguishing splints",
+      "Carbonated beverages"
+    ],
+    "safety": {
+      "hazardClass": "compressed_gas",
+      "ghsSignalWord": "Warning",
+      "pictograms": [
+        "compressed_gas"
+      ],
+      "precautions": [
+        "Asphyxiant at high concentrations"
+      ]
+    },
+    "visual": {
+      "hexColor": "#F5F5F5",
+      "opacity": 0.05,
+      "texture": "invisible_gas_bubbles"
+    },
+    "availableInLab": true,
+    "verification": {
+      "status": "verified",
+      "sources": [
+        "PubChem CID 280"
+      ],
+      "notes": "Carbon dioxide gas product."
+    }
+  },
+  {
+    "id": "chlorine_gas",
+    "name": "Chlorine Gas",
+    "formula": "Cl2",
+    "type": "element",
+    "categories": [
+      "gas",
+      "nonmetal",
+      "inorganic"
+    ],
+    "state": "gas",
+    "molarMass": 70.9,
+    "appearance": {
+      "color": "pale yellow-green",
+      "transparency": "translucent",
+      "state": "gas"
+    },
+    "properties": {
+      "density": 0.003214,
+      "ph": null,
+      "boilingPoint": -34.04,
+      "meltingPoint": -101.5,
+      "conductive": false
+    },
+    "solubility": {
+      "waterSoluble": true,
+      "solubilityGPer100mL": 0.7
+    },
+    "commonUses": [
+      "Bleaching agent",
+      "Disinfectant gas",
+      "Halide displacement reactions"
+    ],
+    "safety": {
+      "hazardClass": "toxic_corrosive_gas",
+      "ghsSignalWord": "Danger",
+      "pictograms": [
+        "toxic",
+        "corrosive",
+        "environment"
+      ],
+      "precautions": [
+        "Toxic by inhalation",
+        "Use strict fume hood containment"
+      ]
+    },
+    "visual": {
+      "hexColor": "#9ACD32",
+      "opacity": 0.3,
+      "texture": "yellow_green_gas"
+    },
+    "availableInLab": true,
+    "verification": {
+      "status": "verified",
+      "sources": [
+        "PubChem CID 24526"
+      ],
+      "notes": "Diatomic chlorine gas."
+    }
+  },
+  {
+    "id": "nitrogen_dioxide_gas",
+    "name": "Nitrogen Dioxide Gas",
+    "formula": "NO2",
+    "type": "compound",
+    "categories": [
+      "gas",
+      "inorganic",
+      "oxide"
+    ],
+    "state": "gas",
+    "molarMass": 46.006,
+    "appearance": {
+      "color": "reddish-brown",
+      "transparency": "translucent",
+      "state": "gas"
+    },
+    "properties": {
+      "density": 0.00188,
+      "ph": null,
+      "boilingPoint": 21.15,
+      "meltingPoint": -11.2,
+      "conductive": false
+    },
+    "solubility": {
+      "waterSoluble": true,
+      "solubilityGPer100mL": null
+    },
+    "commonUses": [
+      "Concentrated nitric acid metal reaction byproduct",
+      "Air pollution study"
+    ],
+    "safety": {
+      "hazardClass": "toxic_corrosive_gas",
+      "ghsSignalWord": "Danger",
+      "pictograms": [
+        "toxic",
+        "corrosive",
+        "oxidizer"
+      ],
+      "precautions": [
+        "Highly toxic brown gas",
+        "Use in fume hood only"
+      ]
+    },
+    "visual": {
+      "hexColor": "#8B4513",
+      "opacity": 0.5,
+      "texture": "red_brown_fumes"
+    },
+    "availableInLab": true,
+    "verification": {
+      "status": "verified",
+      "sources": [
+        "PubChem CID 24822"
+      ],
+      "notes": "Toxic reddish-brown nitrogen dioxide gas."
+    }
+  },
+  {
+    "id": "phenolphthalein",
+    "name": "Phenolphthalein Indicator",
+    "formula": "C20H14O4(aq)",
+    "type": "solution",
+    "categories": [
+      "indicator",
+      "organic",
+      "solution"
+    ],
+    "state": "liquid",
+    "molarMass": 318.32,
+    "appearance": {
+      "color": "colorless",
+      "transparency": "transparent",
+      "state": "liquid"
+    },
+    "properties": {
+      "density": 0.95,
+      "ph": null,
+      "boilingPoint": 78.0,
+      "meltingPoint": null,
+      "conductive": false
+    },
+    "solubility": {
+      "waterSoluble": true,
+      "solubilityGPer100mL": null
+    },
+    "commonUses": [
+      "Acid-base titration indicator (colorless in acid, pink/magenta in base pH > 8.2)"
+    ],
+    "safety": {
+      "hazardClass": "irritant",
+      "ghsSignalWord": "Warning",
+      "pictograms": [
+        "health_hazard"
+      ],
+      "precautions": [
+        "Contains alcohol solvent",
+        "Keep away from open flame"
+      ]
+    },
+    "visual": {
+      "hexColor": "#FFFFFF",
+      "opacity": 0.1,
+      "texture": "clear_solution"
+    },
+    "availableInLab": true,
+    "verification": {
+      "status": "verified",
+      "sources": [
+        "PubChem CID 4764"
+      ],
+      "notes": "1% solution in 50% ethanol/water."
+    }
+  },
+  {
+    "id": "universal_indicator",
+    "name": "Universal Indicator Solution",
+    "formula": "Mixture",
+    "type": "solution",
+    "categories": [
+      "indicator",
+      "solution"
+    ],
+    "state": "liquid",
+    "molarMass": null,
+    "appearance": {
+      "color": "green",
+      "transparency": "transparent",
+      "state": "liquid"
+    },
+    "properties": {
+      "density": 0.98,
+      "ph": 7.0,
+      "boilingPoint": 80.0,
+      "meltingPoint": null,
+      "conductive": false
+    },
+    "solubility": {
+      "waterSoluble": true,
+      "solubilityGPer100mL": null
+    },
+    "commonUses": [
+      "Broad-range pH testing (Red at pH 1 to Violet at pH 14)"
+    ],
+    "safety": {
+      "hazardClass": "flammable_liquid",
+      "ghsSignalWord": "Warning",
+      "pictograms": [
+        "flammable"
+      ],
+      "precautions": [
+        "Ethanol-based solution"
+      ]
+    },
+    "visual": {
+      "hexColor": "#228B22",
+      "opacity": 0.6,
+      "texture": "green_clear_solution"
+    },
+    "availableInLab": true,
+    "verification": {
+      "status": "verified",
+      "sources": [
+        "RSC Chemistry Indicator Guide"
+      ],
+      "notes": "Standard Yamada universal indicator mixture."
+    }
+  },
+  {
+    "id": "methyl_orange",
+    "name": "Methyl Orange Indicator",
+    "formula": "C14H14N3NaO3S(aq)",
+    "type": "solution",
+    "categories": [
+      "indicator",
+      "organic",
+      "solution"
+    ],
+    "state": "liquid",
+    "molarMass": 327.33,
+    "appearance": {
+      "color": "orange",
+      "transparency": "transparent",
+      "state": "liquid"
+    },
+    "properties": {
+      "density": 1.0,
+      "ph": null,
+      "boilingPoint": 100.0,
+      "meltingPoint": null,
+      "conductive": false
+    },
+    "solubility": {
+      "waterSoluble": true,
+      "solubilityGPer100mL": null
+    },
+    "commonUses": [
+      "Acid-base titration indicator (red at pH < 3.1, yellow at pH > 4.4)"
+    ],
+    "safety": {
+      "hazardClass": "toxic",
+      "ghsSignalWord": "Danger",
+      "pictograms": [
+        "toxic"
+      ],
+      "precautions": [
+        "Toxic if swallowed"
+      ]
+    },
+    "visual": {
+      "hexColor": "#FFA500",
+      "opacity": 0.7,
+      "texture": "orange_clear_solution"
+    },
+    "availableInLab": true,
+    "verification": {
+      "status": "verified",
+      "sources": [
+        "PubChem CID 23673833"
+      ],
+      "notes": "0.1% aqueous methyl orange indicator solution."
+    }
+  },
+  {
+    "id": "litmus_solution",
+    "name": "Litmus Indicator Solution",
+    "formula": "Mixture",
+    "type": "solution",
+    "categories": [
+      "indicator",
+      "organic",
+      "solution"
+    ],
+    "state": "liquid",
+    "molarMass": null,
+    "appearance": {
+      "color": "purple",
+      "transparency": "transparent",
+      "state": "liquid"
+    },
+    "properties": {
+      "density": 1.0,
+      "ph": 7.0,
+      "boilingPoint": 100.0,
+      "meltingPoint": 0.0,
+      "conductive": false
+    },
+    "solubility": {
+      "waterSoluble": true,
+      "solubilityGPer100mL": null
+    },
+    "commonUses": [
+      "Acid-base testing (Red in acid, Blue in base)"
+    ],
+    "safety": {
+      "hazardClass": "non_hazardous",
+      "ghsSignalWord": null,
+      "pictograms": [],
+      "precautions": [
+        "Standard lab care"
+      ]
+    },
+    "visual": {
+      "hexColor": "#8A2BE2",
+      "opacity": 0.6,
+      "texture": "purple_clear_solution"
+    },
+    "availableInLab": true,
+    "verification": {
+      "status": "verified",
+      "sources": [
+        "PubChem CID 16212818"
+      ],
+      "notes": "Natural lichen dye mixture in aqueous solution."
+    }
+  },
+  {
+    "id": "hydrogen_peroxide",
+    "name": "Hydrogen Peroxide (3% Solution)",
+    "formula": "H2O2(aq)",
+    "type": "solution",
+    "categories": [
+      "oxide",
+      "inorganic",
+      "solution"
+    ],
+    "state": "liquid",
+    "molarMass": 34.015,
+    "appearance": {
+      "color": "colorless",
+      "transparency": "transparent",
+      "state": "liquid"
+    },
+    "properties": {
+      "density": 1.01,
+      "ph": 6.0,
+      "boilingPoint": 101.0,
+      "meltingPoint": -0.5,
+      "conductive": false
+    },
+    "solubility": {
+      "waterSoluble": true,
+      "solubilityGPer100mL": null
+    },
+    "commonUses": [
+      "Decomposition to oxygen gas (catalysed by KI/MnO2)",
+      "Disinfectant",
+      "Bleaching"
+    ],
+    "safety": {
+      "hazardClass": "irritant",
+      "ghsSignalWord": "Warning",
+      "pictograms": [
+        "irritant"
+      ],
+      "precautions": [
+        "Causes mild skin and eye irritation"
+      ]
+    },
+    "visual": {
+      "hexColor": "#F0F8FF",
+      "opacity": 0.2,
+      "texture": "clear_liquid"
+    },
+    "availableInLab": true,
+    "verification": {
+      "status": "verified",
+      "sources": [
+        "PubChem CID 784"
+      ],
+      "notes": "Dilute 3% household/lab aqueous H2O2."
+    }
+  },
+  {
+    "id": "ethanol",
+    "name": "Ethanol (95%)",
+    "formula": "C2H5OH",
+    "type": "compound",
+    "categories": [
+      "organic",
+      "solvent",
+      "liquid"
+    ],
+    "state": "liquid",
+    "molarMass": 46.07,
+    "appearance": {
+      "color": "colorless",
+      "transparency": "transparent",
+      "state": "liquid"
+    },
+    "properties": {
+      "density": 0.789,
+      "ph": 7.0,
+      "boilingPoint": 78.37,
+      "meltingPoint": -114.1,
+      "conductive": false
+    },
+    "solubility": {
+      "waterSoluble": true,
+      "solubilityGPer100mL": null
+    },
+    "commonUses": [
+      "Bunsen burner fuel",
+      "Organic solvent",
+      "Disinfectant"
+    ],
+    "safety": {
+      "hazardClass": "flammable_liquid",
+      "ghsSignalWord": "Danger",
+      "pictograms": [
+        "flammable"
+      ],
+      "precautions": [
+        "Highly flammable liquid and vapor",
+        "Keep away from open flame"
+      ]
+    },
+    "visual": {
+      "hexColor": "#FAFAFA",
+      "opacity": 0.2,
+      "texture": "clear_mobile_liquid"
+    },
+    "availableInLab": true,
+    "verification": {
+      "status": "verified",
+      "sources": [
+        "PubChem CID 702"
+      ],
+      "notes": "Laboratory grade 95% ethyl alcohol."
+    }
+  },
+  {
+    "id": "potassium_nitrate",
+    "name": "Potassium Nitrate",
+    "formula": "KNO3",
+    "type": "compound",
+    "categories": [
+      "salt",
+      "inorganic",
+      "solid"
+    ],
+    "state": "solid",
+    "molarMass": 101.1,
+    "appearance": {
+      "color": "white",
+      "transparency": "opaque",
+      "state": "crystals"
+    },
+    "properties": {
+      "density": 2.109,
+      "ph": 7.0,
+      "boilingPoint": 400.0,
+      "meltingPoint": 334.0,
+      "conductive": true
+    },
+    "solubility": {
+      "waterSoluble": true,
+      "solubilityGPer100mL": 38.3
+    },
+    "commonUses": [
+      "Fertilizers",
+      "Pyrotechnics colorant / oxidizer",
+      "Solubility temperature curve demonstrations"
+    ],
+    "safety": {
+      "hazardClass": "oxidizer",
+      "ghsSignalWord": "Warning",
+      "pictograms": [
+        "oxidizer"
+      ],
+      "precautions": [
+        "May intensify fire; oxidizer"
+      ]
+    },
+    "visual": {
+      "hexColor": "#FFFFFF",
+      "opacity": 1.0,
+      "texture": "white_crystalline_powder"
+    },
+    "availableInLab": true,
+    "verification": {
+      "status": "verified",
+      "sources": [
+        "PubChem CID 24534"
+      ],
+      "notes": "Saltpetre / potassium nitrate."
+    }
+  },
+  {
+    "id": "sodium_sulfate",
+    "name": "Sodium Sulfate",
+    "formula": "Na2SO4",
+    "type": "compound",
+    "categories": [
+      "salt",
+      "inorganic",
+      "solid"
+    ],
+    "state": "solid",
+    "molarMass": 142.04,
+    "appearance": {
+      "color": "white",
+      "transparency": "opaque",
+      "state": "powder"
+    },
+    "properties": {
+      "density": 2.66,
+      "ph": 7.0,
+      "boilingPoint": 1429.0,
+      "meltingPoint": 884.0,
+      "conductive": true
+    },
+    "solubility": {
+      "waterSoluble": true,
+      "solubilityGPer100mL": 28.1
+    },
+    "commonUses": [
+      "Detergent filler",
+      "Drying agent",
+      "Precipitation product"
+    ],
+    "safety": {
+      "hazardClass": "non_hazardous",
+      "ghsSignalWord": null,
+      "pictograms": [],
+      "precautions": [
+        "Standard lab care"
+      ]
+    },
+    "visual": {
+      "hexColor": "#FFFFFF",
+      "opacity": 1.0,
+      "texture": "white_powder"
+    },
+    "availableInLab": true,
+    "verification": {
+      "status": "verified",
+      "sources": [
+        "PubChem CID 24436"
+      ],
+      "notes": "Anhydrous sodium sulfate."
+    }
+  },
+  {
+    "id": "copper_oxide",
+    "name": "Copper(II) Oxide",
+    "formula": "CuO",
+    "type": "compound",
+    "categories": [
+      "oxide",
+      "inorganic",
+      "solid"
+    ],
+    "state": "solid",
+    "molarMass": 79.545,
+    "appearance": {
+      "color": "black",
+      "transparency": "opaque",
+      "state": "powder"
+    },
+    "properties": {
+      "density": 6.31,
+      "ph": null,
+      "boilingPoint": 2000.0,
+      "meltingPoint": 1326.0,
+      "conductive": false
+    },
+    "solubility": {
+      "waterSoluble": false,
+      "solubilityGPer100mL": 0.0
+    },
+    "commonUses": [
+      "Reaction with acids to produce copper salts",
+      "Pigment in ceramics",
+      "Organic analysis catalyst"
+    ],
+    "safety": {
+      "hazardClass": "harmful_environment",
+      "ghsSignalWord": "Warning",
+      "pictograms": [
+        "irritant",
+        "environment"
+      ],
+      "precautions": [
+        "Toxic to aquatic life",
+        "Avoid breathing dust"
+      ]
+    },
+    "visual": {
+      "hexColor": "#1C1C1C",
+      "opacity": 1.0,
+      "texture": "black_fine_powder"
+    },
+    "availableInLab": true,
+    "verification": {
+      "status": "verified",
+      "sources": [
+        "PubChem CID 14829"
+      ],
+      "notes": "Black cupric oxide powder."
+    }
+  },
+  {
+    "id": "calcium_carbonate",
+    "name": "Calcium Carbonate (Limestone / Marble)",
+    "formula": "CaCO3",
+    "type": "compound",
+    "categories": [
+      "salt",
+      "inorganic",
+      "solid"
+    ],
+    "state": "solid",
+    "molarMass": 100.086,
+    "appearance": {
+      "color": "white",
+      "transparency": "opaque",
+      "state": "powder"
+    },
+    "properties": {
+      "density": 2.71,
+      "ph": 9.0,
+      "boilingPoint": null,
+      "meltingPoint": 1339.0,
+      "conductive": false
+    },
+    "solubility": {
+      "waterSoluble": false,
+      "solubilityGPer100mL": 0.0013
+    },
+    "commonUses": [
+      "Chalk/marble chips acid reactions",
+      "Building material",
+      "Antacid"
+    ],
+    "safety": {
+      "hazardClass": "low_hazard",
+      "ghsSignalWord": null,
+      "pictograms": [],
+      "precautions": [
+        "Standard lab care"
+      ]
+    },
+    "visual": {
+      "hexColor": "#FAFAFA",
+      "opacity": 1.0,
+      "texture": "white_powder_or_chips"
+    },
+    "availableInLab": true,
+    "verification": {
+      "status": "verified",
+      "sources": [
+        "PubChem CID 10112"
+      ],
+      "notes": "Insoluble calcium carbonate solid."
+    }
+  },
+  {
+    "id": "ammonium_chloride",
+    "name": "Ammonium Chloride",
+    "formula": "NH4Cl",
+    "type": "compound",
+    "categories": [
+      "salt",
+      "inorganic",
+      "solid"
+    ],
+    "state": "solid",
+    "molarMass": 53.49,
+    "appearance": {
+      "color": "white",
+      "transparency": "opaque",
+      "state": "crystals"
+    },
+    "properties": {
+      "density": 1.527,
+      "ph": 5.5,
+      "boilingPoint": 520.0,
+      "meltingPoint": 338.0,
+      "conductive": true
+    },
+    "solubility": {
+      "waterSoluble": true,
+      "solubilityGPer100mL": 38.3
+    },
+    "commonUses": [
+      "Endothermic dissolving demonstrations",
+      "Dry cell batteries",
+      "Flux in soldering"
+    ],
+    "safety": {
+      "hazardClass": "irritant",
+      "ghsSignalWord": "Warning",
+      "pictograms": [
+        "irritant"
+      ],
+      "precautions": [
+        "Harmful if swallowed",
+        "Causes eye irritation"
+      ]
+    },
+    "visual": {
+      "hexColor": "#FFFFFF",
+      "opacity": 1.0,
+      "texture": "white_crystalline_powder"
+    },
+    "availableInLab": true,
+    "verification": {
+      "status": "verified",
+      "sources": [
+        "PubChem CID 25517"
+      ],
+      "notes": "Sublimes upon heating at 338 \u00b0C."
+    }
+  },
+  {
+    "id": "sulfur_powder",
+    "name": "Sulfur Powder",
+    "formula": "S8",
+    "type": "element",
+    "categories": [
+      "nonmetal",
+      "inorganic",
+      "solid"
+    ],
+    "state": "solid",
+    "molarMass": 32.06,
+    "appearance": {
+      "color": "bright yellow",
+      "transparency": "opaque",
+      "state": "powder"
+    },
+    "properties": {
+      "density": 2.07,
+      "ph": null,
+      "boilingPoint": 444.6,
+      "meltingPoint": 115.21,
+      "conductive": false
+    },
+    "solubility": {
+      "waterSoluble": false,
+      "solubilityGPer100mL": 0.0
+    },
+    "commonUses": [
+      "Combustion reactions (blue flame)",
+      "Sulfides synthesis with metals"
+    ],
+    "safety": {
+      "hazardClass": "irritant",
+      "ghsSignalWord": "Warning",
+      "pictograms": [
+        "irritant"
+      ],
+      "precautions": [
+        "Causes skin irritation",
+        "SO2 gas produced upon burning"
+      ]
+    },
+    "visual": {
+      "hexColor": "#FFD700",
+      "opacity": 1.0,
+      "texture": "yellow_powder"
+    },
+    "availableInLab": true,
+    "verification": {
+      "status": "verified",
+      "sources": [
+        "PubChem CID 5362549"
+      ],
+      "notes": "Yellow elemental sulfur powder."
+    }
+  },
+  {
+    "id": "iodine_solid",
+    "name": "Iodine Crystals",
+    "formula": "I2",
+    "type": "element",
+    "categories": [
+      "nonmetal",
+      "inorganic",
+      "solid"
+    ],
+    "state": "solid",
+    "molarMass": 253.81,
+    "appearance": {
+      "color": "dark violet-black",
+      "transparency": "opaque",
+      "state": "crystals"
+    },
+    "properties": {
+      "density": 4.933,
+      "ph": null,
+      "boilingPoint": 184.3,
+      "meltingPoint": 113.7,
+      "conductive": false
+    },
+    "solubility": {
+      "waterSoluble": false,
+      "solubilityGPer100mL": 0.03
+    },
+    "commonUses": [
+      "Sublimation demonstrations (purple vapor)",
+      "Starch test"
+    ],
+    "safety": {
+      "hazardClass": "toxic_corrosive",
+      "ghsSignalWord": "Danger",
+      "pictograms": [
+        "toxic",
+        "corrosive",
+        "environment"
+      ],
+      "precautions": [
+        "Toxic by inhalation/contact",
+        "Causes skin burns"
+      ]
+    },
+    "visual": {
+      "hexColor": "#2B1B17",
+      "opacity": 1.0,
+      "texture": "dark_violet_shiny_crystals"
+    },
+    "availableInLab": true,
+    "verification": {
+      "status": "verified",
+      "sources": [
+        "PubChem CID 807"
+      ],
+      "notes": "Solid iodine crystalline scales."
+    }
+  },
+  {
+    "id": "manganese_dioxide",
+    "name": "Manganese(IV) Oxide",
+    "formula": "MnO2",
+    "type": "compound",
+    "categories": [
+      "oxide",
+      "inorganic",
+      "solid"
+    ],
+    "state": "solid",
+    "molarMass": 86.937,
+    "appearance": {
+      "color": "black",
+      "transparency": "opaque",
+      "state": "powder"
+    },
+    "properties": {
+      "density": 5.026,
+      "ph": null,
+      "boilingPoint": null,
+      "meltingPoint": 535.0,
+      "conductive": false
+    },
+    "solubility": {
+      "waterSoluble": false,
+      "solubilityGPer100mL": 0.0
+    },
+    "commonUses": [
+      "Catalyst for H2O2 decomposition",
+      "Dry cell battery cathode"
+    ],
+    "safety": {
+      "hazardClass": "harmful",
+      "ghsSignalWord": "Warning",
+      "pictograms": [
+        "health_hazard"
+      ],
+      "precautions": [
+        "Harmful if inhaled or swallowed"
+      ]
+    },
+    "visual": {
+      "hexColor": "#2F2F2F",
+      "opacity": 1.0,
+      "texture": "black_fine_powder"
+    },
+    "availableInLab": true,
+    "verification": {
+      "status": "verified",
+      "sources": [
+        "PubChem CID 24801"
+      ],
+      "notes": "Black inorganic dioxide catalyst."
+    }
+  },
+  {
+    "id": "sodium_nitrate",
+    "name": "Sodium Nitrate",
+    "formula": "NaNO3",
+    "type": "compound",
+    "categories": [
+      "salt",
+      "inorganic",
+      "solid"
+    ],
+    "state": "solid",
+    "molarMass": 84.994,
+    "appearance": {
+      "color": "white",
+      "transparency": "opaque",
+      "state": "crystals"
+    },
+    "properties": {
+      "density": 2.257,
+      "ph": 7.0,
+      "boilingPoint": 380.0,
+      "meltingPoint": 308.0,
+      "conductive": true
+    },
+    "solubility": {
+      "waterSoluble": true,
+      "solubilityGPer100mL": 91.2
+    },
+    "commonUses": [
+      "Fertilizer",
+      "Pyrotechnics oxidizer",
+      "Food preservative"
+    ],
+    "safety": {
+      "hazardClass": "oxidizer",
+      "ghsSignalWord": "Warning",
+      "pictograms": [
+        "oxidizer"
+      ],
+      "precautions": [
+        "May intensify fire; oxidizer"
+      ]
+    },
+    "visual": {
+      "hexColor": "#FFFFFF",
+      "opacity": 1.0,
+      "texture": "white_crystalline_powder"
+    },
+    "availableInLab": true,
+    "verification": {
+      "status": "verified",
+      "sources": [
+        "PubChem CID 24268"
+      ],
+      "notes": "Chile saltpeter / sodium nitrate."
+    }
+  },
+  {
+    "id": "zinc_chloride",
+    "name": "Zinc Chloride",
+    "formula": "ZnCl2",
+    "type": "compound",
+    "categories": [
+      "salt",
+      "inorganic",
+      "solid"
+    ],
+    "state": "solid",
+    "molarMass": 136.3,
+    "appearance": {
+      "color": "white",
+      "transparency": "opaque",
+      "state": "crystals"
+    },
+    "properties": {
+      "density": 2.91,
+      "ph": 5.0,
+      "boilingPoint": 732.0,
+      "meltingPoint": 290.0,
+      "conductive": true
+    },
+    "solubility": {
+      "waterSoluble": true,
+      "solubilityGPer100mL": 432.0
+    },
+    "commonUses": [
+      "Metallurgical flux",
+      "Chemical synthesis"
+    ],
+    "safety": {
+      "hazardClass": "corrosive_environment",
+      "ghsSignalWord": "Danger",
+      "pictograms": [
+        "corrosive",
+        "environment"
+      ],
+      "precautions": [
+        "Harmful if swallowed",
+        "Causes severe skin burns"
+      ]
+    },
+    "visual": {
+      "hexColor": "#FFFFFF",
+      "opacity": 1.0,
+      "texture": "white_crystalline_powder"
+    },
+    "availableInLab": true,
+    "verification": {
+      "status": "verified",
+      "sources": [
+        "PubChem CID 24253"
+      ],
+      "notes": "Hygroscopic zinc salt."
+    }
+  },
+  {
+    "id": "zinc_sulfate",
+    "name": "Zinc Sulfate",
+    "formula": "ZnSO4",
+    "type": "compound",
+    "categories": [
+      "salt",
+      "inorganic",
+      "solid"
+    ],
+    "state": "solid",
+    "molarMass": 161.47,
+    "appearance": {
+      "color": "white",
+      "transparency": "opaque",
+      "state": "crystals"
+    },
+    "properties": {
+      "density": 3.54,
+      "ph": 5.0,
+      "boilingPoint": null,
+      "meltingPoint": 680.0,
+      "conductive": true
+    },
+    "solubility": {
+      "waterSoluble": true,
+      "solubilityGPer100mL": 57.7
+    },
+    "commonUses": [
+      "Dietary zinc supplement",
+      "Electrolyte solution"
+    ],
+    "safety": {
+      "hazardClass": "irritant_environment",
+      "ghsSignalWord": "Danger",
+      "pictograms": [
+        "irritant",
+        "environment"
+      ],
+      "precautions": [
+        "Causes serious eye damage",
+        "Toxic to aquatic life"
+      ]
+    },
+    "visual": {
+      "hexColor": "#FFFFFF",
+      "opacity": 1.0,
+      "texture": "white_powder"
+    },
+    "availableInLab": true,
+    "verification": {
+      "status": "verified",
+      "sources": [
+        "PubChem CID 24424"
+      ],
+      "notes": "Anhydrous / heptahydrate zinc sulfate."
+    }
+  },
+  {
+    "id": "iron_sulfate",
+    "name": "Iron(II) Sulfate",
+    "formula": "FeSO4",
+    "type": "compound",
+    "categories": [
+      "salt",
+      "inorganic",
+      "solid"
+    ],
+    "state": "solid",
+    "molarMass": 151.91,
+    "appearance": {
+      "color": "pale green",
+      "transparency": "opaque",
+      "state": "crystals"
+    },
+    "properties": {
+      "density": 2.84,
+      "ph": 4.0,
+      "boilingPoint": null,
+      "meltingPoint": 64.0,
+      "conductive": true
+    },
+    "solubility": {
+      "waterSoluble": true,
+      "solubilityGPer100mL": 25.6
+    },
+    "commonUses": [
+      "Iron supplement",
+      "Water treatment",
+      "Dyeing reagent"
+    ],
+    "safety": {
+      "hazardClass": "irritant",
+      "ghsSignalWord": "Warning",
+      "pictograms": [
+        "irritant"
+      ],
+      "precautions": [
+        "Harmful if swallowed",
+        "Causes skin irritation"
+      ]
+    },
+    "visual": {
+      "hexColor": "#90EE90",
+      "opacity": 0.9,
+      "texture": "pale_green_crystals"
+    },
+    "availableInLab": true,
+    "verification": {
+      "status": "verified",
+      "sources": [
+        "PubChem CID 24393"
+      ],
+      "notes": "Ferrous sulfate heptahydrate / anhydrous."
+    }
+  }
+]

@@ -1,0 +1,19 @@
+{
+  "name": "ChemLab Scientific Dataset Foundation",
+  "version": "1.0.0",
+  "schemaVersion": "1.0",
+  "lastUpdated": "2025-03-01",
+  "description": "Central master registry referencing all dataset components for ChemLab.",
+  "datasets": {
+    "elements": "elements/elements.json",
+    "elementCategories": "elements/element_categories.json",
+    "chemicals": "chemicals/chemicals.json",
+    "chemicalCategories": "chemicals/chemical_categories.json",
+    "equipment": "equipment/equipment.json",
+    "reactionTypes": "reactions/reaction_types.json",
+    "reactions": "reactions/reactions.json",
+    "experiments": "experiments/experiments.json",
+    "challenges": "challenges/challenges.json",
+    "achievements": "achievements/achievements.json"
+  }
+}

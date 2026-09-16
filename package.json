@@ -1,0 +1,19 @@
+{
+  "name": "chemlab-dataset",
+  "version": "1.0.0",
+  "description": "ChemLab Scientific Dataset Foundation Phase 1",
+  "main": "data/index.json",
+  "scripts": {
+    "validate-data": "node scripts/validate.js"
+  },
+  "keywords": [
+    "chemistry",
+    "chemlab",
+    "dataset",
+    "elements",
+    "reactions",
+    "experiments"
+  ],
+  "author": "ChemLab Team",
+  "license": "MIT"
+}

@@ -1,0 +1,446 @@
+[
+  {
+    "id": "beaker",
+    "name": "Glass Beaker",
+    "category": "glassware",
+    "description": "Cylindrical borosilicate glass container used for mixing, stirring, and heating liquids.",
+    "supportedActions": ["fill", "pour", "mix", "heat", "stir", "observe_color"],
+    "capacity": {
+      "value": 250.0,
+      "unit": "mL"
+    },
+    "measurementProperties": {
+      "hasGraduations": true,
+      "precision": 10.0,
+      "precisionUnit": "mL"
+    },
+    "visual": {
+      "modelType": "glassware_cylindrical",
+      "transparency": 0.15,
+      "icon": "beaker_icon"
+    },
+    "safety": {
+      "maxTemperature": 500.0,
+      "maxTemperatureUnit": "C",
+      "fragile": true,
+      "precautions": ["Handle with thermal gloves when heated", "Inspect for cracks before use"]
+    }
+  },
+  {
+    "id": "erlenmeyer_flask",
+    "name": "Erlenmeyer Flask",
+    "category": "glassware",
+    "description": "Conical glass vessel with a narrow neck, ideal for swirling solutions without spilling and titrations.",
+    "supportedActions": ["fill", "pour", "swirl", "heat", "titrate", "stopper"],
+    "capacity": {
+      "value": 250.0,
+      "unit": "mL"
+    },
+    "measurementProperties": {
+      "hasGraduations": true,
+      "precision": 25.0,
+      "precisionUnit": "mL"
+    },
+    "visual": {
+      "modelType": "glassware_conical",
+      "transparency": 0.15,
+      "icon": "flask_icon"
+    },
+    "safety": {
+      "maxTemperature": 500.0,
+      "maxTemperatureUnit": "C",
+      "fragile": true,
+      "precautions": ["Never heat when sealed with a stopper"]
+    }
+  },
+  {
+    "id": "test_tube",
+    "name": "Test Tube",
+    "category": "glassware",
+    "description": "Small cylindrical glass tube used for qualitative chemical testing and small-scale reactions.",
+    "supportedActions": ["fill", "pour", "heat", "shake", "observe_precipitate", "observe_color"],
+    "capacity": {
+      "value": 20.0,
+      "unit": "mL"
+    },
+    "measurementProperties": {
+      "hasGraduations": false,
+      "precision": null,
+      "precisionUnit": null
+    },
+    "visual": {
+      "modelType": "glassware_tube",
+      "transparency": 0.1,
+      "icon": "test_tube_icon"
+    },
+    "safety": {
+      "maxTemperature": 500.0,
+      "maxTemperatureUnit": "C",
+      "fragile": true,
+      "precautions": ["Point open end away from self and others when heating"]
+    }
+  },
+  {
+    "id": "measuring_cylinder",
+    "name": "Graduated Measuring Cylinder",
+    "category": "volumetric",
+    "description": "Tall narrow glass/plastic vessel designed for accurate measurement of liquid volumes.",
+    "supportedActions": ["fill", "pour", "measure_volume"],
+    "capacity": {
+      "value": 100.0,
+      "unit": "mL"
+    },
+    "measurementProperties": {
+      "hasGraduations": true,
+      "precision": 1.0,
+      "precisionUnit": "mL"
+    },
+    "visual": {
+      "modelType": "graduated_cylinder",
+      "transparency": 0.15,
+      "icon": "cylinder_icon"
+    },
+    "safety": {
+      "maxTemperature": 80.0,
+      "maxTemperatureUnit": "C",
+      "fragile": true,
+      "precautions": ["Do not heat directly over flame or hot plate"]
+    }
+  },
+  {
+    "id": "dropper",
+    "name": "Glass Dropper Pipette",
+    "category": "transfer",
+    "description": "Glass tube with a rubber bulb used to dispense small liquid drops accurately.",
+    "supportedActions": ["draw_liquid", "dispense_drop"],
+    "capacity": {
+      "value": 2.0,
+      "unit": "mL"
+    },
+    "measurementProperties": {
+      "hasGraduations": false,
+      "precision": 0.05,
+      "precisionUnit": "mL"
+    },
+    "visual": {
+      "modelType": "dropper_pipette",
+      "transparency": 0.1,
+      "icon": "dropper_icon"
+    },
+    "safety": {
+      "maxTemperature": 60.0,
+      "maxTemperatureUnit": "C",
+      "fragile": true,
+      "precautions": ["Keep vertical while transferring liquids"]
+    }
+  },
+  {
+    "id": "pipette",
+    "name": "Volumetric Pipette (10mL)",
+    "category": "volumetric",
+    "description": "High-precision transfer instrument calibrated to deliver an exact single volume of liquid.",
+    "supportedActions": ["draw_liquid", "dispense_exact"],
+    "capacity": {
+      "value": 10.0,
+      "unit": "mL"
+    },
+    "measurementProperties": {
+      "hasGraduations": true,
+      "precision": 0.02,
+      "precisionUnit": "mL"
+    },
+    "visual": {
+      "modelType": "volumetric_pipette",
+      "transparency": 0.1,
+      "icon": "pipette_icon"
+    },
+    "safety": {
+      "maxTemperature": 60.0,
+      "maxTemperatureUnit": "C",
+      "fragile": true,
+      "precautions": ["Use pipette bulb/filler, never mouth suction"]
+    }
+  },
+  {
+    "id": "funnel",
+    "name": "Glass Funnel",
+    "category": "filtration",
+    "description": "Cone-shaped channel tool used with filter paper to separate precipitates or transfer liquids neatly.",
+    "supportedActions": ["pour_through", "filter"],
+    "capacity": {
+      "value": 100.0,
+      "unit": "mL"
+    },
+    "measurementProperties": {
+      "hasGraduations": false,
+      "precision": null,
+      "precisionUnit": null
+    },
+    "visual": {
+      "modelType": "funnel_cone",
+      "transparency": 0.15,
+      "icon": "funnel_icon"
+    },
+    "safety": {
+      "maxTemperature": 200.0,
+      "maxTemperatureUnit": "C",
+      "fragile": true,
+      "precautions": ["Ensure stable support on flask stem"]
+    }
+  },
+  {
+    "id": "thermometer",
+    "name": "Digital / Glass Laboratory Thermometer",
+    "category": "measurement",
+    "description": "Precision temperature measuring instrument with probe suitable for chemical solutions.",
+    "supportedActions": ["measure_temperature"],
+    "capacity": null,
+    "measurementProperties": {
+      "hasGraduations": true,
+      "precision": 0.1,
+      "precisionUnit": "C"
+    },
+    "visual": {
+      "modelType": "thermometer_probe",
+      "transparency": 0.2,
+      "icon": "thermometer_icon"
+    },
+    "safety": {
+      "maxTemperature": 300.0,
+      "maxTemperatureUnit": "C",
+      "fragile": true,
+      "precautions": ["Do not touch bottom of heated container directly"]
+    }
+  },
+  {
+    "id": "balance",
+    "name": "Digital Precision Balance",
+    "category": "measurement",
+    "description": "Electronic scale for precise measurement of chemical mass.",
+    "supportedActions": ["tare", "weigh_mass"],
+    "capacity": {
+      "value": 500.0,
+      "unit": "g"
+    },
+    "measurementProperties": {
+      "hasGraduations": false,
+      "precision": 0.01,
+      "precisionUnit": "g"
+    },
+    "visual": {
+      "modelType": "digital_scale",
+      "transparency": 0.0,
+      "icon": "balance_icon"
+    },
+    "safety": {
+      "maxTemperature": 40.0,
+      "maxTemperatureUnit": "C",
+      "fragile": false,
+      "precautions": ["Do not overload past maximum capacity", "Use weighing boat"]
+    }
+  },
+  {
+    "id": "spatula",
+    "name": "Stainless Steel Laboratory Spatula",
+    "category": "tools",
+    "description": "Dual-ended stainless steel tool for transferring solid powders and crystals.",
+    "supportedActions": ["scoop_solid", "transfer_powder"],
+    "capacity": {
+      "value": 0.5,
+      "unit": "g"
+    },
+    "measurementProperties": {
+      "hasGraduations": false,
+      "precision": null,
+      "precisionUnit": null
+    },
+    "visual": {
+      "modelType": "spatula_blade",
+      "transparency": 0.0,
+      "icon": "spatula_icon"
+    },
+    "safety": {
+      "maxTemperature": 800.0,
+      "maxTemperatureUnit": "C",
+      "fragile": false,
+      "precautions": ["Clean spatula between different chemicals to avoid contamination"]
+    }
+  },
+  {
+    "id": "glass_stirrer",
+    "name": "Glass Stirring Rod",
+    "category": "tools",
+    "description": "Solid glass rod used to mix chemical solutions and guide liquid pouring.",
+    "supportedActions": ["stir", "guide_pour"],
+    "capacity": null,
+    "measurementProperties": {
+      "hasGraduations": false,
+      "precision": null,
+      "precisionUnit": null
+    },
+    "visual": {
+      "modelType": "glass_rod",
+      "transparency": 0.1,
+      "icon": "stirrer_icon"
+    },
+    "safety": {
+      "maxTemperature": 500.0,
+      "maxTemperatureUnit": "C",
+      "fragile": true,
+      "precautions": ["Do not tap forcefully against beaker sides"]
+    }
+  },
+  {
+    "id": "bunsen_burner",
+    "name": "Bunsen Burner",
+    "category": "heating",
+    "description": "Gas burner producing a single open gas flame used for heating, sterilization, and combustion.",
+    "supportedActions": ["ignite", "adjust_flame", "heat_container"],
+    "capacity": null,
+    "measurementProperties": {
+      "hasGraduations": false,
+      "precision": null,
+      "precisionUnit": null
+    },
+    "visual": {
+      "modelType": "burner_stand",
+      "transparency": 0.0,
+      "icon": "burner_icon"
+    },
+    "safety": {
+      "maxTemperature": 1500.0,
+      "maxTemperatureUnit": "C",
+      "fragile": false,
+      "precautions": ["Tie back long hair", "Ensure clear flame space", "Shut gas valve when idle"]
+    }
+  },
+  {
+    "id": "hot_plate",
+    "name": "Electric Heating Hot Plate with Magnetic Stirrer",
+    "category": "heating",
+    "description": "Flat electric heating surface with integrated magnetic stirrer drive.",
+    "supportedActions": ["set_temperature", "toggle_magnetic_stir"],
+    "capacity": null,
+    "measurementProperties": {
+      "hasGraduations": true,
+      "precision": 1.0,
+      "precisionUnit": "C"
+    },
+    "visual": {
+      "modelType": "hotplate_unit",
+      "transparency": 0.0,
+      "icon": "hotplate_icon"
+    },
+    "safety": {
+      "maxTemperature": 350.0,
+      "maxTemperatureUnit": "C",
+      "fragile": false,
+      "precautions": ["Top surface remains hot after power off"]
+    }
+  },
+  {
+    "id": "test_tube_rack",
+    "name": "Test Tube Rack",
+    "category": "support",
+    "description": "Support rack used to hold multiple test tubes upright simultaneously.",
+    "supportedActions": ["hold_test_tubes"],
+    "capacity": {
+      "value": 6.0,
+      "unit": "tubes"
+    },
+    "measurementProperties": {
+      "hasGraduations": false,
+      "precision": null,
+      "precisionUnit": null
+    },
+    "visual": {
+      "modelType": "rack_wooden_or_plastic",
+      "transparency": 0.0,
+      "icon": "rack_icon"
+    },
+    "safety": {
+      "maxTemperature": 100.0,
+      "maxTemperatureUnit": "C",
+      "fragile": false,
+      "precautions": ["Keep on level surface"]
+    }
+  },
+  {
+    "id": "ph_meter",
+    "name": "Digital pH Meter",
+    "category": "measurement",
+    "description": "Electronic instrument with glass electrode to accurately measure pH of aqueous solutions.",
+    "supportedActions": ["measure_ph"],
+    "capacity": null,
+    "measurementProperties": {
+      "hasGraduations": false,
+      "precision": 0.01,
+      "precisionUnit": "pH"
+    },
+    "visual": {
+      "modelType": "ph_meter_digital",
+      "transparency": 0.0,
+      "icon": "ph_meter_icon"
+    },
+    "safety": {
+      "maxTemperature": 60.0,
+      "maxTemperatureUnit": "C",
+      "fragile": true,
+      "precautions": ["Keep electrode bulb hydrated in storage solution"]
+    }
+  },
+  {
+    "id": "evaporating_dish",
+    "name": "Porcelain Evaporating Dish",
+    "category": "glassware",
+    "description": "Shallow ceramic dish used to evaporate excess solvent (usually water) to produce concentrated solution or solid precipitate.",
+    "supportedActions": ["fill", "heat", "evaporate"],
+    "capacity": {
+      "value": 75.0,
+      "unit": "mL"
+    },
+    "measurementProperties": {
+      "hasGraduations": false,
+      "precision": null,
+      "precisionUnit": null
+    },
+    "visual": {
+      "modelType": "ceramic_dish",
+      "transparency": 0.0,
+      "icon": "dish_icon"
+    },
+    "safety": {
+      "maxTemperature": 1000.0,
+      "maxTemperatureUnit": "C",
+      "fragile": true,
+      "precautions": ["Allow to cool on wire gauze before moving"]
+    }
+  },
+  {
+    "id": "burette",
+    "name": "Volumetric Glass Burette (50mL)",
+    "category": "volumetric",
+    "description": "Graduated glass tube with stopcock at the bottom used to deliver precise variable volumes of liquid during titrations.",
+    "supportedActions": ["fill", "dispense_titrant", "measure_volume"],
+    "capacity": {
+      "value": 50.0,
+      "unit": "mL"
+    },
+    "measurementProperties": {
+      "hasGraduations": true,
+      "precision": 0.05,
+      "precisionUnit": "mL"
+    },
+    "visual": {
+      "modelType": "burette_stand",
+      "transparency": 0.1,
+      "icon": "burette_icon"
+    },
+    "safety": {
+      "maxTemperature": 60.0,
+      "maxTemperatureUnit": "C",
+      "fragile": true,
+      "precautions": ["Clamp securely on retort stand"]
+    }
+  }
+]
