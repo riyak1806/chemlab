@@ -4,8 +4,13 @@
  * condition & quantity resolution, and laboratory state simulation.
  */
 
-const path = require('path');
-const fs = require('fs');
+let path, fs;
+try {
+  path = require('path');
+  fs = require('fs');
+} catch (e) {
+  // Browser runtime fallback
+}
 
 const { findMatchingReactions } = require('./reactionMatcher');
 const { resolveReaction } = require('./reactionResolver');
@@ -18,7 +23,11 @@ class ChemistryEngine {
    * @param {string} [options.dataDir] Path to the data directory (defaults to repository data/ directory)
    */
   constructor(options = {}) {
-    const dataDir = options.dataDir || path.join(__dirname, '..', '..', '..', 'data');
+    let defaultDataDir = '';
+    if (typeof __dirname !== 'undefined' && path) {
+      defaultDataDir = path.join(__dirname, '..', '..', '..', 'data');
+    }
+    const dataDir = options.dataDir || defaultDataDir;
     this.dataDir = dataDir;
 
     // In-memory dataset registries
@@ -46,7 +55,44 @@ class ChemistryEngine {
     this.achievements = [];
     this.achievementsMap = new Map();
 
-    this.loadDatasets();
+    if (options.datasets) {
+      this.loadDatasetsFromObject(options.datasets);
+    } else {
+      this.loadDatasets();
+    }
+  }
+
+  /**
+   * Loads and indexes datasets directly from an in-memory object.
+   * @param {Object} datasets
+   */
+  loadDatasetsFromObject(datasets = {}) {
+    this.elements = datasets.elements || [];
+    this.elements.forEach((e) => {
+      this.elementsMap.set(e.id, e);
+      if (e.atomicNumber) this.elementsMap.set(String(e.atomicNumber), e);
+    });
+
+    this.chemicals = datasets.chemicals || [];
+    this.chemicals.forEach((c) => this.chemicalsMap.set(c.id, c));
+
+    this.equipment = datasets.equipment || [];
+    this.equipment.forEach((eq) => this.equipmentMap.set(eq.id, eq));
+
+    this.reactionTypes = datasets.reactionTypes || [];
+    this.reactionTypes.forEach((rt) => this.reactionTypesMap.set(rt.id, rt));
+
+    this.reactions = datasets.reactions || [];
+    this.reactions.forEach((r) => this.reactionsMap.set(r.id, r));
+
+    this.experiments = datasets.experiments || [];
+    this.experiments.forEach((exp) => this.experimentsMap.set(exp.id, exp));
+
+    this.challenges = datasets.challenges || [];
+    this.challenges.forEach((ch) => this.challengesMap.set(ch.id, ch));
+
+    this.achievements = datasets.achievements || [];
+    this.achievements.forEach((ach) => this.achievementsMap.set(ach.id, ach));
   }
 
   /**
@@ -270,3 +316,5 @@ class ChemistryEngine {
 }
 
 module.exports = ChemistryEngine;
+module.exports.ChemistryEngine = ChemistryEngine;
+module.exports.default = ChemistryEngine;

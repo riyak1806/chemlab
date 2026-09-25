@@ -713,3 +713,5 @@ class LabManager {
 }
 
 module.exports = LabManager;
+module.exports.LabManager = LabManager;
+module.exports.default = LabManager;
