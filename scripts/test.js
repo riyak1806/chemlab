@@ -3,5 +3,7 @@
  */
 
 const { runAllEngineTests } = require('../tests/chemistryEngine.test');
+const { runAllLabStateTests } = require('../tests/labState.test');
 
 runAllEngineTests();
+runAllLabStateTests();
