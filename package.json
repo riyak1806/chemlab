@@ -4,6 +4,9 @@
   "description": "ChemLab Scientific Dataset Foundation Phase 1",
   "main": "data/index.json",
   "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
     "validate-data": "node scripts/validate.js",
     "test": "node scripts/test.js"
   },
@@ -16,5 +19,14 @@
     "experiments"
   ],
   "author": "ChemLab Team",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "@vitejs/plugin-react": "^6.1.1",
+    "vite": "^8.3.1"
+  },
+  "dependencies": {
+    "lucide-react": "^1.48.0",
+    "react": "^19.3.0",
+    "react-dom": "^19.3.0"
+  }
 }
