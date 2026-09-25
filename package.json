@@ -4,7 +4,8 @@
   "description": "ChemLab Scientific Dataset Foundation Phase 1",
   "main": "data/index.json",
   "scripts": {
-    "validate-data": "node scripts/validate.js"
+    "validate-data": "node scripts/validate.js",
+    "test": "node scripts/test.js"
   },
   "keywords": [
     "chemistry",
