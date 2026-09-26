@@ -31,7 +31,6 @@ function resolveStoichiometry(reaction, contentsMap, datasetChemicalsMap) {
     }
 
     const itemQuantity = item.quantity;
-    // Calculate how many stoichiometric "moles" / units of reaction can occur
     const possibleScale = itemQuantity / requiredCoeff;
 
     if (possibleScale < limitingScale) {
@@ -48,7 +47,6 @@ function resolveStoichiometry(reaction, contentsMap, datasetChemicalsMap) {
     };
   }
 
-  // Cap reaction scale if needed (e.g. max scale per tick = limitingScale)
   const scale = limitingScale;
 
   // 2. Compute consumed reactant quantities
@@ -83,6 +81,4 @@ function resolveStoichiometry(reaction, contentsMap, datasetChemicalsMap) {
   };
 }
 
-module.exports = {
-  resolveStoichiometry
-};
+export { resolveStoichiometry };

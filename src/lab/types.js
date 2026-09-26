@@ -33,7 +33,4 @@ const ActionTypes = {
   RESET_LAB: 'reset_lab'
 };
 
-module.exports = {
-  LabErrorCodes,
-  ActionTypes
-};
+export { LabErrorCodes, ActionTypes };

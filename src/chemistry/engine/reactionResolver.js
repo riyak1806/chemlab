@@ -3,7 +3,7 @@
  * Resolves state updates, temperature changes, pH changes, and product formation.
  */
 
-const { resolveStoichiometry } = require('./quantityResolver');
+import { resolveStoichiometry } from './quantityResolver.js';
 
 function resolveReaction(reactionMatch, simulationState, datasetChemicalsMap) {
   const { reaction, contentsMap } = reactionMatch;
@@ -104,6 +104,4 @@ function resolveReaction(reactionMatch, simulationState, datasetChemicalsMap) {
   };
 }
 
-module.exports = {
-  resolveReaction
-};
+export { resolveReaction };

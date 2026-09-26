@@ -89,7 +89,6 @@ class Container {
     const addedConc = concentration !== undefined ? concentration : (chemicalDef.defaultConcentration || 1.0);
 
     if (existing) {
-      // Recalculate weighted concentration if present
       if (existing.concentration !== undefined && addedConc !== undefined) {
         const totalQty = existing.quantity + quantity;
         if (totalQty > 0) {
@@ -165,7 +164,6 @@ class Container {
       return;
     }
 
-    // Determine physical state
     const states = new Set(this.contents.map((c) => c.state));
     if (states.has('liquid') || states.has('aqueous')) {
       if (states.has('solid')) {
@@ -181,14 +179,12 @@ class Container {
       this.state = 'mixed';
     }
 
-    // Determine pH if last added chemical has pH property or chemical properties
     if (lastAddedChemical && typeof lastAddedChemical.ph === 'number') {
       this.ph = lastAddedChemical.ph;
     } else if (lastAddedChemical && lastAddedChemical.safetyProperties && typeof lastAddedChemical.safetyProperties.ph === 'number') {
       this.ph = lastAddedChemical.safetyProperties.ph;
     }
 
-    // Determine appearance/color
     const coloredItem = this.contents.find((c) => c.color && c.color !== 'colorless' && c.color !== 'clear');
     if (coloredItem) {
       this.appearance = coloredItem.color;
@@ -227,4 +223,5 @@ class Container {
   }
 }
 
-module.exports = Container;
+export { Container };
+export default Container;

@@ -4,8 +4,8 @@
  * and data integrity against the ACTUAL ChemLab dataset.
  */
 
-const assert = require('assert');
-const { ChemistryEngine, FailureReasons } = require('../src/chemistry');
+import assert from 'assert';
+import { ChemistryEngine, FailureReasons } from '../src/chemistry/index.js';
 
 let testsPassed = 0;
 let testsFailed = 0;
@@ -22,7 +22,7 @@ function test(description, fn) {
   }
 }
 
-function runAllEngineTests() {
+export function runAllEngineTests() {
   console.log('=== Running ChemLab Chemistry Engine Test Suite ===\n');
 
   const engine = new ChemistryEngine();
@@ -176,9 +176,6 @@ function runAllEngineTests() {
 
   console.log('\n--- 3. Stoichiometry & Limiting Reactant Evaluation ---');
   test('Correctly identifies limiting reactant and consumes expected amounts', () => {
-    // 2HCl + 1Mg -> 1MgCl2 + 1H2
-    // If we have 10 units HCl and 10 units Mg:
-    // Required ratio is 2:1. So 10 HCl limits reaction scale to 5.
     const state = {
       containerId: 'test_tube',
       temperature: 25,
@@ -263,7 +260,6 @@ function runAllEngineTests() {
   });
 
   test('Returns Failure when Required Conditions (Heating/Temperature) are Not Met', () => {
-    // Mg + O2 combustion requires minTemperature 500°C and heating
     const state = {
       containerId: 'crucible',
       temperature: 25,
@@ -340,11 +336,3 @@ function runAllEngineTests() {
     process.exit(1);
   }
 }
-
-if (require.main === module) {
-  runAllEngineTests();
-}
-
-module.exports = {
-  runAllEngineTests
-};

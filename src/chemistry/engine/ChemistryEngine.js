@@ -4,33 +4,18 @@
  * condition & quantity resolution, and laboratory state simulation.
  */
 
-let path, fs;
-try {
-  path = require('path');
-  fs = require('fs');
-} catch (e) {
-  // Browser runtime fallback
-}
-
-const { findMatchingReactions } = require('./reactionMatcher');
-const { resolveReaction } = require('./reactionResolver');
-const { buildSuccessResult, buildFailureResult } = require('./resultBuilder');
-const { FailureReasons } = require('../types');
+import fs from 'fs';
+import path from 'path';
+import { findMatchingReactions } from './reactionMatcher.js';
+import { resolveReaction } from './reactionResolver.js';
+import { buildSuccessResult, buildFailureResult } from './resultBuilder.js';
+import { FailureReasons } from '../types/index.js';
 
 class ChemistryEngine {
-  /**
-   * @param {Object} options Configuration options
-   * @param {string} [options.dataDir] Path to the data directory (defaults to repository data/ directory)
-   */
   constructor(options = {}) {
-    let defaultDataDir = '';
-    if (typeof __dirname !== 'undefined' && path) {
-      defaultDataDir = path.join(__dirname, '..', '..', '..', 'data');
-    }
-    const dataDir = options.dataDir || defaultDataDir;
+    const dataDir = options.dataDir || '';
     this.dataDir = dataDir;
 
-    // In-memory dataset registries
     this.elements = [];
     this.elementsMap = new Map();
 
@@ -62,10 +47,6 @@ class ChemistryEngine {
     }
   }
 
-  /**
-   * Loads and indexes datasets directly from an in-memory object.
-   * @param {Object} datasets
-   */
   loadDatasetsFromObject(datasets = {}) {
     this.elements = datasets.elements || [];
     this.elements.forEach((e) => {
@@ -95,63 +76,55 @@ class ChemistryEngine {
     this.achievements.forEach((ach) => this.achievementsMap.set(ach.id, ach));
   }
 
-  /**
-   * Loads and indexes all JSON dataset files.
-   */
   loadDatasets() {
-    const indexPath = path.join(this.dataDir, 'index.json');
-    if (!fs.existsSync(indexPath)) {
-      throw new Error(`Master index file not found at ${indexPath}`);
+    if (typeof window !== 'undefined' || !fs || !fs.existsSync) {
+      return;
     }
+    try {
+      const dataDirectory = this.dataDir || path.join(process.cwd(), 'data');
+      const indexPath = path.join(dataDirectory, 'index.json');
+      if (!fs.existsSync(indexPath)) return;
 
-    const masterIndex = JSON.parse(fs.readFileSync(indexPath, 'utf8'));
-    const datasetPaths = masterIndex.datasets || {};
+      const masterIndex = JSON.parse(fs.readFileSync(indexPath, 'utf8'));
+      const datasetPaths = masterIndex.datasets || {};
 
-    // Helper to read json
-    const readJson = (relPath) => {
-      if (!relPath) return [];
-      const fullPath = path.join(this.dataDir, relPath);
-      if (!fs.existsSync(fullPath)) return [];
-      return JSON.parse(fs.readFileSync(fullPath, 'utf8'));
-    };
+      const readJson = (relPath) => {
+        if (!relPath) return [];
+        const fullPath = path.join(dataDirectory, relPath);
+        if (!fs.existsSync(fullPath)) return [];
+        return JSON.parse(fs.readFileSync(fullPath, 'utf8'));
+      };
 
-    // Load Elements
-    this.elements = readJson(datasetPaths.elements);
-    this.elements.forEach((e) => {
-      this.elementsMap.set(e.id, e);
-      if (e.atomicNumber) this.elementsMap.set(String(e.atomicNumber), e);
-    });
+      this.elements = readJson(datasetPaths.elements);
+      this.elements.forEach((e) => {
+        this.elementsMap.set(e.id, e);
+        if (e.atomicNumber) this.elementsMap.set(String(e.atomicNumber), e);
+      });
 
-    // Load Chemicals
-    this.chemicals = readJson(datasetPaths.chemicals);
-    this.chemicals.forEach((c) => this.chemicalsMap.set(c.id, c));
+      this.chemicals = readJson(datasetPaths.chemicals);
+      this.chemicals.forEach((c) => this.chemicalsMap.set(c.id, c));
 
-    // Load Equipment
-    this.equipment = readJson(datasetPaths.equipment);
-    this.equipment.forEach((eq) => this.equipmentMap.set(eq.id, eq));
+      this.equipment = readJson(datasetPaths.equipment);
+      this.equipment.forEach((eq) => this.equipmentMap.set(eq.id, eq));
 
-    // Load Reaction Types
-    this.reactionTypes = readJson(datasetPaths.reactionTypes);
-    this.reactionTypes.forEach((rt) => this.reactionTypesMap.set(rt.id, rt));
+      this.reactionTypes = readJson(datasetPaths.reactionTypes);
+      this.reactionTypes.forEach((rt) => this.reactionTypesMap.set(rt.id, rt));
 
-    // Load Reactions
-    this.reactions = readJson(datasetPaths.reactions);
-    this.reactions.forEach((r) => this.reactionsMap.set(r.id, r));
+      this.reactions = readJson(datasetPaths.reactions);
+      this.reactions.forEach((r) => this.reactionsMap.set(r.id, r));
 
-    // Load Experiments
-    this.experiments = readJson(datasetPaths.experiments);
-    this.experiments.forEach((exp) => this.experimentsMap.set(exp.id, exp));
+      this.experiments = readJson(datasetPaths.experiments);
+      this.experiments.forEach((exp) => this.experimentsMap.set(exp.id, exp));
 
-    // Load Challenges
-    this.challenges = readJson(datasetPaths.challenges);
-    this.challenges.forEach((ch) => this.challengesMap.set(ch.id, ch));
+      this.challenges = readJson(datasetPaths.challenges);
+      this.challenges.forEach((ch) => this.challengesMap.set(ch.id, ch));
 
-    // Load Achievements
-    this.achievements = readJson(datasetPaths.achievements);
-    this.achievements.forEach((ach) => this.achievementsMap.set(ach.id, ach));
+      this.achievements = readJson(datasetPaths.achievements);
+      this.achievements.forEach((ach) => this.achievementsMap.set(ach.id, ach));
+    } catch (e) {
+      console.warn('Failed to load datasets from disk:', e);
+    }
   }
-
-  // --- Public Data Accessors ---
 
   getElement(idOrAtomicNumber) {
     return this.elementsMap.get(String(idOrAtomicNumber)) || null;
@@ -197,13 +170,6 @@ class ChemistryEngine {
     return this.equipment;
   }
 
-  // --- Core Simulation API ---
-
-  /**
-   * Finds matching reactions for a given simulation state without applying changes.
-   * @param {Object} simulationState
-   * @returns {Object} Matching reactions and evaluation details
-   */
   findReactions(simulationState) {
     if (!simulationState || !Array.isArray(simulationState.contents)) {
       return {
@@ -215,13 +181,7 @@ class ChemistryEngine {
     return findMatchingReactions(simulationState, this.reactions, this.chemicalsMap);
   }
 
-  /**
-   * Simulates chemical interactions for a laboratory state.
-   * @param {Object} simulationState The structured input state
-   * @returns {Object} Structured reaction result object
-   */
   simulate(simulationState) {
-    // 1. Validate simulation state structure and contents
     if (!simulationState || typeof simulationState !== 'object') {
       return buildFailureResult(FailureReasons.INVALID_CHEMICAL_ID, 'Simulation state object is invalid or missing.');
     }
@@ -231,7 +191,6 @@ class ChemistryEngine {
       return buildFailureResult(FailureReasons.INVALID_CHEMICAL_ID, 'Simulation state contents must be an array.', [], simulationState);
     }
 
-    // Verify input chemical IDs against dataset
     for (const item of contents) {
       if (!item || !item.chemicalId || typeof item.chemicalId !== 'string') {
         return buildFailureResult(FailureReasons.INVALID_CHEMICAL_ID, 'One or more items in contents are missing a valid chemicalId.', [], simulationState);
@@ -241,18 +200,15 @@ class ChemistryEngine {
       }
     }
 
-    // 2. Perform Reaction Matching
     const matchResult = findMatchingReactions(simulationState, this.reactions, this.chemicalsMap);
-    const { matches } = matchResult;
+    const { matches = [] } = matchResult;
 
     if (matches.length === 0) {
       return buildFailureResult(FailureReasons.NO_REACTION, 'No matching chemical reaction found for present chemicals.', [], simulationState);
     }
 
-    // Top match
     const topMatch = matches[0];
 
-    // Check if top match conditions were met
     if (!topMatch.conditionsMet) {
       return buildFailureResult(
         FailureReasons.CONDITION_NOT_MET,
@@ -262,7 +218,6 @@ class ChemistryEngine {
       );
     }
 
-    // 3. Resolve Reaction
     const resolution = resolveReaction(topMatch, simulationState, this.chemicalsMap);
 
     if (!resolution.success) {
@@ -274,16 +229,9 @@ class ChemistryEngine {
       );
     }
 
-    // 4. Build and return structured success result
     return buildSuccessResult(resolution);
   }
 
-  /**
-   * Explicitly applies a given reaction to a laboratory state.
-   * @param {Object} simulationState
-   * @param {Object|string} reactionOrId Reaction object or reaction ID
-   * @returns {Object} Structured reaction result object
-   */
   applyReaction(simulationState, reactionOrId) {
     const reaction = typeof reactionOrId === 'string' ? this.getReaction(reactionOrId) : reactionOrId;
     if (!reaction) {
@@ -315,6 +263,5 @@ class ChemistryEngine {
   }
 }
 
-module.exports = ChemistryEngine;
-module.exports.ChemistryEngine = ChemistryEngine;
-module.exports.default = ChemistryEngine;
+export { ChemistryEngine };
+export default ChemistryEngine;

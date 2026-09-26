@@ -32,7 +32,6 @@ function evaluateConditions(reaction, simulationState, presentChemicalIdsSet) {
   // 2. Requires heating check
   if (conditions.requiresHeating) {
     const isHeating = Boolean(simulationState.isHeating || simulationState.heating);
-    // If not actively heating and temperature is below minTemperature (or 50 if minTemperature not set)
     const reqMinTemp = conditions.minTemperature || 50.0;
     if (!isHeating && temp < reqMinTemp) {
       return {
@@ -59,6 +58,4 @@ function evaluateConditions(reaction, simulationState, presentChemicalIdsSet) {
   };
 }
 
-module.exports = {
-  evaluateConditions
-};
+export { evaluateConditions };

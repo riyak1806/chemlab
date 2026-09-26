@@ -17,8 +17,12 @@
  * 6. Verification metadata audit (flags review_required entries)
  */
 
-const fs = require('fs');
-const path = require('path');
+import fs from 'fs';
+import path from 'path';
+import { fileURLToPath } from 'url';
+
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
 
 const DATA_DIR = path.join(__dirname, '..', 'data');
 const INDEX_FILE = path.join(DATA_DIR, 'index.json');

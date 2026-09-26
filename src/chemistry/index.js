@@ -2,15 +2,15 @@
  * ChemLab Chemistry Engine Module Export
  */
 
-const ChemistryEngine = require('./engine/ChemistryEngine');
-const { evaluateConditions } = require('./engine/conditionResolver');
-const { resolveStoichiometry } = require('./engine/quantityResolver');
-const { findMatchingReactions } = require('./engine/reactionMatcher');
-const { resolveReaction } = require('./engine/reactionResolver');
-const { buildSuccessResult, buildFailureResult } = require('./engine/resultBuilder');
-const { FailureReasons, VisualEffects } = require('./types');
+import ChemistryEngine from './engine/ChemistryEngine.js';
+import { evaluateConditions } from './engine/conditionResolver.js';
+import { resolveStoichiometry } from './engine/quantityResolver.js';
+import { findMatchingReactions } from './engine/reactionMatcher.js';
+import { resolveReaction } from './engine/reactionResolver.js';
+import { buildSuccessResult, buildFailureResult } from './engine/resultBuilder.js';
+import { FailureReasons, VisualEffects } from './types/index.js';
 
-module.exports = {
+export {
   ChemistryEngine,
   evaluateConditions,
   resolveStoichiometry,
@@ -21,3 +21,5 @@ module.exports = {
   FailureReasons,
   VisualEffects
 };
+
+export default ChemistryEngine;

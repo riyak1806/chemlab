@@ -3,6 +3,8 @@
  * Encapsulates full laboratory session state: containers, equipment, environment, action history, and reaction history.
  */
 
+import Container from './Container.js';
+
 class LabState {
   /**
    * @param {Object} [options]
@@ -19,7 +21,7 @@ class LabState {
 
     /**
      * Map of container ID -> Container instance
-     * @type {Map<string, import('./Container')>}
+     * @type {Map<string, Container>}
      */
     this.containers = new Map();
 
@@ -41,7 +43,7 @@ class LabState {
   /**
    * Retrieves a container instance by ID.
    * @param {string} containerId
-   * @returns {import('./Container')|null}
+   * @returns {Container|null}
    */
   getContainer(containerId) {
     return this.containers.get(containerId) || null;
@@ -49,7 +51,7 @@ class LabState {
 
   /**
    * Adds or registers a container in state.
-   * @param {import('./Container')} container
+   * @param {Container} container
    */
   addContainer(container) {
     this.containers.set(container.id, container);
@@ -128,4 +130,5 @@ class LabState {
   }
 }
 
-module.exports = LabState;
+export { LabState };
+export default LabState;
