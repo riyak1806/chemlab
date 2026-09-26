@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "ChemLab Scientific Dataset Foundation Phase 1",
   "main": "data/index.json",
+  "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "vite build",

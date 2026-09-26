@@ -2,15 +2,17 @@
  * ChemLab Laboratory State & Interaction System Core Export
  */
 
-const LabManager = require('./LabManager');
-const LabState = require('./LabState');
-const Container = require('./Container');
-const { LabErrorCodes, ActionTypes } = require('./types');
+import LabManager from './LabManager.js';
+import LabState from './LabState.js';
+import Container from './Container.js';
+import { LabErrorCodes, ActionTypes } from './types.js';
 
-module.exports = {
+export {
   LabManager,
   LabState,
   Container,
   LabErrorCodes,
   ActionTypes
 };
+
+export default LabManager;

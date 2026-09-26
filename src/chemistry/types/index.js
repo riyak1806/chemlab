@@ -31,7 +31,4 @@ const VisualEffects = {
   TEMPERATURE_DROPPING: 'temperature_drop'
 };
 
-module.exports = {
-  FailureReasons,
-  VisualEffects
-};
+export { FailureReasons, VisualEffects };

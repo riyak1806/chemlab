@@ -4,10 +4,10 @@
  * reaction result application, and action/reaction history recording.
  */
 
-const LabState = require('./LabState');
-const Container = require('./Container');
-const { LabErrorCodes, ActionTypes } = require('./types');
-const { ChemistryEngine } = require('../chemistry');
+import LabState from './LabState.js';
+import Container from './Container.js';
+import { LabErrorCodes, ActionTypes } from './types.js';
+import { ChemistryEngine } from '../chemistry/index.js';
 
 class LabManager {
   /**
@@ -122,10 +122,8 @@ class LabManager {
       );
     }
 
-    // Add chemical to container
     container.addChemical(chemical, quantity, unit, concentration);
 
-    // Evaluate potential reaction via Chemistry Engine
     const reactionResult = this._evaluateAndApplyReaction(container);
 
     const actionRecord = this.state.recordAction({
@@ -261,11 +259,9 @@ class LabManager {
       );
     }
 
-    // Proportionally transfer each chemical in source mixture
     const ratio = quantity / sourceTotal;
     const transferredItems = [];
 
-    // Clone contents array to prevent mutation issues while iterating
     const sourceContentsCopy = source.contents.map((c) => ({ ...c }));
 
     for (const item of sourceContentsCopy) {
@@ -282,7 +278,6 @@ class LabManager {
       }
     }
 
-    // Evaluate potential reaction in target container after transfer
     const reactionResult = this._evaluateAndApplyReaction(target);
 
     const actionRecord = this.state.recordAction({
@@ -325,7 +320,6 @@ class LabManager {
 
     container.isMixed = true;
 
-    // Trigger simulation upon mixing
     const reactionResult = this._evaluateAndApplyReaction(container);
 
     const actionRecord = this.state.recordAction({
@@ -386,7 +380,6 @@ class LabManager {
     container.temperature = targetTemperature;
     container.isHeating = true;
 
-    // Evaluate temperature-dependent reaction
     const reactionResult = this._evaluateAndApplyReaction(container);
 
     const actionRecord = this.state.recordAction({
@@ -468,13 +461,12 @@ class LabManager {
 
     const totalVolume = container.getTotalQuantity();
 
-    // Approximate mass calculation assuming 1g/mL density for liquids if unspecified
     let totalMass = 0;
     container.contents.forEach((item) => {
       if (item.unit === 'g') {
         totalMass += item.quantity;
       } else {
-        totalMass += item.quantity * 1.0; // 1 mL ≈ 1 g
+        totalMass += item.quantity * 1.0;
       }
     });
 
@@ -631,9 +623,7 @@ class LabManager {
       return { reactionTriggered: false };
     }
 
-    // Apply simulation result to container
     if (simResult.nextState) {
-      // Update contents from next state
       container.contents = (simResult.nextState.contents || []).map((item) => {
         const chemicalDef = this.engine.getChemical(item.chemicalId);
         return {
@@ -656,7 +646,6 @@ class LabManager {
       }
     }
 
-    // Apply specific visual effects / color changes
     if (simResult.effects) {
       if (simResult.effects.targetPh !== undefined) {
         container.ph = simResult.effects.targetPh;
@@ -671,7 +660,6 @@ class LabManager {
 
     container.recalculateStateAndAppearance();
 
-    // Log reaction in lab state history
     this.state.recordReaction({
       containerId: container.id,
       reactionId: simResult.reactionId,
@@ -712,6 +700,5 @@ class LabManager {
   }
 }
 
-module.exports = LabManager;
-module.exports.LabManager = LabManager;
-module.exports.default = LabManager;
+export { LabManager };
+export default LabManager;

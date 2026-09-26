@@ -2,8 +2,10 @@
  * Test runner script for ChemLab
  */
 
-const { runAllEngineTests } = require('../tests/chemistryEngine.test');
-const { runAllLabStateTests } = require('../tests/labState.test');
+import { runAllEngineTests } from '../tests/chemistryEngine.test.js';
+import { runAllLabStateTests } from '../tests/labState.test.js';
+import { runAllVisualEngineTests } from '../tests/visualEngine.test.js';
 
 runAllEngineTests();
 runAllLabStateTests();
+runAllVisualEngineTests();

@@ -52,7 +52,4 @@ function buildFailureResult(reason, details, matchingCandidates = [], originalSt
   };
 }
 
-module.exports = {
-  buildSuccessResult,
-  buildFailureResult
-};
+export { buildSuccessResult, buildFailureResult };

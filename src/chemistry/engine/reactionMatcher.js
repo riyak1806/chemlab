@@ -3,7 +3,7 @@
  * Identifies compatible reactions from the dataset based on present chemicals and conditions.
  */
 
-const { evaluateConditions } = require('./conditionResolver');
+import { evaluateConditions } from './conditionResolver.js';
 
 /**
  * Finds all candidate reactions where all required reactants are present.
@@ -57,11 +57,6 @@ function findMatchingReactions(simulationState, datasetReactions, datasetChemica
     });
   }
 
-  // Sort matching reactions deterministically:
-  // Rule 1: Reactions whose conditions are fully met come first.
-  // Rule 2: Reactions requiring more reactants (higher specificity / reactant count) come first.
-  // Rule 3: Reactions with lower difficulty rating come first.
-  // Rule 4: Alphabetical order by reaction.id for complete determinism.
   matchingReactions.sort((a, b) => {
     if (a.conditionsMet !== b.conditionsMet) {
       return a.conditionsMet ? -1 : 1;
@@ -87,6 +82,4 @@ function findMatchingReactions(simulationState, datasetReactions, datasetChemica
   };
 }
 
-module.exports = {
-  findMatchingReactions
-};
+export { findMatchingReactions };
